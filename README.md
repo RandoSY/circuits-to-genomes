@@ -10,9 +10,9 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 
 | Paper | Working baseline | Research contribution | Status |
 |---|---|---|---|
-| 1. Architectural Economy in Biological and Technological Systems | v8.0 · 24 Nov 2026 · 22 pages | Theory and computational benchmarks of reuse, coordination liability and functional continuity | [Research repository](https://github.com/RandoSY/architectural-economy); repository README currently describes v7, v8 supplied by author |
-| 2. Functional Equivalence Mapping in Primate Enhancer Evolution | v1.0 · 24 Nov 2026 · 16 pages | Secondary analysis of public enhancer assays; equivalence, uncertainty and mutational buffering | Manuscript and research archive supplied by author; independent reproduction pending |
-| 3. The Augmented Investigator | v0.2 · 25 Nov 2026 · 8 pages | Metacognitive case study of AI-augmented inquiry and epistemic responsibility | Working manuscript; trace audit and independent review pending |
+| 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v8.pdf) | v8.0 · 24 Nov 2026 · 22 pages | Theory and computational benchmarks of reuse, coordination liability and functional continuity | [Research repository](https://github.com/RandoSY/architectural-economy); repository README currently describes v7, v8 supplied by author |
+| 2. [Functional Equivalence Mapping in Primate Enhancer Evolution](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.pdf) | v1.0 · 24 Nov 2026 · 16 pages | Secondary analysis of public enhancer assays; equivalence, uncertainty and mutational buffering | Manuscript and research archive supplied by author; independent reproduction pending |
+| 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.2.pdf) | v0.2 · 25 Nov 2026 · 8 pages | Metacognitive case study of AI-augmented inquiry and epistemic responsibility | Working manuscript; trace audit and independent review pending |
 
 The three papers are independently understandable and intended for separate publication. Paper 3 uses Papers 1 and 2 as case-study evidence, not as a substitute for its own methodology or contribution.
 
@@ -33,7 +33,7 @@ Human-directed collaboration with ChatGPT and Google Gemini/Antigravity is part 
 
 - [Publication inventory and research status](docs/PUBLICATION_STATUS.md)
 - [Validation and revision protocol](docs/VALIDATION.md)
-- [Manuscript archive](papers/) (populated separately; see inventory for availability)
+- [Manuscript archive](papers/) · [SHA-256 manifest](papers/SHA256SUMS.txt)
 
 ## Preservation and access
 
