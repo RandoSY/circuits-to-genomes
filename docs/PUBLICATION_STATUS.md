@@ -2,15 +2,17 @@
 
 Working baselines supplied by the author. All are unreviewed. The version number identifies an artifact, not the degree of scientific validation.
 
-| Paper | Version | Pages | Intended archive path |
+| Paper | Version | Pages | Archive path |
 |---|---|---:|---|
 | Architectural Economy | 8.0 | 22 | papers/01-architectural-economy/Architectural_Economy_v8.pdf |
 | Primate Enhancer Functional Equivalence Mapping | 1.0 | 16 | papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.pdf |
 | The Augmented Investigator | 0.2 | 8 | papers/03-augmented-investigator/The_Augmented_Investigator_v0.2.pdf |
 
-Total: 46 pages. PDFs are available from the investigator's supplied files; this inventory alone does not indicate that they have been uploaded.
+Total: 46 pages. All three current PDFs, the Paper 3 editable Word manuscript, and historical Paper 1 v7 are present in the master repository as of 25 November 2026. File paths and Git blob metadata were checked; full binary checksum verification remains pending.
 
 ## SHA-256 of supplied artifacts
+
+See [complete supplied checksum manifest](../papers/SHA256SUMS.txt).
 
 ```
 f5fa8e89968d5b75118692c628d979c598c490b5d3d8664c6ddd6451166c727f  papers/01-architectural-economy/Architectural_Economy_v8.pdf
