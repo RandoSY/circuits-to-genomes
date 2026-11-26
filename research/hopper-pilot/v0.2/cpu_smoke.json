@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "backend": "cpu",
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  },
+  "size": 16,
+  "repeats": 5,
+  "scope": "resident arrays; staging, allocations, check, host launch and synchronization; no transfers in timed section; no energy or hardware fault-rate inference",
+  "results": [
+    {
+      "mode": "shared",
+      "injection": "none",
+      "wrong": 0,
+      "flagged_groups": 0
+    },
+    {
+      "mode": "shared",
+      "injection": "stage",
+      "wrong": 8,
+      "flagged_groups": 0
+    },
+    {
+      "mode": "shared",
+      "injection": "both",
+      "wrong": 8,
+      "flagged_groups": 0
+    },
+    {
+      "mode": "shared",
+      "injection": "output",
+      "wrong": 1,
+      "flagged_groups": 1
+    },
+    {
+      "mode": "shared",
+      "median_wall_ms": 0.026229000013699988,
+      "p10_wall_ms": 0.025756400145837688,
+      "p90_wall_ms": 0.026352999975642888
+    },
+    {
+      "mode": "separate",
+      "injection": "none",
+      "wrong": 0,
+      "flagged_groups": 0
+    },
+    {
+      "mode": "separate",
+      "injection": "stage",
+      "wrong": 8,
+      "flagged_groups": 1
+    },
+    {
+      "mode": "separate",
+      "injection": "both",
+      "wrong": 8,
+      "flagged_groups": 0
+    },
+    {
+      "mode": "separate",
+      "injection": "output",
+      "wrong": 1,
+      "flagged_groups": 1
+    },
+    {
+      "mode": "separate",
+      "median_wall_ms": 0.026239000135319657,
+      "p10_wall_ms": 0.02599239996925462,
+      "p90_wall_ms": 0.02696360002119036
+    },
+    {
+      "mode": "duplicate",
+      "injection": "none",
+      "wrong": 0,
+      "flagged_groups": 0
+    },
+    {
+      "mode": "duplicate",
+      "injection": "stage",
+      "wrong": 8,
+      "flagged_groups": 1
+    },
+    {
+      "mode": "duplicate",
+      "injection": "both",
+      "wrong": 8,
+      "flagged_groups": 0
+    },
+    {
+      "mode": "duplicate",
+      "injection": "output",
+      "wrong": 1,
+      "flagged_groups": 1
+    },
+    {
+      "mode": "duplicate",
+      "median_wall_ms": 0.01881799994407629,
+      "p10_wall_ms": 0.01846540003498376,
+      "p90_wall_ms": 0.018998000132341986
+    }
+  ]
+}

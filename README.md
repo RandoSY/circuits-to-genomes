@@ -22,6 +22,12 @@ The three papers are independently understandable and intended for separate publ
 
 26 November 2026. A separate prospective return-direction investigation of resource sharing, modularity, algebraic recovery and coordination liability in parallel matrix computation. Seven logical architectures, 13,440 fault-free output checks and 19,740 modeled local fault injections. The results are from an integer CPU simulation, not physical H100 measurements; algorithm-based fault tolerance is established prior work. Independent review and hardware validation remain pending. This is not a fourth publication yet.
 
+### Return-direction pilot v0.2 — independence and common-mode failure
+
+[Complete experiment and methodology](research/hopper-pilot/v0.2/README.md) · [Code](research/hopper-pilot/v0.2/pilot.py) · [Results](research/hopper-pilot/v0.2/results.csv) · [Revision dossier for Papers 1–3](research/hopper-pilot/v0.2/REVISION_PLAN.md) · [GPU protocol](research/hopper-pilot/v0.2/GPU_PROTOCOL.md)
+
+Four matched nominal-budget logical architectures, 7,680 fault-free output checks and 33,000 injected fault scenarios. Separate staged operands expose local corruption; independently injectable logical sources expose one upstream corruption, but common corruption, opposing errors and unavailable verification can still defeat the checks. These are logical CPU simulations, not measured H100 behavior. The high-level GPU benchmark is CPU smoke-tested only. The proposed Paper 1 v10, Paper 2 v1.2 and Paper 3 v0.5 insertions are review supplements, not released manuscripts. Prior versions remain intact.
+
 ## Scientific status
 
 - H1: supported in specified computational models; results depend on fault scope.
