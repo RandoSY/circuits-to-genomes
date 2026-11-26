@@ -10,7 +10,7 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 
 | Paper | Working baseline | Research contribution | Status |
 |---|---|---|---|
-| 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v8.pdf) | v8.0 · 24 Nov 2026 · 22 pages | Theory and computational benchmarks of reuse, coordination liability and functional continuity | [Research repository](https://github.com/RandoSY/architectural-economy); repository README currently describes v7, v8 supplied by author |
+| 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v9.pdf) | v9.0 · 26 Nov 2026 · 24 pages | Theory, computational benchmarks of reuse and coordination liability, and empirical H3-M synthesis | [Research repository](https://github.com/RandoSY/architectural-economy) reconciled with v9.0 (historical v8.0 and v7.0 preserved); external specialist review pending |
 | 2. [Functional Equivalence Mapping in Primate Enhancer Evolution](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.pdf) | v1.1 · 25 Nov 2026 · 18 pages | Secondary analysis of public enhancer assays; equivalence, JASPAR biophysical grammar, uncertainty and mutational buffering | Clean-room GEO barcode reproduction and JASPAR/UCSC/ENCODE audit in [validation/](validation/); historical v1.0 archived; external specialist review pending |
 | 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.4.pdf) | v0.4 · 26 Nov 2026 · 16 pages | Metacognitive case study of reciprocal computing–biology inquiry, AI augmentation and epistemic responsibility | Working manuscript; trace audit and independent review pending |
 
@@ -34,6 +34,7 @@ Human-directed collaboration with ChatGPT and Google Gemini/Antigravity is part 
 - [Publication inventory and research status](docs/PUBLICATION_STATUS.md)
 - [Validation and revision protocol](docs/VALIDATION.md)
 - [Manuscript archive](papers/) · [SHA-256 manifest](papers/SHA256SUMS.txt)
+- [Paper 1 v9.0 revision record](docs/PAPER1_V9_REVISION.md)
 - [Paper 2 v1.1 verification & multi-database audit](validation/)
 - [Paper 2 free foundations self-study curriculum](docs/PAPER2_FOUNDATIONS_CURRICULUM.md)
 

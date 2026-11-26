@@ -2,11 +2,11 @@
 
 26 November 2026 · unreviewed working preprint · 24 pages · 47 references
 
-**Status:** editorial revision prepared and locally checked. The exact PDF binary is to be transferred via the author-side publication script; this record alone does not establish that the PDF is present on GitHub.
+**Status:** exact PDF binary transferred and verified on GitHub across both `RandoSY/circuits-to-genomes` (`papers/01-architectural-economy/Architectural_Economy_v9.pdf`) and `RandoSY/architectural-economy` (`publication/Architectural_Economy_v9.pdf`), matching SHA-256 `97b2c18c34629a9f63f264126deb90da62cfc33042b46b92a73ad8138fe1d4d9` and Git blob SHA-1 `245028f65fea5be232698b070e7fc7c4d667cadb`. Historical v8.0 and v7.0 artifacts are preserved intact.
 
 ## Source baselines
 
-- Paper 1 v8.0 (22 pages): [archived PDF](https://github.com/RandoSY/circuits-to-genomes/blob/main/papers/01-architectural-economy/Architectural_Economy_v8.pdf); SHA-256 `f5fa8e89968d5b75118692c628d979c598c490b5d3d8664c6ddd6451166c727f`.
+- Paper 1 v8.0 (22 pages): [archived PDF](https://github.com/RandoSY/circuits-to-genomes/blob/main/papers/01-architectural-economy/archive/Architectural_Economy_v8.pdf); SHA-256 `f5fa8e89968d5b75118692c628d979c598c490b5d3d8664c6ddd6451166c727f`.
 - Paper 2 v1.1 (18 pages): [companion PDF](https://github.com/RandoSY/circuits-to-genomes/blob/main/papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.pdf); SHA-256 `fd4121acc438c6025d7281ef2c50b8192e8d79e2fff408e77f7eb812ea5a16dd`. The uploaded source matched the remote Git blob c04844cf66f88cd7509fc5cf5a0e28a4cfe0e06f.
 
 ## Substantive changes
