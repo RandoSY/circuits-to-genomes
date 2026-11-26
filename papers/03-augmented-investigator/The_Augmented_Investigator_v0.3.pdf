@@ -1,0 +1,732 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 13 /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 5377 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (1) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.098 0.204 0.220 rg BT /F2 29 Tf 1 0 0 1 58.00 723.00 Tm (The Augmented Investigator) Tj ET
+0.322 0.404 0.416 rg BT /F2 16 Tf 1 0 0 1 58.00 682.62 Tm (From circuits to genomes: a metacognitive case study of) Tj ET
+0.322 0.404 0.416 rg BT /F2 16 Tf 1 0 0 1 58.00 663.10 Tm (AI-augmented scientific inquiry and epistemic responsibility) Tj ET
+0.098 0.204 0.220 rg BT /F1 10 Tf 1 0 0 1 58.00 631.58 Tm (Randall S. Young, Ed.S. | Independent Researcher, Indiana, USA) Tj ET
+0.098 0.204 0.220 rg BT /F1 10 Tf 1 0 0 1 58.00 615.18 Tm (ORCID: https://orcid.org/0009-0003-1657-0243) Tj ET
+0.098 0.204 0.220 rg BT /F1 10 Tf 1 0 0 1 58.00 598.78 Tm (Version 0.3 | 26 November 2026 | Exploratory case study | Not peer reviewed) Tj ET
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 582.38 Tm (Abstract) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 552.64 Tm (Generative artificial intelligence \(AI\) can extend a person's practical capacity to undertake research) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 537.84 Tm (beyond the methods that person can independently execute or evaluate. This retrospective,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 523.04 Tm (single-investigator case study examines a human-directed inquiry that moved from computer) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 508.24 Tm (architecture to computational regulatory genomics, then to the investigation of its own methods. The) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 493.44 Tm (evidence comprises selected dated manuscript versions, public repository records, reported) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 478.64 Tm (computational audits and investigator testimony. The revised record includes a negative genomic pilot,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 463.84 Tm (equivalence testing, a cross-platform critique and revision process, an exploratory binding-profile) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 449.04 Tm (analysis, a statistical correction, and feedback from the empirical work into the theoretical framework.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 434.24 Tm (We distinguish methodological reach, epistemic competence and evidential warrant, and propose that) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 419.44 Tm (recognition of a gap between them should trigger an observable process of learning, independent) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 404.64 Tm (reproduction and specialist consultation. A multi-AI workflow can produce reviewable artifacts and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 389.84 Tm (alternative analyses; agreement between models does not establish scientific truth or replace) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 375.04 Tm (accountable human review. The case demonstrates a feasible research process and records its) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 360.24 Tm (unresolved verification burden, not a discovery claim or a causal productivity advantage. We outline a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 345.44 Tm (practical framework and a prospective evaluation design for STEM education and metascience.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 322.64 Tm (Keywords: artificial intelligence; metacognition; scientific agency; interdisciplinary inquiry; epistemic) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 307.84 Tm (responsibility; reproducibility; STEM education.) Tj ET
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 285.04 Tm (1. Introduction) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 255.30 Tm (An investigator may understand a question before possessing the expertise required to answer it. AI) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 240.50 Tm (can assist in translating that question into a model, locating evidence, implementing a computation and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 225.70 Tm (drafting a report. These operations can become accessible before their assumptions become) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 210.90 Tm (intelligible. The resulting problem is not simply how to produce more science, but how to develop) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 196.10 Tm (understanding and warranted judgment alongside the ability to produce research artifacts.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 173.30 Tm (This paper asks what happens when an investigator notices that gap and responds to it. Its subject is) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 158.50 Tm (the process of inquiry, not the biological truth of the companion research. The case is useful even if the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 143.70 Tm (biological conclusions are subsequently revised or rejected.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 5679 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (2) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (2. Three dimensions of augmented inquiry) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm (Metacognition concerns monitoring and regulation of one's cognitive processes [1]. In AI-assisted) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (scientific work, monitoring must also extend to the origin, quality and limits of reasoning supplied by a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 663.66 Tm (tool. Messeri and Crockett [2] identify the danger that greater production can coexist with reduced) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 648.86 Tm (understanding. The case examined here adds an observable response to that danger: the investigator) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 634.06 Tm (recognizes uncertainty and asks what to do about it.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 611.26 Tm (Methodological reach means the research operations that an investigator can initiate and complete with) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 596.46 Tm (available tools and assistance. Epistemic competence means the capacity to explain the purpose,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 581.66 Tm (assumptions, limitations and meaning of those operations, personally or with identifiable qualified) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 566.86 Tm (support. Evidential warrant means how well a specific claim is supported by valid, independently) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 552.06 Tm (assessable evidence. The three are distinct: a computation can be executable, difficult to explain, and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 537.26 Tm (inadequately validated at the same time. Conversely, one may understand a method without) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 522.46 Tm (possessing sufficient data to use it conclusively.) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 58.00 491.66 Tm (THREE DISTINCT DIMENSIONS) Tj ET
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 58.00 412.66 158.00 67.00 re B
+0.090 0.412 0.373 rg BT /F2 11 Tf 1 0 0 1 81.33 459.66 Tm (Methodological reach) Tj ET
+0.098 0.204 0.220 rg BT /F1 10 Tf 1 0 0 1 103.37 439.66 Tm (What can I do?) Tj ET
+0.906 0.937 0.961 rg 0.216 0.427 0.569 RG 0.6 w 227.00 412.66 158.00 67.00 re B
+0.216 0.427 0.569 rg BT /F2 11 Tf 1 0 0 1 247.08 459.66 Tm (Epistemic competence) Tj ET
+0.098 0.204 0.220 rg BT /F1 10 Tf 1 0 0 1 262.09 439.66 Tm (What can I explain?) Tj ET
+0.969 0.933 0.875 rg 0.690 0.502 0.235 RG 0.6 w 396.00 412.66 158.00 67.00 re B
+0.690 0.502 0.235 rg BT /F2 11 Tf 1 0 0 1 428.45 459.66 Tm (Evidential warrant) Tj ET
+0.098 0.204 0.220 rg BT /F1 10 Tf 1 0 0 1 435.26 439.66 Tm (What can I claim?) Tj ET
+0.322 0.404 0.416 RG 1.1 w 137.00 409.66 m 137.00 391.66 l S
+0.322 0.404 0.416 RG 1.1 w 137.00 391.66 m 134.39 395.92 l S
+0.322 0.404 0.416 RG 1.1 w 137.00 391.66 m 139.61 395.92 l S
+0.322 0.404 0.416 RG 1.1 w 306.00 409.66 m 306.00 391.66 l S
+0.322 0.404 0.416 RG 1.1 w 306.00 391.66 m 303.39 395.92 l S
+0.322 0.404 0.416 RG 1.1 w 306.00 391.66 m 308.61 395.92 l S
+0.322 0.404 0.416 RG 1.1 w 475.00 409.66 m 475.00 391.66 l S
+0.322 0.404 0.416 RG 1.1 w 475.00 391.66 m 472.39 395.92 l S
+0.322 0.404 0.416 RG 1.1 w 475.00 391.66 m 477.61 395.92 l S
+0.090 0.412 0.373 rg 0.090 0.412 0.373 RG 0.6 w 58.00 356.66 496.00 31.00 re B
+1.000 1.000 1.000 rg BT /F2 11 Tf 1 0 0 1 139.61 367.66 Tm (Independent checking and qualified judgment connect the three.) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 333.66 Tm (Figure 1. Conceptual model, not a quantitative measurement. More reachable methods need not imply greater) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 321.26 Tm (competence or stronger evidence. Independent verification is the connection that must be built.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 300.86 Tm (Domain-specific systems such as SciSciGPT demonstrate the potential of integrated, traceable) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 286.06 Tm (research operations [3]. Brodeur and colleagues' randomized study of quantitative social-science) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 271.26 Tm (reproduction found no overall superiority of AI-assisted over human-only teams [4]. Neither result) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 256.46 Tm (warrants extrapolating a productivity advantage to open-ended independent inquiry.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 233.66 Tm (Research questions. RQ1: What changes in inquiry scope and maturity can be documented? RQ2:) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 218.86 Tm (What records indicate a perceived gap between investigative reach and evaluative competence? RQ3:) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 204.06 Tm (What practices might preserve human agency and accountability? RQ4: How can cross-model critique) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 189.26 Tm (and version history be made auditable without mistaking them for independent validation?) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 5143 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (3) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (3. Materials and methods) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm (This exploratory retrospective N-of-1 case study uses document comparison and first-person reflection.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (The investigator has formal training in geology and STEM curriculum, additional biological coursework,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 663.66 Tm (and professional experience in computing and teaching. He is not presented as a specialist in) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 648.86 Tm (regulatory genomics or biostatistics. His experience helps explain the choice of analogies and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 634.06 Tm (questions, not the validity of the analyses.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 611.26 Tm (The observation window is 23-26 November 2026. The case corpus includes earlier manuscript) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 596.46 Tm (versions, selected dialogue, the C2G master repository, the architectural-economy repository and the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 581.66 Tm (Paper 2 validation index [5-10]. The original draft of the present paper \(v0.2\) is retained as an earlier) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 566.86 Tm (interpretive record, not independent corroboration.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 544.06 Tm (Evidence classes. A: directly inspectable artifact content or repository record. B: computational results) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 529.26 Tm (reported in an artifact but not independently re-executed for this study. C: investigator testimony or) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 514.46 Tm (selected dialogue. D: interpretation, proposed practice or prospective test. Every substantive claim) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 499.66 Tm (should carry its source, evidence class and remaining uncertainty. A manuscript can be class A) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 484.86 Tm (evidence that a result was reported, while the result itself is class B.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 462.06 Tm (Units of analysis. A research episode is a bounded change in a question, method, result, interpretation) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 447.26 Tm (or release status. For each episode, record its approximate date, input artifact, action, output artifact,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 432.46 Tm (decision and unresolved issue. Attribution is human, AI, joint or unclear; it requires an observable trace,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 417.66 Tm (not an inference from model labels or prose style. Dates identify records, not hours spent.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 394.86 Tm (Scope and verification. We compare v7 and v8 of Paper 1, v1.0 and v1.1 of Paper 2, the prepared v9) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 380.06 Tm (revision of Paper 1, and v0.2 of this paper. At the repository inspection on 26 November, Paper 2 v1.1) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 365.26 Tm (and Paper 1 v8 were present; Paper 1 v9 had a revision record but its PDF transfer remained pending.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 350.46 Tm (The manuscript review does not rerun the underlying analyses, independently code every prompt, or) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 335.66 Tm (establish the authenticity of every external execution log. The original full model conversations have not) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 320.86 Tm (been systematically reconciled.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 298.06 Tm (Analysis. We use process tracing to identify turning points: a negative result, a new question, a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 283.26 Tm (recognized comprehension gap, a specific correction, a methodological extension, and a revision of) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 268.46 Tm (theory. The account is intentionally descriptive. There is no preregistered coding, comparator or causal) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 253.66 Tm (design. The proposed framework is evaluated conceptually against the recorded episodes, not tested) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 238.86 Tm (as a validated intervention.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 6118 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (4) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (4. Case trajectory: how an analogy became a research) Tj ET
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 702.26 Tm (program) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 672.52 Tm (The initial question concerned the organization of noncoding DNA. Familiarity with the DEC PDP-8) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 657.72 Tm (provided an analogy: several physical implementations retained compatible instruction behavior. The) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 642.92 Tm (analogy did not claim that genomes execute software. It generated a research question about the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 628.12 Tm (relationship between a system's implementation and its function.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 605.32 Tm (Paper 1 formalized architectural economy as a trade-off among resource use, reuse and vulnerability.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 590.52 Tm (Its computational studies reported 16,384 multiplication checks and 540 synthetic-network) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 575.72 Tm (comparisons. These counts document the nature and scale of the reported work, not its correctness or) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 560.92 Tm (importance. The biological question was then operationalized as a prediction that downstream) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 546.12 Tm (regulatory reach would correlate with sequence conservation.) Tj ET
+0.969 0.933 0.875 rg 0.690 0.502 0.235 RG 0.6 w 58.00 462.32 158.00 61.00 re B
+0.322 0.404 0.416 rg BT /F2 10 Tf 1 0 0 1 68.00 504.32 Tm (23-24 Nov) Tj ET
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 68.00 484.32 Tm (Concept + H2 pilot) Tj ET
+0.322 0.404 0.416 RG 1.1 w 216.00 492.32 m 227.00 492.32 l S
+0.322 0.404 0.416 RG 1.1 w 227.00 492.32 m 222.74 489.71 l S
+0.322 0.404 0.416 RG 1.1 w 227.00 492.32 m 222.74 494.93 l S
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 227.00 462.32 158.00 61.00 re B
+0.322 0.404 0.416 rg BT /F2 10 Tf 1 0 0 1 237.00 504.32 Tm (24 Nov) Tj ET
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 237.00 484.32 Tm (Paper 1 v7/v8) Tj ET
+0.322 0.404 0.416 RG 1.1 w 385.00 492.32 m 396.00 492.32 l S
+0.322 0.404 0.416 RG 1.1 w 396.00 492.32 m 391.74 489.71 l S
+0.322 0.404 0.416 RG 1.1 w 396.00 492.32 m 391.74 494.93 l S
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 396.00 462.32 158.00 61.00 re B
+0.322 0.404 0.416 rg BT /F2 10 Tf 1 0 0 1 406.00 504.32 Tm (24 Nov) Tj ET
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 406.00 484.32 Tm (Paper 2 v1.0) Tj ET
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 58.00 389.32 158.00 61.00 re B
+0.322 0.404 0.416 rg BT /F2 10 Tf 1 0 0 1 68.00 431.32 Tm (25 Nov) Tj ET
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 68.00 411.32 Tm (Paper 3 v0.2) Tj ET
+0.322 0.404 0.416 RG 1.1 w 216.00 419.32 m 227.00 419.32 l S
+0.322 0.404 0.416 RG 1.1 w 227.00 419.32 m 222.74 416.71 l S
+0.322 0.404 0.416 RG 1.1 w 227.00 419.32 m 222.74 421.93 l S
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 227.00 389.32 158.00 61.00 re B
+0.322 0.404 0.416 rg BT /F2 10 Tf 1 0 0 1 237.00 431.32 Tm (25 Nov) Tj ET
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 237.00 411.32 Tm (Paper 2 v1.1) Tj ET
+0.322 0.404 0.416 RG 1.1 w 385.00 419.32 m 396.00 419.32 l S
+0.322 0.404 0.416 RG 1.1 w 396.00 419.32 m 391.74 416.71 l S
+0.322 0.404 0.416 RG 1.1 w 396.00 419.32 m 391.74 421.93 l S
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 396.00 389.32 158.00 61.00 re B
+0.322 0.404 0.416 rg BT /F2 10 Tf 1 0 0 1 406.00 431.32 Tm (26 Nov) Tj ET
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 406.00 411.32 Tm (Paper 1 v9 prepared) Tj ET
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 182.03 374.32 Tm (Negative pilot retained | empirical results feed back into theory) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 357.32 Tm (Figure 2. Selected artifact milestones, not a continuous time log. The negative pilot is retained. Paper 1 v9 is a) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 344.92 Tm (prepared revision with transfer pending at the observation cutoff.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 324.52 Tm (The genomic pilot in Paper 1 did not support the proposed association. Rather than discard that result,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 309.72 Tm (the subsequent manuscript distinguished the conservation of DNA sequence from preservation of) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 294.92 Tm (regulatory activity. It proposed a molecular hypothesis \(H3-M\), and Paper 2 investigated it using public) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 280.12 Tm (enhancer measurements. Paper 3, first drafted during this sequence, treats the evolution of the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 265.32 Tm (research questions and the investigator's reaction as its own object of study.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 242.52 Tm (The feedback loop matters: a theory can motivate a measurement, and a measurement can constrain) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 227.72 Tm (the next version of a theory. Neither requires that the theory be correct. The evidence here establishes) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 212.92 Tm (the existence of such a documented sequence of artifacts; it cannot establish that the same trajectory) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 198.12 Tm (would have been impossible without AI, or that any one model originated each transition.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 5363 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (5) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (5. Three lessons from the empirical work) Tj ET
+0.090 0.412 0.373 rg BT /F2 12 Tf 1 0 0 1 58.00 693.26 Tm (5.1 A negative result is useful evidence) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 669.62 Tm (Paper 1's K562 pilot reported 636 regions across 408 genes and no robust positive association) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 654.82 Tm (between regulatory reach and sequence constraint [6]. The held-out prediction error increased when) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 640.02 Tm (proposed predictors were included. The original expectation was not rescued by a favorable) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 625.22 Tm (interpretation. The later functional-equivalence question is distinct; it is not a retroactive confirmation of) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 610.42 Tm (the failed hypothesis.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 587.62 Tm (For a research-methods case study, this is a useful observable decision: retain the unfavorable result,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 572.82 Tm (distinguish the failed proxy from the underlying phenomenon, and articulate a new falsifiable question.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 558.02 Tm (Whether the initial computation is correct still requires verification.) Tj ET
+0.090 0.412 0.373 rg BT /F2 12 Tf 1 0 0 1 58.00 535.22 Tm (5.2 A precise number can conceal a methodological choice) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 511.58 Tm (Paper 2 reanalyzed public primate enhancer-assay measurements. At the primary reported equivalence) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 496.78 Tm (margin of +/-0.15 log2 units, 244 of 386 active paired fragments \(63.2%\) were classified as equivalent) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 481.98 Tm (with empirical-Bayes variance moderation; the unmoderated analysis classified 168 \(43.5%\) as) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 467.18 Tm (equivalent [7,8].) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 58.00 436.38 Tm (EQUIVALENT FRAGMENTS \(%\)) Tj ET
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 58.00 409.38 Tm (Moderated) Tj ET
+0.929 0.941 0.945 rg 0.929 0.941 0.945 RG 0.6 w 170.00 401.38 340.00 22.00 re B
+0.090 0.412 0.373 rg 0.090 0.412 0.373 RG 0.6 w 170.00 401.38 214.88 22.00 re B
+0.098 0.204 0.220 rg BT /F2 10 Tf 1 0 0 1 520.00 408.38 Tm (63.2%) Tj ET
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 58.00 370.38 Tm (Unmoderated) Tj ET
+0.929 0.941 0.945 rg 0.929 0.941 0.945 RG 0.6 w 170.00 362.38 340.00 22.00 re B
+0.216 0.427 0.569 rg 0.216 0.427 0.569 RG 0.6 w 170.00 362.38 147.90 22.00 re B
+0.098 0.204 0.220 rg BT /F2 10 Tf 1 0 0 1 520.00 369.38 Tm (43.5%) Tj ET
+0.322 0.404 0.416 RG 0.8 w 170.00 342.38 m 170.00 337.38 l S
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 167.50 324.38 Tm (0) Tj ET
+0.322 0.404 0.416 RG 0.8 w 255.00 342.38 m 255.00 337.38 l S
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 250.00 324.38 Tm (25) Tj ET
+0.322 0.404 0.416 RG 0.8 w 340.00 342.38 m 340.00 337.38 l S
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 335.00 324.38 Tm (50) Tj ET
+0.322 0.404 0.416 RG 0.8 w 425.00 342.38 m 425.00 337.38 l S
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 420.00 324.38 Tm (75) Tj ET
+0.322 0.404 0.416 RG 0.8 w 510.00 342.38 m 510.00 337.38 l S
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 502.49 324.38 Tm (100) Tj ET
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 170.00 306.38 Tm (Same 386 fragments; same +/-0.15 log2 margin) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 288.38 Tm (Figure 3. Reported Paper 2 v1.1 results at the same margin. Equivalence is an assay-level classification; the figure is a) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 275.98 Tm (transcription of manuscript values, not a new analysis or proof of conservation.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 255.58 Tm (The essential lesson for the investigator is to ask why the same measurements yield different) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 240.78 Tm (classifications. Equivalence testing requires the interval to fit within a justified tolerance; failure to find a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 225.98 Tm (difference is not sufficient. The tolerance and the statistical model both affect the answer. A person can) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 211.18 Tm (learn to explain this distinction without independently deriving every estimator. A specialist should still) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 196.38 Tm (evaluate the implementation, margin and assumptions before the results are used to support a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 181.58 Tm (consequential biological claim.) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 5628 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (6) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (6. A revision episode: from pattern matching to quantitative) Tj ET
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 702.26 Tm (models) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 672.52 Tm (Paper 2 v1.1 added an explicitly post-hoc audit of transcription-factor binding profiles from JASPAR. In) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 657.72 Tm (the original analysis, fixed DNA consensus patterns represented binding motifs. The revised analysis) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 642.92 Tm (used position weight matrices to represent graded sequence preferences. The revised manuscript) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 628.12 Tm (reports that the richer representation predicts functional equivalence somewhat better on held-out) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 613.32 Tm (chromosomes; it does not establish directly measured binding affinity or independent external validation) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 598.52 Tm ([8].) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 58.00 567.72 Tm (HELD-OUT CHROMOSOME ROC-AUC) Tj ET
+0.098 0.204 0.220 rg BT /F2 10 Tf 1 0 0 1 58.00 539.72 Tm (Baseline) Tj ET
+0.929 0.941 0.945 rg 0.929 0.941 0.945 RG 0.6 w 171.00 533.72 328.00 21.00 re B
+0.322 0.404 0.416 rg 0.322 0.404 0.416 RG 0.6 w 171.00 533.72 195.85 21.00 re B
+0.098 0.204 0.220 rg BT /F2 10 Tf 1 0 0 1 509.00 539.72 Tm (0.5971) Tj ET
+0.098 0.204 0.220 rg BT /F2 10 Tf 1 0 0 1 58.00 504.72 Tm (Consensus motifs) Tj ET
+0.929 0.941 0.945 rg 0.929 0.941 0.945 RG 0.6 w 171.00 498.72 328.00 21.00 re B
+0.690 0.502 0.235 rg 0.690 0.502 0.235 RG 0.6 w 171.00 498.72 197.26 21.00 re B
+0.098 0.204 0.220 rg BT /F2 10 Tf 1 0 0 1 509.00 504.72 Tm (0.6014) Tj ET
+0.098 0.204 0.220 rg BT /F2 10 Tf 1 0 0 1 58.00 469.72 Tm (JASPAR PWMs) Tj ET
+0.929 0.941 0.945 rg 0.929 0.941 0.945 RG 0.6 w 171.00 463.72 328.00 21.00 re B
+0.090 0.412 0.373 rg 0.090 0.412 0.373 RG 0.6 w 171.00 463.72 205.33 21.00 re B
+0.098 0.204 0.220 rg BT /F2 10 Tf 1 0 0 1 509.00 469.72 Tm (0.6260) Tj ET
+0.098 0.204 0.220 RG 1.2 w 335.00 558.72 m 335.00 449.72 l S
+0.322 0.404 0.416 RG 0.8 w 171.00 449.72 m 171.00 444.72 l S
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 164.75 432.72 Tm (0.0) Tj ET
+0.322 0.404 0.416 RG 0.8 w 335.00 449.72 m 335.00 444.72 l S
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 328.75 432.72 Tm (0.5) Tj ET
+0.322 0.404 0.416 RG 0.8 w 499.00 449.72 m 499.00 444.72 l S
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 492.75 432.72 Tm (1.0) Tj ET
+0.322 0.404 0.416 rg BT /F1 9 Tf 1 0 0 1 283.23 416.72 Tm (Chance ranking reference) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 394.72 Tm (Figure 4. Paper 2 v1.1, Table 5, all 386 active fragments. ROC-AUC of 0.5 corresponds to chance ranking under a) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 382.32 Tm (balanced interpretation; 1.0 denotes perfect ranking. Values are reported, not recomputed. The JASPAR extension was) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 369.92 Tm (post-hoc, and the improvement remains modest.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 349.52 Tm (The new version also explicitly corrected a statistical ambiguity in the epistasis analysis: with two) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 334.72 Tm (degrees of freedom, a two-sided 95% t interval uses 4.303, not 2.920. Four of eight selected mutation) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 319.92 Tm (series reportedly show significant negative nonadditivity under the stricter threshold, while five show) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 305.12 Tm (nonadditivity at the 90% threshold. These counts are not a population estimate and require a multiplicity) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 290.32 Tm (and selection audit.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 267.52 Tm (The revision record demonstrates two different activities: \(1\) a correction to a statistical decision rule) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 252.72 Tm (and \(2\) exploration of a different biological representation after examining an earlier result. The former) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 237.92 Tm (can be checked against a mathematical reference; the latter requires new data or an appropriately) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 223.12 Tm (controlled validation design to become confirmatory. Treating both as merely "a better result" would) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 208.32 Tm (obscure the distinction.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 185.52 Tm (The reported raw-barcode reconstruction in v1.1 and the repository validation files are valuable starting) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 170.72 Tm (points for a reproducibility audit. They establish a record of an attempted check, not independent expert) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 155.92 Tm (adjudication. This study has not executed those scripts.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 6158 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (7) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (7. Human-directed collaboration across AI environments) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm (The investigator reported working with ChatGPT in a browser and Gemini NEON and CARBON in) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (Antigravity. These are user-supplied environment labels, not independently verified model identifiers.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 663.66 Tm (The available exchange documents the sharing of manuscripts, review requests and new versions. The) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 648.86 Tm (role assignments below describe observed workflow functions and do not assert that one system) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 634.06 Tm (exclusively performed them.) Tj ET
+0.090 0.412 0.373 rg 0.090 0.412 0.373 RG 0.6 w 188.00 585.26 236.00 30.00 re B
+1.000 1.000 1.000 rg BT /F2 11 Tf 1 0 0 1 199.38 596.26 Tm (Human investigator: question + judgment) Tj ET
+0.322 0.404 0.416 RG 1.1 w 238.00 585.26 m 169.00 567.26 l S
+0.322 0.404 0.416 RG 1.1 w 169.00 567.26 m 172.46 570.86 l S
+0.322 0.404 0.416 RG 1.1 w 169.00 567.26 m 173.78 565.81 l S
+0.322 0.404 0.416 RG 1.1 w 374.00 585.26 m 443.00 567.26 l S
+0.322 0.404 0.416 RG 1.1 w 443.00 567.26 m 438.22 565.81 l S
+0.322 0.404 0.416 RG 1.1 w 443.00 567.26 m 439.54 570.86 l S
+0.906 0.937 0.961 rg 0.216 0.427 0.569 RG 0.6 w 58.00 519.26 222.00 47.00 re B
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 332.00 519.26 222.00 47.00 re B
+0.216 0.427 0.569 rg BT /F2 11 Tf 1 0 0 1 118.87 549.26 Tm (ChatGPT / browser) Tj ET
+0.098 0.204 0.220 rg BT /F1 10 Tf 1 0 0 1 112.03 533.26 Tm (Analysis, critique, drafting) Tj ET
+0.090 0.412 0.373 rg BT /F2 11 Tf 1 0 0 1 392.22 549.26 Tm (Gemini / Antigravity) Tj ET
+0.098 0.204 0.220 rg BT /F1 10 Tf 1 0 0 1 374.10 533.26 Tm (NEON / CARBON \(user labels\)) Tj ET
+0.322 0.404 0.416 RG 1.1 w 280.00 543.26 m 332.00 543.26 l S
+0.322 0.404 0.416 RG 1.1 w 332.00 543.26 m 327.74 540.65 l S
+0.322 0.404 0.416 RG 1.1 w 332.00 543.26 m 327.74 545.87 l S
+0.322 0.404 0.416 RG 1.1 w 169.00 519.26 m 258.00 502.26 l S
+0.322 0.404 0.416 RG 1.1 w 258.00 502.26 m 253.32 500.49 l S
+0.322 0.404 0.416 RG 1.1 w 258.00 502.26 m 254.30 505.63 l S
+0.322 0.404 0.416 RG 1.1 w 443.00 519.26 m 354.00 502.26 l S
+0.322 0.404 0.416 RG 1.1 w 354.00 502.26 m 357.70 505.63 l S
+0.322 0.404 0.416 RG 1.1 w 354.00 502.26 m 358.68 500.49 l S
+0.929 0.941 0.945 rg 0.765 0.824 0.812 RG 0.6 w 145.00 472.26 322.00 29.00 re B
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 200.52 482.26 Tm (GitHub: versioned artifacts and evidence) Tj ET
+0.322 0.404 0.416 RG 1.1 w 306.00 472.26 m 306.00 462.26 l S
+0.322 0.404 0.416 RG 1.1 w 306.00 462.26 m 303.39 466.52 l S
+0.322 0.404 0.416 RG 1.1 w 306.00 462.26 m 308.61 466.52 l S
+0.969 0.933 0.875 rg 0.690 0.502 0.235 RG 0.6 w 145.00 432.26 322.00 29.00 re B
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 203.12 442.26 Tm (Independent specialist review - pending) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 415.26 Tm (Figure 5. Proposed representation of the observed workflow. GitHub carries durable artifacts between sessions; model) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 402.86 Tm (agreement does not replace the external verification gate.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 382.46 Tm (A shared repository changes the organization of the work. It provides a common version history, an) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 367.66 Tm (opportunity to inspect exact files, and a way to preserve negative results and superseded claims. A) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 352.86 Tm (public index also helps a prospective reviewer identify the current manuscript and the location of the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 338.06 Tm (associated code. The C2G repository contained three separate research papers and a validation index) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 323.26 Tm (at the observation cutoff.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 300.46 Tm (Cross-platform review can generate alternative interpretations, corrections and new tests, as illustrated) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 285.66 Tm (by the revised motif analysis and epistasis reporting. However, the models may share training material,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 270.86 Tm (conventions, assumptions and even copied code. They may also amplify a user's favored framing. Two) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 256.06 Tm (agreeing responses are therefore not two independent experiments. A model may help construct an) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 241.26 Tm (independent implementation, but the term "independent" should describe the data path, code,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 226.46 Tm (assumptions, execution and reviewers, not the number of chat windows.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 203.66 Tm (An effective handoff should identify the exact input version, requested question, changes proposed,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 188.86 Tm (evidence for those changes, and unresolved claims. A version label without a durable artifact is only a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 174.06 Tm (claim of a revision. A Git commit proves that particular bytes were archived; it does not certify a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 159.26 Tm (calculation or the truth of its prose.) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 5015 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (8) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (8. Recognition of the competence gap) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm (The investigator's concern, already recorded in v0.2, was: "I am afraid that AI has found something) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (important, and I don't know exactly what it is?" [9]. This is direct evidence of perceived uncertainty. It is) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 663.66 Tm (not an objective measurement of ignorance, nor proof that a discovery occurred. The distinction is) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 648.86 Tm (important: an investigator may be appropriately uncertain precisely because the stakes and specialized) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 634.06 Tm (methods have become clearer.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 611.26 Tm (The subsequent emphasis was that a lack of understanding does not remove the obligation to obtain) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 596.46 Tm (help. We preserve the following first-person disclosure from the earlier manuscript, subject to the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 581.66 Tm (author's final approval:) Tj ET
+0.910 0.945 0.933 rg 0.765 0.824 0.812 RG 0.6 w 58.00 441.46 496.00 128.40 re B
+0.098 0.204 0.220 rg BT /F3 10.7 Tf 1 0 0 1 73.00 558.86 Tm (I have reached a point at which I can initiate and obtain computational analyses that I cannot) Tj ET
+0.098 0.204 0.220 rg BT /F3 10.7 Tf 1 0 0 1 73.00 544.06 Tm (independently perform or fully evaluate. In some aspects of this work, I do not know whether I am) Tj ET
+0.098 0.204 0.220 rg BT /F3 10.7 Tf 1 0 0 1 73.00 529.26 Tm (making the correct scientific judgments. I cannot yet determine whether the results represent an) Tj ET
+0.098 0.204 0.220 rg BT /F3 10.7 Tf 1 0 0 1 73.00 514.46 Tm (important discovery, a rediscovery, a methodological artifact or an error. I am not entitled to treat) Tj ET
+0.098 0.204 0.220 rg BT /F3 10.7 Tf 1 0 0 1 73.00 499.66 Tm (the apparent sophistication of the results as evidence of their validity. My lack of specialist) Tj ET
+0.098 0.204 0.220 rg BT /F3 10.7 Tf 1 0 0 1 73.00 484.86 Tm (competence does not discharge my responsibility to try to find out. It obliges me to seek qualified) Tj ET
+0.098 0.204 0.220 rg BT /F3 10.7 Tf 1 0 0 1 73.00 470.06 Tm (assistance, expose the methods and evidence to independent scrutiny, correct mistakes and) Tj ET
+0.098 0.204 0.220 rg BT /F3 10.7 Tf 1 0 0 1 73.00 455.26 Tm (withhold claims that cannot be adequately supported.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 432.46 Tm (The declaration is not an exemption from scientific responsibility. It is a commitment to a response. An) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 417.66 Tm (author need not be expert in every operation in a distributed investigation, but should be able to) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 402.86 Tm (describe the problem, identify what evidence exists, state what is uncertain, and obtain qualified) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 388.06 Tm (evaluation of consequential inferences. AI tools cannot accept authorship accountability; applicable) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 373.26 Tm (journal disclosure requirements remain the author's responsibility [11].) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 350.46 Tm (Observable actions. Identify an uncertainty; translate it into a specific review question; provide the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 335.66 Tm (relevant artifact and reproducible procedure; obtain a qualified assessment; record the correction or) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 320.86 Tm (unresolved disagreement; and revise the claim. The existence of a review plan is not evidence that a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 306.06 Tm (reviewer has been recruited or that the concern has been resolved.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 283.26 Tm (This is the central proposition of the paper: expansion of investigative reach can create a duty to) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 268.46 Tm (develop understanding and obtain support. The recognition of this duty is documented; the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 253.66 Tm (effectiveness of the proposed response remains to be evaluated.) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 6411 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (9) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (9. An accountable inquiry cycle) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm (The original six-stage framework is retained and extended with a decision gate. The cycle is a proposed) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (operational model, not an experimentally validated learning trajectory.) Tj ET
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 58.00 607.66 158.00 49.00 re B
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 67.00 637.66 Tm (1 Ask) Tj ET
+0.322 0.404 0.416 rg BT /F1 10 Tf 1 0 0 1 67.00 621.66 Tm (Question) Tj ET
+0.322 0.404 0.416 RG 1.1 w 216.00 632.66 m 227.00 632.66 l S
+0.322 0.404 0.416 RG 1.1 w 227.00 632.66 m 222.74 630.05 l S
+0.322 0.404 0.416 RG 1.1 w 227.00 632.66 m 222.74 635.27 l S
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 227.00 607.66 158.00 49.00 re B
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 236.00 637.66 Tm (2 Formalize) Tj ET
+0.322 0.404 0.416 rg BT /F1 10 Tf 1 0 0 1 236.00 621.66 Tm (Test + assumptions) Tj ET
+0.322 0.404 0.416 RG 1.1 w 385.00 632.66 m 396.00 632.66 l S
+0.322 0.404 0.416 RG 1.1 w 396.00 632.66 m 391.74 630.05 l S
+0.322 0.404 0.416 RG 1.1 w 396.00 632.66 m 391.74 635.27 l S
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 396.00 607.66 158.00 49.00 re B
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 405.00 637.66 Tm (3 Execute) Tj ET
+0.322 0.404 0.416 rg BT /F1 10 Tf 1 0 0 1 405.00 621.66 Tm (Code + data) Tj ET
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 58.00 545.66 158.00 49.00 re B
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 67.00 575.66 Tm (4 Interpret) Tj ET
+0.322 0.404 0.416 rg BT /F1 10 Tf 1 0 0 1 67.00 559.66 Tm (Evidence + limits) Tj ET
+0.322 0.404 0.416 RG 1.1 w 216.00 570.66 m 227.00 570.66 l S
+0.322 0.404 0.416 RG 1.1 w 227.00 570.66 m 222.74 568.05 l S
+0.322 0.404 0.416 RG 1.1 w 227.00 570.66 m 222.74 573.27 l S
+0.969 0.933 0.875 rg 0.690 0.502 0.235 RG 0.6 w 227.00 545.66 158.00 49.00 re B
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 236.00 575.66 Tm (5 Verify) Tj ET
+0.322 0.404 0.416 rg BT /F1 10 Tf 1 0 0 1 236.00 559.66 Tm (Expert / rerun) Tj ET
+0.322 0.404 0.416 RG 1.1 w 385.00 570.66 m 396.00 570.66 l S
+0.322 0.404 0.416 RG 1.1 w 396.00 570.66 m 391.74 568.05 l S
+0.322 0.404 0.416 RG 1.1 w 396.00 570.66 m 391.74 573.27 l S
+0.910 0.945 0.933 rg 0.090 0.412 0.373 RG 0.6 w 396.00 545.66 158.00 49.00 re B
+0.098 0.204 0.220 rg BT /F2 11 Tf 1 0 0 1 405.00 575.66 Tm (6 Communicate) Tj ET
+0.322 0.404 0.416 rg BT /F1 10 Tf 1 0 0 1 405.00 559.66 Tm (Calibrated claim) Tj ET
+0.322 0.404 0.416 RG 1.1 w 475.00 607.66 m 475.00 601.66 l S
+0.322 0.404 0.416 RG 1.1 w 475.00 601.66 m 472.39 605.92 l S
+0.322 0.404 0.416 RG 1.1 w 475.00 601.66 m 477.61 605.92 l S
+0.090 0.412 0.373 rg 0.090 0.412 0.373 RG 0.6 w 58.00 510.66 496.00 23.00 re B
+1.000 1.000 1.000 rg BT /F2 10 Tf 1 0 0 1 134.96 518.66 Tm (Unresolved material uncertainty: revisit earlier stages or stay provisional.) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 493.66 Tm (Figure 6. Proposed workflow. Unresolved material uncertainty returns inquiry to a relevant earlier stage or leaves the) Tj ET
+0.322 0.404 0.416 rg BT /F3 9.4 Tf 1 0 0 1 58.00 481.26 Tm (claim provisional; cross-model agreement cannot bypass the gate.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 460.86 Tm (Ask. State the question, motivation and existing knowledge. What observation would matter?) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 438.06 Tm (Formalize. Define variables, assumptions, alternatives, tolerance and planned test. Can the evidence) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 423.26 Tm (distinguish the proposed explanations?) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 400.46 Tm (Execute. Record dataset identifiers, code, environment, model-assisted actions and output hashes. Is) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 385.66 Tm (the operation inspectable and repeatable?) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 362.86 Tm (Interpret. Explain estimates, uncertainty, negative findings and alternative interpretations. What claim) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 348.06 Tm (follows, and what does not?) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 325.26 Tm (Verify and seek help. Assess the investigator's ability to explain the method; obtain independent) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 310.46 Tm (reproduction and appropriate specialist scrutiny. If unresolved concerns materially affect the claim, do) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 295.66 Tm (not promote it to a validated conclusion.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 272.86 Tm (Communicate and revise. State the conclusion with scope, limitations, provenance, disclosure and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 258.06 Tm (revision history. Preserve the prior version and the reason for each change. A provisional result can be) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 243.26 Tm (shared explicitly as provisional; verification is not a requirement to suppress open questions.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 220.46 Tm (The decision gate is not a general demand that every author derive every mathematical method. It) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 205.66 Tm (requires appropriate expertise and proportionality: a numerical result used as a classroom illustration, a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 190.86 Tm (research hypothesis and a clinically consequential decision have different validation burdens. The) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 176.06 Tm (investigator must not confuse a tool's confidence or a polished manuscript with the status of the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 161.26 Tm (evidence.) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 4186 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (10) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (10. From an idea to an educational practice) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm (Inquiry-based science education emphasizes meaningful questions, observation, explanation and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (communication [12]. For the augmented investigator, a useful educational principle is experience before) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 663.66 Tm (equation: start with a phenomenon worth understanding, then use the need for explanation to motivate) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 648.86 Tm (acquisition of the necessary methods. This differs from using AI to bypass the experience.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 626.06 Tm (Consider a classroom investigation in which students measure the cooling of a cup of water. AI may) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 611.26 Tm (help them build a graph, fit a model or identify a suspicious measurement. The learner must still explain) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 596.46 Tm (what was measured, how the thermometer was used, why the model has a particular form, what a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 581.66 Tm (residual means, and how another team could test the same claim. A plausible model produced by AI is) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 566.86 Tm (a hypothesis to confront with data.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 544.06 Tm (The advanced analogue is the enhancer-equivalence case. A learner should be able to explain why) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 529.26 Tm ("not significantly different" does not mean equivalent, why margin choice matters and why replicates) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 514.46 Tm (must be independent. An expert can review the statistical implementation. Learning is not measured) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 499.66 Tm (simply by generating the final report.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 476.86 Tm (Proposed assessment rubric. Rate each dimension on a transparent 0-2 scale: 0 = missing or) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 462.06 Tm (unexplained; 1 = partial with prompting or identifiable help; 2 = clear, evidence-linked explanation or) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 447.26 Tm (demonstrated action. The six dimensions are question quality, method explanation, evidence) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 432.46 Tm (interpretation, recognition of limits, independent checking and claim calibration. Use multiple human) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 417.66 Tm (raters and assess inter-rater agreement before treating scores as reliable.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 394.86 Tm (A student who recognizes an uncertainty and designs a valid test may demonstrate more scientific) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 380.06 Tm (judgment than one who submits a technically impressive but unexamined answer. AI may broaden) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 365.26 Tm (access to inquiry, but educational assessment should reward an increasing capacity to reason) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 350.46 Tm (independently and collaborate responsibly. This paper proposes applications, not evidence of) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 335.66 Tm (classroom effectiveness; no student participants or classroom trials are reported.) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 4993 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (11) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (11. A prospective evaluation of augmented inquiry) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm (The case motivates a testable research design rather than a claim of comparative effectiveness. Recruit) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (consenting investigators with defined prior experience. Assign matched inquiry tasks to human-only,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 663.66 Tm (single-AI-assisted and multi-AI-assisted conditions; randomize or counterbalance order, balance access) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 648.86 Tm (to data and software, and record verification costs. A domain-expert-supported condition could examine) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 634.06 Tm (whether accountable human consultation improves outcomes beyond model critique. Use equivalent) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 619.26 Tm (task difficulty and preserve failures.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 596.46 Tm (Specify primary outcomes before data collection: blinded expert ratings of claim validity, correctness of) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 581.66 Tm (computational procedures, reproducibility and explanation of key assumptions. Secondary outcomes) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 566.86 Tm (may include time to reviewable artifact, breadth of methods attempted, number and severity of errors) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 552.06 Tm (detected, time to correct errors, and workload of specialist review. Do not equate word count,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 537.26 Tm (manuscript count or number of prompts with quality. Record actual time rather than inferring it from) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 522.46 Tm (timestamps.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 499.66 Tm (A prospective competence measure could ask each participant to explain a method without the AI,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 484.86 Tm (identify an invalid inference in a deliberately flawed result, and design a check. Score the quality of the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 470.06 Tm (response separately from task completion. Compare performance before and after feedback. A) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 455.26 Tm (confidence rating paired with a knowledge assessment could examine calibration, rather than assume) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 440.46 Tm (that self-reported uncertainty means either lack of understanding or sound judgment.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 417.66 Tm (Falsification. The proposed accountability gate should improve the calibration of claims, error correction) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 402.86 Tm (or reproducibility without unacceptable burden. It would be weakened if gate use failed to change claim) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 388.06 Tm (quality, if participants treated checklists as substitutes for understanding, or if the time and expertise) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 373.26 Tm (required made the procedure impractical. Compare the actual benefit and cost rather than assuming the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 358.46 Tm (framework must work.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 335.66 Tm (Limits of the present case. One experienced investigator, retrospectively selected episodes, incomplete) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 320.86 Tm (conversation traces, no unaided comparator, no objectively measured comprehension, no independent) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 306.06 Tm (coding and no full computational re-execution restrict interpretation. There may be missing) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 291.26 Tm (unsuccessful attempts or preferential retention of productive sessions. The present manuscript is itself) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 276.46 Tm (AI-assisted and vulnerable to fluent but unwarranted synthesis. Its claims about the research process) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 261.66 Tm (should be subjected to the same evidential standards it proposes.) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 5045 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (12) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (12. Conclusion and declarations) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm (This case documents a transition from an architectural question to empirical computation, then to) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (explicit reflection on the investigator's ability and responsibility to judge the resulting work. The central) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 663.66 Tm (distinction is between the capability to initiate an investigation and the evidential basis for concluding) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 648.86 Tm (that its results are valid. AI can assist in closing the implementation gap, but may also expose a gap in) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 634.06 Tm (understanding. A versioned, human-directed workflow provides a means of organizing the response:) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 619.26 Tm (retain negative evidence, document changes, separate exploration from confirmation, seek qualified) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 604.46 Tm (help, and calibrate claims.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 581.66 Tm (Three companion publications serve distinct purposes: a theoretical and computational architectural) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 566.86 Tm (framework, an empirical molecular reanalysis, and the present methodological case study. Their claims) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 552.06 Tm (stand or fall independently. The value of investigating the human-AI process does not require the) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 537.26 Tm (biological reanalysis to be novel or correct. Conversely, the existence of an interesting process does not) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 522.46 Tm (make its outputs scientifically valid.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 499.66 Tm (The augmented investigator's task is therefore not merely to produce more sophisticated answers. It is) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 484.86 Tm (to create conditions under which those answers can be understood, challenged, corrected and, where) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 470.06 Tm (warranted, accepted. Recognizing the need for help is the beginning of that process, not its completion.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 447.26 Tm (AI assistance and authorship. ChatGPT assisted with source recovery, organization, illustration and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 432.46 Tm (revision of this manuscript. The underlying work reports assistance from ChatGPT and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 417.66 Tm (Gemini/Antigravity. Exact model-specific contributions remain incompletely reconstructed. No AI system) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 402.86 Tm (is an author; final approval of the text and first-person disclosure remains with the human author.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 380.06 Tm (Evidence and code availability. The public C2G master archive identifies the manuscripts, versioned) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 365.26 Tm (research artifacts, validation records and checksums [10]. The associated architectural-economy) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 350.46 Tm (repository contains computational materials [6]. The present revision provides diagram sources and a) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 335.66 Tm (rendering script. Selected conversation records remain private; their disclosure would require consent,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 320.86 Tm (redaction and applicable permissions. Repository availability is not an execution guarantee.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 298.06 Tm (Ethics, funding and competing interests. No new participant recruitment is reported. The investigator is) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 283.26 Tm (both author and subject. Applicable ethics review, funding, competing interests and permission for) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 268.46 Tm (future transcript release must be confirmed before submission. No independent human specialist review) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 253.66 Tm (or peer review is claimed.) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 5249 >>
+stream
+0.322 0.404 0.416 rg BT /F2 8.2 Tf 1 0 0 1 58.00 759.00 Tm (THE AUGMENTED INVESTIGATOR  /  METASCIENCE & STEM EDUCATION) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 749.00 m 554.00 749.00 l S
+0.322 0.404 0.416 rg BT /F1 8 Tf 1 0 0 1 58.00 29.00 Tm (C2G  |  Working manuscript v0.3  |  26 November 2026) Tj ET
+0.322 0.404 0.416 rg BT /F2 9 Tf 1 0 0 1 532.00 29.00 Tm (13) Tj ET
+0.765 0.824 0.812 RG 0.8 w 58.00 43.00 m 554.00 43.00 l S
+0.090 0.412 0.373 rg BT /F2 17 Tf 1 0 0 1 58.00 723.00 Tm (References) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 693.26 Tm ([1] Flavell JH. Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 678.46 Tm (American Psychologist. 1979;34:906-911. doi:10.1037/0003-066X.34.10.906.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 655.66 Tm ([2] Messeri L, Crockett MJ. Artificial intelligence and illusions of understanding in scientific research.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 640.86 Tm (Nature. 2024;627:49-58. doi:10.1038/s41586-024-07146-0.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 618.06 Tm ([3] SciSciGPT: advancing human-AI collaboration in the science of science. Nature Computational) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 603.26 Tm (Science. 2026;6:301-315. doi:10.1038/s43588-025-00906-6.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 580.46 Tm ([4] Brodeur A, et al. AI-assisted teams outperform AI-led teams but not human-only teams in assessing) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 565.66 Tm (research reproducibility in quantitative social science. PNAS. 2026. doi:10.1073/pnas.2524747123. See) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 550.86 Tm (also published correction, PMID 42406974.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 528.06 Tm ([5] Young RS. The Augmented Investigator. Versions 0.1 and 0.2. 24-25 November 2026. Working) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 513.26 Tm (manuscripts. v0.2: C2G master repository [10].) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 490.46 Tm ([6] Young RS. Architectural Economy in Biological and Technological Systems. Versions 7.0, 8.0 and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 475.66 Tm (prepared revision 9.0. 24-26 November 2026. Unreviewed manuscripts.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 460.86 Tm (https://github.com/RandoSY/architectural-economy and [10].) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 438.06 Tm ([7] Young RS. Functional Equivalence Mapping in Primate Enhancer Evolution. Version 1.0. 24) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 423.26 Tm (November 2026. Unreviewed manuscript; archived in [10].) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 400.46 Tm ([8] Young RS. Functional Equivalence Mapping in Primate Enhancer Evolution. Version 1.1. 25) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 385.66 Tm (November 2026. Unreviewed manuscript and reported audit; [10], validation/ and) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 370.86 Tm (papers/02-primate-enhancer-fem/.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 348.06 Tm ([9] Young RS. Research dialogue with ChatGPT and author-reported Gemini/Antigravity workflow,) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 333.26 Tm (23-26 November 2026. Selected private records; complete trace reconstruction pending. The quoted) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 318.46 Tm (concern and draft disclosure appear in v0.2 [5].) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 295.66 Tm ([10] Young RS. From Circuits to Genomes \(C2G\). Versioned public research repository. Inspected 26) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 280.86 Tm (November 2026, commit 222f7e8a05366acd0fdbd7c5b64f700c012b7c23.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 266.06 Tm (https://github.com/RandoSY/circuits-to-genomes) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 243.26 Tm ([11] International Committee of Medical Journal Editors. Recommendations: AI use by authors; roles) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 228.46 Tm (and responsibilities of authors and contributors. https://www.icmje.org/recommendations/) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 205.66 Tm ([12] National Research Council. Inquiry and the National Science Education Standards: A Guide for) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 190.86 Tm (Teaching and Learning. Washington, DC: National Academies Press; 2000. doi:10.17226/9596.) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 168.06 Tm (Revision note: v0.3 adds a dated artifact trajectory, cross-platform workflow, evidence classes, two) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 153.26 Tm (quantitative illustrations of analytical choices, a revised accountability gate and an expanded) Tj ET
+0.098 0.204 0.220 rg BT /F1 10.8 Tf 1 0 0 1 58.00 138.46 Tm (prospective evaluation. No new biological calculations were conducted for this paper.) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Title (The Augmented Investigator v0.3) /Author (Randall S. Young) /Subject (Metacognition and AI-augmented scientific inquiry) >>
+endobj
+xref
+0 33
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000199 00000 n 
+0000000296 00000 n 
+0000000398 00000 n 
+0000000503 00000 n 
+0000005931 00000 n 
+0000006077 00000 n 
+0000011807 00000 n 
+0000011953 00000 n 
+0000017148 00000 n 
+0000017296 00000 n 
+0000023466 00000 n 
+0000023614 00000 n 
+0000029029 00000 n 
+0000029177 00000 n 
+0000034857 00000 n 
+0000035005 00000 n 
+0000041215 00000 n 
+0000041363 00000 n 
+0000046430 00000 n 
+0000046578 00000 n 
+0000053041 00000 n 
+0000053189 00000 n 
+0000057427 00000 n 
+0000057575 00000 n 
+0000062620 00000 n 
+0000062768 00000 n 
+0000067865 00000 n 
+0000068013 00000 n 
+0000073314 00000 n 
+0000073462 00000 n 
+trailer
+<< /Size 33 /Root 1 0 R /Info 32 0 R >>
+startxref
+73613
+%%EOF
