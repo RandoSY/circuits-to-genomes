@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="496" height="151" preserveAspectRatio="xMinYMin meet" viewBox="0 0 496 151" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="496" height="151"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-151)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="139" style="font-family: Bold; font-size: 8.5px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,278) scale(1,-1)">LEAVE-ONE-CHROMOSOME-OUT ROC-AUC</text>
+			<text x="0" y="115" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,230) scale(1,-1)">Baseline</text>
+			<rect x="145" y="108" width="298" height="21" rx="5" ry="5" style="stroke: rgb(91%,92%,93%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,92%,93%); fill-rule: evenodd;"/>
+			<rect x="145" y="108" width="177.93579999999997" height="21" rx="5" ry="5" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(32%,40%,41%); fill-rule: evenodd;"/>
+			<text x="454" y="115" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,230) scale(1,-1)">0.5971</text>
+			<text x="0" y="81" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,162) scale(1,-1)">Consensus motifs</text>
+			<rect x="145" y="74" width="298" height="21" rx="5" ry="5" style="stroke: rgb(91%,92%,93%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,92%,93%); fill-rule: evenodd;"/>
+			<rect x="145" y="74" width="179.21720000000005" height="21" rx="5" ry="5" style="stroke: rgb(63%,41%,18%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(63%,41%,18%); fill-rule: evenodd;"/>
+			<text x="454" y="81" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,162) scale(1,-1)">0.6014</text>
+			<text x="0" y="47" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,94) scale(1,-1)">JASPAR PWMs</text>
+			<rect x="145" y="40" width="298" height="21" rx="5" ry="5" style="stroke: rgb(91%,92%,93%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,92%,93%); fill-rule: evenodd;"/>
+			<rect x="145" y="40" width="186.548" height="21" rx="5" ry="5" style="stroke: rgb(9%,41%,37%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(9%,41%,37%); fill-rule: evenodd;"/>
+			<text x="454" y="47" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,94) scale(1,-1)">0.6260</text>
+			<path d="M 294,133 L 294,29 Z" style="stroke: rgb(8%,21%,21%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 4, 3;"/>
+			<text x="248.7794189453125" y="8" style="font-family: Body; font-size: 8.5px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,16) scale(1,-1)">0.5 chance reference</text>
+			<text x="142.455078125" y="8" style="font-family: Body; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,16) scale(1,-1)">0</text>
+			<text x="440.455078125" y="8" style="font-family: Body; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,16) scale(1,-1)">1</text>
+		</g>
+	</g>
+</svg>

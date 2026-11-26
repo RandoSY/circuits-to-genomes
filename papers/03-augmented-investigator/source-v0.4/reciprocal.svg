@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="496" height="182" preserveAspectRatio="xMinYMin meet" viewBox="0 0 496 182" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="496" height="182"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-182)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="93" width="222" height="80" rx="5" ry="5" style="stroke: rgb(20%,42%,56%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,96%); fill-rule: evenodd;"/>
+			<rect x="274" y="93" width="222" height="80" rx="5" ry="5" style="stroke: rgb(9%,41%,37%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="73.40234375" y="152" style="font-family: Bold; font-size: 11px;fill: rgb(20%,42%,56%); stroke:none;" transform="translate(0,304) scale(1,-1)">COMPUTING</text>
+			<text x="33.4091796875" y="135" style="font-family: Body; font-size: 8.8px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,270) scale(1,-1)">PDP-8 compatible implementations</text>
+			<text x="43.50703125000001" y="118" style="font-family: Body; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,236) scale(1,-1)">Economy · reuse · fault liability</text>
+			<text x="357.40869140625" y="152" style="font-family: Bold; font-size: 11px;fill: rgb(9%,41%,37%); stroke:none;" transform="translate(0,304) scale(1,-1)">BIOLOGY</text>
+			<text x="310.0205078125" y="135" style="font-family: Body; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,270) scale(1,-1)">Changing DNA; retained activity?</text>
+			<text x="313.055078125" y="118" style="font-family: Body; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,236) scale(1,-1)">Motifs · compensation · buffering</text>
+			<path d="M 223,147 L 273,147 Z" style="stroke: rgb(20%,42%,56%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="273 147, 267.8849 143.8639, 267.8849 150.1361" style="stroke: rgb(20%,42%,56%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(20%,42%,56%); fill-rule: evenodd;"/>
+			<path d="M 273,109 L 223,109 Z" style="stroke: rgb(9%,41%,37%); stroke-linecap: butt; stroke-width: 1.2; stroke-dasharray: 4, 3;"/>
+			<polygon points="223 109, 228.1151 112.1361, 228.1151 105.8639" style="stroke: rgb(9%,41%,37%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(9%,41%,37%); fill-rule: evenodd;"/>
+			<rect x="0" y="9" width="496" height="70" rx="5" ry="5" style="stroke: rgb(63%,41%,18%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(96%,92%,86%); fill-rule: evenodd;"/>
+			<text x="12" y="60" style="font-family: Bold; font-size: 10px;fill: rgb(63%,41%,18%); stroke:none;" transform="translate(0,120) scale(1,-1)">A reciprocal scientific program</text>
+			<text x="12" y="43" style="font-family: Body; font-size: 9.3px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,86) scale(1,-1)">Forward: analogy → hypothesis → reporter-assay analysis</text>
+			<text x="12" y="27" style="font-family: Body; font-size: 9.3px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,54) scale(1,-1)">Return: candidate design principle → controlled computing benchmark</text>
+			<text x="12" y="14" style="font-family: Body; font-size: 8.5px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,28) scale(1,-1)">Neither direction alone proves predictive transfer.</text>
+		</g>
+	</g>
+</svg>

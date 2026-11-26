@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="496" height="157" preserveAspectRatio="xMinYMin meet" viewBox="0 0 496 157" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="496" height="157"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-157)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="146" style="font-family: Bold; font-size: 8.5px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,292) scale(1,-1)">PERCENT CLASSIFIED EQUIVALENT</text>
+			<text x="0" y="122" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,244) scale(1,-1)">±0.15  /  moderated</text>
+			<rect x="161" y="115" width="290" height="20" rx="5" ry="5" style="stroke: rgb(91%,92%,93%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,92%,93%); fill-rule: evenodd;"/>
+			<rect x="161" y="115" width="183.27999999999997" height="20" rx="5" ry="5" style="stroke: rgb(9%,41%,37%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(9%,41%,37%); fill-rule: evenodd;"/>
+			<text x="462" y="122" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,244) scale(1,-1)">63.2%</text>
+			<text x="0" y="88" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,176) scale(1,-1)">±0.15  /  unmoderated</text>
+			<rect x="161" y="81" width="290" height="20" rx="5" ry="5" style="stroke: rgb(91%,92%,93%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,92%,93%); fill-rule: evenodd;"/>
+			<rect x="161" y="81" width="126.14999999999998" height="20" rx="5" ry="5" style="stroke: rgb(20%,42%,56%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(20%,42%,56%); fill-rule: evenodd;"/>
+			<text x="462" y="88" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,176) scale(1,-1)">43.5%</text>
+			<text x="0" y="54" style="font-family: Bold; font-size: 9px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,108) scale(1,-1)">±0.50  /  moderated</text>
+			<rect x="161" y="47" width="290" height="20" rx="5" ry="5" style="stroke: rgb(91%,92%,93%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,92%,93%); fill-rule: evenodd;"/>
+			<rect x="161" y="47" width="287.68" height="20" rx="5" ry="5" style="stroke: rgb(63%,41%,18%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(63%,41%,18%); fill-rule: evenodd;"/>
+			<text x="462" y="54" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,108) scale(1,-1)">99.2%</text>
+			<path d="M 161,31 L 161,27 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="158.455078125" y="15" style="font-family: Body; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,30) scale(1,-1)">0</text>
+			<path d="M 233.5,31 L 233.5,27 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="228.41015625" y="15" style="font-family: Body; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,30) scale(1,-1)">25</text>
+			<path d="M 306,31 L 306,27 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="300.91015625" y="15" style="font-family: Body; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,30) scale(1,-1)">50</text>
+			<path d="M 378.5,31 L 378.5,27 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="373.41015625" y="15" style="font-family: Body; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,30) scale(1,-1)">75</text>
+			<path d="M 451,31 L 451,27 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<text x="443.365234375" y="15" style="font-family: Body; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,30) scale(1,-1)">100</text>
+		</g>
+	</g>
+</svg>

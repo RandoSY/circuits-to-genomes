@@ -9,4 +9,4 @@
 - PDF SHA-256: `f1c118086abff56d7a2f071b9bf9e32c01941a7d4e7ae34d1f0f0375689093ca`.
 - PDF Git blob SHA-1: `98a5b16e15eeeeb2154d24d273a0c565b3522563`.
 
-The manuscript source is archived here. The exact formatted PDF, build script and seven SVG files are preserved in the local review package and require binary/source transfer before the publication inventory can designate v0.4 as the current formatted edition. Earlier versions are retained. No claim of specialist review or independent scientific validation is made.
+The exact [formatted PDF](The_Augmented_Investigator_v0.4.pdf), [manuscript source](source-v0.4/manuscript.md), build script and seven SVG files are archived here. All eleven Git blob identifiers match the exact local review package. The master index now identifies v0.4 as the current formatted edition. Earlier versions are retained. No claim of specialist review or independent scientific validation is made.

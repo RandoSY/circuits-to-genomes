@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="496" height="132" preserveAspectRatio="xMinYMin meet" viewBox="0 0 496 132" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="496" height="132"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-132)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="74" width="158" height="53" rx="5" ry="5" style="stroke: rgb(9%,41%,37%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="25.5361328125" y="109" style="font-family: Bold; font-size: 8.8px;fill: rgb(9%,41%,37%); stroke:none;" transform="translate(0,218) scale(1,-1)">Methodological reach</text>
+			<text x="44.73134765625" y="90" style="font-family: Body; font-size: 9.2px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,180) scale(1,-1)">What can I do?</text>
+			<path d="M 79,74 L 79,50 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="79 50, 75.86388 55.11515, 82.13612 55.11515" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(32%,40%,41%); fill-rule: evenodd;"/>
+			<rect x="169" y="74" width="158" height="53" rx="5" ry="5" style="stroke: rgb(20%,42%,56%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,93%,96%); fill-rule: evenodd;"/>
+			<text x="192.23515625" y="109" style="font-family: Bold; font-size: 8.8px;fill: rgb(20%,42%,56%); stroke:none;" transform="translate(0,218) scale(1,-1)">Epistemic competence</text>
+			<text x="202.70302734375" y="90" style="font-family: Body; font-size: 9.2px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,180) scale(1,-1)">What can I explain?</text>
+			<path d="M 248,74 L 248,50 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="248 50, 244.8639 55.11515, 251.1361 55.11515" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(32%,40%,41%); fill-rule: evenodd;"/>
+			<rect x="338" y="74" width="158" height="53" rx="5" ry="5" style="stroke: rgb(63%,41%,18%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(96%,92%,86%); fill-rule: evenodd;"/>
+			<text x="371.15234375" y="109" style="font-family: Bold; font-size: 8.8px;fill: rgb(63%,41%,18%); stroke:none;" transform="translate(0,218) scale(1,-1)">Evidential warrant</text>
+			<text x="376.0806640625" y="90" style="font-family: Body; font-size: 9.2px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,180) scale(1,-1)">What can I claim?</text>
+			<path d="M 417,74 L 417,50 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="417 50, 413.8639 55.11515, 420.1361 55.11515" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(32%,40%,41%); fill-rule: evenodd;"/>
+			<rect x="0" y="9" width="496" height="40" rx="5" ry="5" style="stroke: rgb(9%,41%,37%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(9%,41%,37%); fill-rule: evenodd;"/>
+			<text x="111.786376953125" y="32" style="font-family: Bold; font-size: 11px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,64) scale(1,-1)">Independent checking + qualified judgment</text>
+			<text x="85.46210937500001" y="18" style="font-family: Body; font-size: 8.1px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,36) scale(1,-1)">Capability, understanding and evidence do not automatically advance together.</text>
+		</g>
+	</g>
+</svg>

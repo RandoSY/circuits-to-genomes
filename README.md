@@ -12,7 +12,7 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 |---|---|---|---|
 | 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v8.pdf) | v8.0 · 24 Nov 2026 · 22 pages | Theory and computational benchmarks of reuse, coordination liability and functional continuity | [Research repository](https://github.com/RandoSY/architectural-economy); repository README currently describes v7, v8 supplied by author |
 | 2. [Functional Equivalence Mapping in Primate Enhancer Evolution](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.pdf) | v1.1 · 25 Nov 2026 · 18 pages | Secondary analysis of public enhancer assays; equivalence, JASPAR biophysical grammar, uncertainty and mutational buffering | Clean-room GEO barcode reproduction and JASPAR/UCSC/ENCODE audit in [validation/](validation/); historical v1.0 archived; external specialist review pending |
-| 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.2.pdf) | v0.2 · 25 Nov 2026 · 8 pages | Metacognitive case study of AI-augmented inquiry and epistemic responsibility | Working manuscript; trace audit and independent review pending |
+| 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.4.pdf) | v0.4 · 26 Nov 2026 · 16 pages | Metacognitive case study of reciprocal computing–biology inquiry, AI augmentation and epistemic responsibility | Working manuscript; trace audit and independent review pending |
 
 The three papers are independently understandable and intended for separate publication. Paper 3 uses Papers 1 and 2 as case-study evidence, not as a substitute for its own methodology or contribution.
 

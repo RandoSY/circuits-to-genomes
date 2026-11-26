@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="496" height="140" preserveAspectRatio="xMinYMin meet" viewBox="0 0 496 140" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="496" height="140"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-140)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="89" width="158" height="48" rx="5" ry="5" style="stroke: rgb(63%,41%,18%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(96%,92%,86%); fill-rule: evenodd;"/>
+			<text x="9" y="122" style="font-family: Bold; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,244) scale(1,-1)">23–24 NOV</text>
+			<text x="9" y="105" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,210) scale(1,-1)">Analogy + H2 pilot</text>
+			<path d="M 158,113 L 169,113 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="169 113, 163.8849 109.8639, 163.8849 116.1361" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(32%,40%,41%); fill-rule: evenodd;"/>
+			<rect x="169" y="89" width="158" height="48" rx="5" ry="5" style="stroke: rgb(72%,80%,79%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="178" y="122" style="font-family: Bold; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,244) scale(1,-1)">24 NOV</text>
+			<text x="178" y="105" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,210) scale(1,-1)">Paper 1 v7/v8</text>
+			<path d="M 327,113 L 338,113 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="338 113, 332.8849 109.8639, 332.8849 116.1361" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(32%,40%,41%); fill-rule: evenodd;"/>
+			<rect x="338" y="89" width="158" height="48" rx="5" ry="5" style="stroke: rgb(72%,80%,79%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="347" y="122" style="font-family: Bold; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,244) scale(1,-1)">24 NOV</text>
+			<text x="347" y="105" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,210) scale(1,-1)">FEM v1.0</text>
+			<rect x="0" y="32" width="158" height="48" rx="5" ry="5" style="stroke: rgb(72%,80%,79%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="9" y="65" style="font-family: Bold; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,130) scale(1,-1)">25 NOV</text>
+			<text x="9" y="48" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,96) scale(1,-1)">Paper 3 v0.2</text>
+			<path d="M 158,56 L 169,56 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="169 56, 163.8849 52.86388, 163.8849 59.13612" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(32%,40%,41%); fill-rule: evenodd;"/>
+			<rect x="169" y="32" width="158" height="48" rx="5" ry="5" style="stroke: rgb(72%,80%,79%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="178" y="65" style="font-family: Bold; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,130) scale(1,-1)">25 NOV</text>
+			<text x="178" y="48" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,96) scale(1,-1)">FEM v1.1</text>
+			<path d="M 327,56 L 338,56 Z" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="338 56, 332.8849 52.86388, 332.8849 59.13612" style="stroke: rgb(32%,40%,41%); stroke-linecap: butt; stroke-width: 0.3; fill: rgb(32%,40%,41%); fill-rule: evenodd;"/>
+			<rect x="338" y="32" width="158" height="48" rx="5" ry="5" style="stroke: rgb(72%,80%,79%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(90%,94%,92%); fill-rule: evenodd;"/>
+			<text x="347" y="65" style="font-family: Bold; font-size: 8px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,130) scale(1,-1)">26 NOV</text>
+			<text x="347" y="48" style="font-family: Bold; font-size: 8.7px;fill: rgb(8%,21%,21%); stroke:none;" transform="translate(0,96) scale(1,-1)">Paper 1 v9 / v0.3 drafts</text>
+			<text x="87.51611328124997" y="10" style="font-family: Body; font-size: 9px;fill: rgb(32%,40%,41%); stroke:none;" transform="translate(0,20) scale(1,-1)">Negative evidence retained  •  empirical findings feed back into theory</text>
+		</g>
+	</g>
+</svg>

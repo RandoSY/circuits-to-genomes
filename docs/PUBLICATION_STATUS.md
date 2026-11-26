@@ -1,4 +1,4 @@
-# Publication inventory — 25 November 2026
+# Publication inventory — 26 November 2026
 
 Working baselines supplied and maintained by the author. All are unreviewed. The version number identifies an artifact, not the degree of scientific validation.
 
@@ -6,13 +6,15 @@ Working baselines supplied and maintained by the author. All are unreviewed. The
 |---|---|---:|---|
 | Architectural Economy | 8.0 | 22 | papers/01-architectural-economy/Architectural_Economy_v8.pdf |
 | Primate Enhancer Functional Equivalence Mapping | 1.1 | 18 | papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.pdf |
-| The Augmented Investigator | 0.2 | 8 | papers/03-augmented-investigator/The_Augmented_Investigator_v0.2.pdf |
+| The Augmented Investigator | 0.4 | 16 | papers/03-augmented-investigator/The_Augmented_Investigator_v0.4.pdf |
 
-Total: 48 pages across current baselines (plus preserved historical Paper 1 v7 and Paper 2 v1.0 in `archive/`, and editable Word manuscripts for Paper 2 v1.1 and Paper 3 v0.2). Full binary SHA-256 checksum verification across all seven archived files was completed on 25 November 2026.
+Total: 56 pages across the current manuscript baselines. Prior versions remain archived. The v0.4 PDF and its ten supporting files match the prepared review package byte for byte (verified Git blob identifiers). This confirms preservation, not scientific validation.
 
 ## SHA-256 of current and archived artifacts
 
 See [complete checksum manifest](../papers/SHA256SUMS.txt).
+
+Paper 3 v0.4 PDF: `f1c118086abff56d7a2f071b9bf9e32c01941a7d4e7ae34d1f0f0375689093ca` (`papers/03-augmented-investigator/The_Augmented_Investigator_v0.4.pdf`). The complete manifest includes the associated source and figures.
 
 ```
 f5fa8e89968d5b75118692c628d979c598c490b5d3d8664c6ddd6451166c727f  papers/01-architectural-economy/Architectural_Economy_v8.pdf
