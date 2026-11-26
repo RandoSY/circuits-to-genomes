@@ -1,0 +1,9 @@
+{
+  "pdf": "papers/01-architectural-economy/Architectural_Economy_v11.pdf",
+  "sha256": "bd019c078f7af0fcb93ed3528b4d6ef01dd2d19f3e6cec65170669add3146578",
+  "bytes": 1577605,
+  "pages": 33,
+  "source_local_pdf_sha256": "f5414a9e84ae62ff10842f3afc708c484214596c994afdae892bb1d7a4c838c4",
+  "matches_local_pdf_bytes": false,
+  "validation": "Source and baseline checksums, PDF render, page count and selected text checks. No scientific rerun."
+}

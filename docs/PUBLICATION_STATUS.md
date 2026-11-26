@@ -10,6 +10,14 @@ Working baselines supplied and maintained by the author. All are unreviewed. The
 
 Total: 58 pages across the current manuscript baselines. Prior versions remain archived (Paper 1 v8.0 and v7.0, Paper 2 v1.0, Paper 3 v0.3 and v0.2). Both the Paper 1 v9.0 PDF (`245028f65fea5be232698b070e7fc7c4d667cadb`) and the Paper 3 v0.4 PDF and its ten supporting files match their prepared review packages byte for byte (verified SHA-256 and Git blob identifiers). This confirms preservation, not scientific validation.
 
+## Latest integrated Paper 1 edition
+
+| Paper | Version | Pages | Status |
+|---|---|---:|---|
+| [Architectural Economy](../papers/01-architectural-economy/Architectural_Economy_v11.pdf) | 11 | 33 | Published, source checksums verified |
+
+The latest three review manuscripts total 73 pages (v11 / v1.2 / v0.5). [v11 revision and source record](../papers/01-architectural-economy/source-v11/REVISION.md); [publication hash](../papers/01-architectural-economy/source-v11/PUBLISHED.json). No new experiments were run; independent review remains outstanding.
+
 ## Coordinated review editions
 
 | Paper | Review version | Total pages | Exact archive status |

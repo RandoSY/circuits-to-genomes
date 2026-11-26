@@ -8,13 +8,17 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 
 ## Three standalone publications
 
-| Paper | Latest expanded review edition | Research contribution | Status |
+| Paper | Latest review manuscript | Research contribution | Status |
 |---|---|---|---|
-| 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v10.pdf) | v10 · 26 Nov 2026 · 28 pages | Theory, computational benchmarks of reuse and coordination liability, and empirical H3-M synthesis | [Research repository](https://github.com/RandoSY/architectural-economy) reconciled with v9.0 (historical v8.0 and v7.0 preserved); external specialist review pending |
+| 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v11.pdf) | v11 · 26 Nov 2026 · 33 pages | Theory, computational benchmarks of reuse and coordination liability, and empirical H3-M synthesis | [Research repository](https://github.com/RandoSY/architectural-economy) reconciled with v9.0 (historical v8.0 and v7.0 preserved); external specialist review pending |
 | 2. [Functional Equivalence Mapping in Primate Enhancer Evolution](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) | v1.2 · 26 Nov 2026 · 21 pages | Secondary analysis of public enhancer assays; equivalence, JASPAR biophysical grammar, uncertainty and mutational buffering | Clean-room GEO barcode reproduction and JASPAR/UCSC/ENCODE audit in [validation/](validation/); historical v1.0 archived; external specialist review pending |
 | 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf) | v0.5 · 26 Nov 2026 · 19 pages | Metacognitive case study of reciprocal computing–biology inquiry, AI augmentation and epistemic responsibility | Working manuscript; trace audit and independent review pending |
 
 The three papers are independently understandable and intended for separate publication. Paper 3 uses Papers 1 and 2 as case-study evidence, not as a substitute for its own methodology or contribution.
+
+## Paper 1 — integrated v11
+
+[Integrated v11 PDF](papers/01-architectural-economy/Architectural_Economy_v11.pdf) · [Editable source, build and revision record](papers/01-architectural-economy/source-v11/) · [Publication verification](papers/01-architectural-economy/source-v11/PUBLISHED.json). The H100 architecture and the two CPU parallel-workload studies now appear in the main argument. No hardware measurement or new genomic result is claimed. v10 and all earlier versions remain preserved.
 
 ## Coordinated research revision — 26 November 2026
 

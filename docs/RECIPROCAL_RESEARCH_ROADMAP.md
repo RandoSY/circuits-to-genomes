@@ -14,3 +14,7 @@
 [Coordinated review release](../research/coordinated-revision/2026-11-26/START_HERE.md). [H100 Boolean experiment](../research/h100-lab/v0.1/FINDINGS.md). [Hopper matrix experiment](../research/hopper-pilot/v0.2/README.md). [Validation protocol](VALIDATION.md).
 
 The organizing question is reciprocal: computing informs biology; biological observations motivate computing tests; their outcomes generate new questions in both fields. Do not equate a testable return experiment with a demonstrated biological-to-engineering innovation.
+
+## Integrated manuscript checkpoint — Paper 1 v11
+
+[Read v11](../papers/01-architectural-economy/Architectural_Economy_v11.pdf) · [Source and revision history](../papers/01-architectural-economy/source-v11/REVISION.md). The modern parallel-computing work is integrated in the main narrative; the actual H100 measurement and a cost-matched biologically inspired return experiment remain prospective. Preserve prior versions, source and figures, hashes, negative results and unresolved verification gates for each revision.
