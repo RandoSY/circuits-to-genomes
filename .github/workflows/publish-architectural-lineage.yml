@@ -1,0 +1,38 @@
+name: Build photographic C2G review editions
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-architectural-lineage.yml'
+      - 'research/architectural-lineage/2026-11-26/build.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: c2g-architectural-lineage
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+      - name: Install dependencies
+        run: |
+          python3 -m venv /tmp/c2g-env
+          /tmp/c2g-env/bin/pip install pymupdf==1.26.7 reportlab==4.4.9 pillow
+          if [ ! -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf ]; then
+            sudo apt-get update -qq
+            sudo apt-get install -y fonts-dejavu-core
+          fi
+      - name: Build and validate
+        run: /tmp/c2g-env/bin/python research/architectural-lineage/2026-11-26/build.py
+      - name: Publish verified review editions
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add papers/01-architectural-economy/Architectural_Economy_v12_review.pdf papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.3_review.pdf papers/03-augmented-investigator/The_Augmented_Investigator_v0.6_review.pdf research/architectural-lineage/2026-11-26/photos research/architectural-lineage/2026-11-26/BUILD_MANIFEST.json
+          git diff --cached --quiet || git commit -m 'Publish three photographic C2G expanded review editions'
+          git push origin main
