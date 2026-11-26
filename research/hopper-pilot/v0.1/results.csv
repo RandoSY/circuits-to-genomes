@@ -1,0 +1,8 @@
+architecture,group,shadow,parity,copies,routers,parity_tiles,recovery_units,sites,mean,worst,sum_blast,compute_blast,primary_blast,router_blast,silent_wrong,silent_alarm
+Dedicated,1,False,False,64.0,0.0,0.0,0.0,128.0,1.0,1.0,128.0,1.0,1.0,,1.0,0.0
+Global share,64,False,False,1.0,1.0,0.0,0.0,66.0,2.9090909090909083,64.0,192.0,1.0,64.0,64.0,64.0,0.0
+Cluster 4,4,False,False,16.0,16.0,0.0,0.0,96.0,2.0,4.0,192.0,1.0,4.0,4.0,4.0,0.0
+Cluster 8,8,False,False,8.0,8.0,0.0,0.0,80.0,2.4000000000000004,8.0,192.0,1.0,8.0,8.0,8.0,0.0
+Cluster 8 + shadow,8,True,False,16.0,8.0,0.0,0.0,88.0,1.4545454545454541,8.0,128.0,1.0,0.0,8.0,8.0,0.0
+Cluster 8 + parity,8,False,True,8.0,8.0,8.0,8.0,96.0,1.3333333333333337,8.0,128.0,0.0,8.0,8.0,8.0,0.0
+Cluster 8 + both,8,True,True,16.0,8.0,8.0,8.0,104.0,0.6153846153846155,8.0,64.0,0.0,0.0,8.0,8.0,0.0

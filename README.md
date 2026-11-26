@@ -16,6 +16,12 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 
 The three papers are independently understandable and intended for separate publication. Paper 3 uses Papers 1 and 2 as case-study evidence, not as a substitute for its own methodology or contribution.
 
+## Exploratory research — From Genomes Back to Circuits
+
+[Hopper-inspired architectural economy pilot v0.1](research/hopper-pilot/v0.1/README.md) · [Python experiment](research/hopper-pilot/v0.1/pilot.py) · [Results CSV](research/hopper-pilot/v0.1/results.csv) · [Checksums](research/hopper-pilot/v0.1/SHA256SUMS.txt)
+
+26 November 2026. A separate prospective return-direction investigation of resource sharing, modularity, algebraic recovery and coordination liability in parallel matrix computation. Seven logical architectures, 13,440 fault-free output checks and 19,740 modeled local fault injections. The results are from an integer CPU simulation, not physical H100 measurements; algorithm-based fault tolerance is established prior work. Independent review and hardware validation remain pending. This is not a fourth publication yet.
+
 ## Scientific status
 
 - H1: supported in specified computational models; results depend on fault scope.
