@@ -35,6 +35,7 @@ Human-directed collaboration with ChatGPT and Google Gemini/Antigravity is part 
 - [Validation and revision protocol](docs/VALIDATION.md)
 - [Manuscript archive](papers/) · [SHA-256 manifest](papers/SHA256SUMS.txt)
 - [Paper 2 v1.1 verification & multi-database audit](validation/)
+- [Paper 2 free foundations self-study curriculum](docs/PAPER2_FOUNDATIONS_CURRICULUM.md)
 
 ## Preservation and access
 
