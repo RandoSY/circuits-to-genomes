@@ -2,7 +2,7 @@
 
 ## Latest review editions
 
-[Coordinated release v10 / v1.2 / v0.5](../research/coordinated-revision/2026-11-26/START_HERE.md) · [Revision text](../research/coordinated-revision/2026-11-26/revisions.md) · [Exact delta archive](../research/coordinated-revision/2026-11-26/exact_deltas.zip). Reconstructable PDFs total 68 pages (28 + 21 + 19); direct full-file publication is pending. All original figures and text remain in the base PDFs.
+[Coordinated release v10 / v1.2 / v0.5](../research/coordinated-revision/2026-11-26/START_HERE.md) · [Revision text](../research/coordinated-revision/2026-11-26/revisions.md) · [Exact delta archive](../research/coordinated-revision/2026-11-26/exact_deltas.zip). Published full PDFs total 68 pages (28 + 21 + 19); all three are directly browsable and SHA-256 verified. Direct links appear below. All original figures and text remain in the base PDFs.
 
 ## Preserved directly browsable baselines
 

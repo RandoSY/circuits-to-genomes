@@ -14,11 +14,11 @@ Total: 58 pages across the current manuscript baselines. Prior versions remain a
 
 | Paper | Review version | Total pages | Exact archive status |
 |---|---|---:|---|
-| Architectural Economy | 10 | 28 | Baseline + verified incremental delta |
-| Primate Enhancer FEM | 1.2 | 21 | Baseline + verified incremental delta |
-| The Augmented Investigator | 0.5 | 19 | Baseline + verified incremental delta |
+| Architectural Economy | 10 | 28 | Published full PDF; SHA-256 verified |
+| Primate Enhancer FEM | 1.2 | 21 | Published full PDF; SHA-256 verified |
+| The Augmented Investigator | 0.5 | 19 | Published full PDF; SHA-256 verified |
 
-Total: 68 pages in the expanded review editions. The ten new pages are separately labeled R1 onward; retained baseline pages preserve their original numbering. Full PDFs are recoverable byte for byte using the [release archive and instructions](../research/coordinated-revision/2026-11-26/START_HERE.md); see [manifest](../research/coordinated-revision/2026-11-26/RELEASE_MANIFEST.json) for exact checksums. These are not fully re-typeset journal submissions. The directly browsable baseline table above remains accurate until the full PDFs are committed.
+Total: 68 pages in the expanded review editions. The ten new pages are separately labeled R1 onward; retained baseline pages preserve their original numbering. Full PDFs are recoverable byte for byte using the [release archive and instructions](../research/coordinated-revision/2026-11-26/START_HERE.md); see [manifest](../research/coordinated-revision/2026-11-26/RELEASE_MANIFEST.json) for exact checksums. These are not fully re-typeset journal submissions. All three expanded review PDFs are now published in the master repository, with direct links below. The baseline table above records the immutable inputs.
 
 ## SHA-256 of current and archived artifacts
 

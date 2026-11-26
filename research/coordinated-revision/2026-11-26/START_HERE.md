@@ -24,4 +24,4 @@ To commit the reconstructed full PDFs and add links and checksums in the reposit
 python .\assemble_release.py --repo C:\path\to\circuits-to-genomes --publish
 ```
 
-The GitHub archive and full PDF materialization are distinct; check the repository index for the actual status. The manifest is the authoritative exact-file verification record. Source of new findings: research/h100-lab/v0.1 and research/hopper-pilot/v0.2. Keep those versions unchanged.
+The three standalone review PDFs were published to the master repository on 26 November 2026 by a successful GitHub Actions run (45875375201); their SHA-256 values match the release manifest. The reconstruction archive remains preserved for independent recovery. The manifest is the authoritative exact-file verification record. Source of new findings: research/h100-lab/v0.1 and research/hopper-pilot/v0.2. Keep those versions unchanged.
