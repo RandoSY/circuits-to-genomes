@@ -1,0 +1,1330 @@
+[
+  {
+    "type": "p",
+    "text": "Biological and technological systems face a common analytical problem: maintaining a required portfolio of functions under limited resources and perturbation. We investigate whether principles revealed by the historical evolution of the DEC PDP-8 can illuminate biological regulation, and whether observations of regulatory compensation can in turn motivate tests in modern parallel computing. The comparison is architectural, not mechanistic: engineered processors and evolved regulatory networks differ in their origins, implementation and dynamics."
+  },
+  {
+    "type": "p",
+    "text": "Earlier controlled CPU benchmarks quantify sharing and coordination liability. At 32 Boolean outputs, motif sharing reduces internal nodes by 50.9% while raising motif-fault disruption from 0.96 to 4.08 outputs; explicitly faultable backup coordination eliminates simultaneous improvement in all 16 tested parameter configurations. At 64 PDP-8 tasks, shared subroutines save 70.8% of code words but increase non-timeout routine-fault disruption from 0.93 to 55.82 tasks. Expanded Hopper-inspired CPU experiments examine fault-type sensitivity and the independence of protective dependencies. In 360 exact portfolio checks and 32,168 modeled fault cases, buffered all-site disruption rises from 1.008 outputs under stuck-zero faults to 2.395 under inversion. In a distinct matrix model (7,680 fault-free output checks; 33,000 modeled fault trials), separate verification roots expose modeled upstream corruption that shared-root checks miss; common corruption still defeats protection. Neither pilot measures an actual H100."
+  },
+  {
+    "type": "p",
+    "text": "The exploratory K562 genomic pilot (636 distal regions, 408 genes) did not support H2: adjusted downstream reach β = −0.026 (95% CI −0.094 to +0.042); held-out prediction worsened. The companion enhancer study reports 244/386 active paired fragments equivalent at ±0.15 log₂ under empirical-Bayes moderation, versus 168/386 unmoderated, and modest post-hoc held-out prediction gain. Local compensatory interactions motivate, but do not validate, a return-direction engineering experiment. We distinguish computational support for H1, a negative H2 pilot, partial reporter-level support for H3-M, and prospective system-level H3, engineering H1-D and biological H3-D tests. The contribution is a bounded comparative framework and explicit falsifiable research agenda; independent validation remains pending."
+  },
+  {
+    "type": "p",
+    "text": "Keywords: architectural economy; PDP-8; NVIDIA Hopper; regulatory genomics; dependency topology; common-mode failure; functional continuity; compensation."
+  },
+  {
+    "type": "h",
+    "text": "1. Introduction: complexity under constraint"
+  },
+  {
+    "type": "p",
+    "text": "A central problem across both biological organization and engineered technology is how finite resources sustain diverse, reliable, and coordinated behavior. In a digital processor, constraints include logic gates, core memory words, execution cycles, and power dissipation. In a multicellular organism, constraints include macromolecular synthesis, cellular bioenergetics, developmental timing, and population-genetic limits on purifying selection [1–5]. Recognizing a shared class of resource trade-offs does not imply a shared origin: engineered systems reflect deliberate design against explicit specifications, whereas biological architectures emerge through mutation, selection, genetic drift, and historical contingency. Throughout this study, the correspondence between computing and regulatory genomics is strictly analytical—neither a claim of implementation identity nor an assertion that cells execute sequential programs."
+  },
+  {
+    "type": "p",
+    "text": "Our central thesis is that architecture—the organization, composition, reuse, and coordination of primitives—governs how complex systems balance resource economy against vulnerability. Reusing a component across multiple tasks expands functional capacity without a proportional expansion in static machinery, yet concentrates failure dependencies. Modular bounds and redundant backups can mitigate single-component failures, but the coordinating mechanisms that route, compare, or integrate redundant pathways introduce static costs and failure liabilities of their own. A further question follows directly from this perspective: when a system evolves or is re-engineered, must its underlying components remain static for its functional organization to endure? Separating conserved coordination from changing physical or sequence implementations connects historical computer architecture directly to interpretation of our comparative-genomic results."
+  },
+  {
+    "type": "p",
+    "text": "In mammalian genomes, protein-coding exons account for a small minority of sequence, surrounded by cis-regulatory elements, noncoding RNA loci, introns, transposable elements, and neutral sequence. Although the ENCODE project cataloged widespread biochemical activity across human chromatin [6], biochemical signatures alone do not establish organismal fitness necessity [7], and estimates of evolutionary sequence constraint vary with phylogenetic depth and neutral mutation models [8,9]. Separating the specification of molecular parts from the regulatory architecture that coordinates their deployment (timing, cell-state specificity, and quantitative level) offers a structured framework for asking when regulatory importance leaves a signature in nucleotide conservation—and when functional continuity can persist despite sequence turnover."
+  },
+  {
+    "type": "p",
+    "text": "This revision makes the reciprocal research ambition explicit. PDP-8 compatibility provides a historical example of preserved operational behavior; the H100 supplies a modern architectural context in which hierarchy and coordination become central. Empirical enhancer measurements constrain the analogy. In the return direction, biological compensation motivates a prospective comparison against established engineering protection, not a claim that a biological mechanism has already improved a GPU. Figure 3 introduces the modern context; Sections 6–9 distinguish models, biological results and prospective transfer."
+  },
+  {
+    "type": "h",
+    "text": "2. The PDP-8: architectural economy and continuity"
+  },
+  {
+    "type": "p",
+    "text": "Introduced in 1965, Digital Equipment Corporation’s PDP-8 achieved general-purpose stored-program capability within a remarkably compact hardware budget: a 12-bit word, a base 4,096-word magnetic-core memory, a single accumulator (AC), a 1-bit link register (L), and eight primary 3-bit opcode classes (AND, TAD, ISZ, DCA, JMS, JMP, IOT, and OPR) [10,11]. Its OPR (operate) class microcoded compatible bit-level actions—clearing, complementing, incrementing, rotating, and conditional skipping—within a single instruction word, while operations omitted from base hardware, such as multiplication and division, were synthesized in software through reusable JMS subroutines (Figure 1). Economy in hardware shifted costs into other dimensions: fewer native instructions increased program length, memory-cycle count, and programmer effort."
+  },
+  {
+    "type": "crop",
+    "page": 3,
+    "rect": [
+      56,
+      60,
+      556,
+      230
+    ],
+    "caption": "Figure 1. PDP-8 architectural economy. Simplified stored-program block diagram showing the base 4,096-word core memory, single-accumulator processor, peripheral interface, and eight primary opcode classes [10,11]. Conceptual schematic, not an electrical wiring diagram."
+  },
+  {
+    "type": "p",
+    "text": "Equally instructive is how the PDP-8 instruction interface outlived its original physical circuitry. Across the discrete-transistor PDP-8 (1965), the TTL integrated-circuit PDP-8/I (1968), the MSI/Omnibus PDP-8/E (1970), and Intersil’s single-chip CMOS IM6100 microprocessor (1975), the core 12-bit instruction contract remained compatible [10–14]. Core user programs executed across radically different physical substrates, provided timing-sensitive I/O loops and model-specific extensions were respected. What persisted across generations was the operational interface rather than the hardware implementation (Table 1; Section 8.1)."
+  },
+  {
+    "type": "crop",
+    "page": 3,
+    "rect": [
+      56,
+      416,
+      556,
+      584
+    ],
+    "caption": "Table 1. Functional correspondences across engineered computing and biological regulatory architectures; physical substrates and causal origins differ."
+  },
+  {
+    "type": "p",
+    "text": "Compositional economy—generating extensive structural detail from a compact rule set—can be visualized mathematically via a space-filling Hilbert curve (Figure 2). Applying a single recursive production rule yields 4n - 1 orthogonal unit segments at order n (3, 15, and 255 segments on 2× 2, 4× 4, and 16× 16 grids at orders 1, 2, and 4). The curve illustrates generative composition from minimal specification rather than claiming sequential recursion in embryonic development."
+  },
+  {
+    "type": "crop",
+    "page": 4,
+    "rect": [
+      56,
+      60,
+      556,
+      250
+    ],
+    "caption": "Figure 2. Generative complexity from a compact recursive rule. Exact planar Hilbert curves at orders 1, 2, and 4 containing 4n - 1 unit segments (3, 15, and 255 segments, respectively). Endpoints mark path entry (top left) and exit (top right)."
+  },
+  {
+    "type": "h",
+    "text": "3. NVIDIA H100: architectural economy in massively parallel computation"
+  },
+  {
+    "type": "p",
+    "text": "The NVIDIA H100, based on Hopper, illustrates a different resource regime from the PDP-8. A hierarchy of threads, warps, thread blocks, streaming multiprocessors (SMs) and memory levels permits many operations to proceed concurrently. Fourth-generation Tensor Cores specialize matrix arithmetic; the Transformer Engine supports mixed-precision computation. Thread-block clusters add a locality and cooperation level across SMs, distributed shared memory permits access to shared memory within a cluster, and the Tensor Memory Accelerator (TMA) supports asynchronous movement of tensor data [48,49]. These mechanisms supply concrete questions about reuse, locality, bandwidth, synchronization and coordination overhead. They do not imply a physical counterpart for each node or fault in our CPU models."
+  },
+  {
+    "type": "diagram",
+    "kind": "hopper",
+    "caption": "Figure 3. Conceptual Hopper-inspired organization: computational hierarchy and shared resource paths. This is not a floorplan, component count, or validated physical dependency map. Sources: [48,49]."
+  },
+  {
+    "type": "p",
+    "text": "At the programming level, compatible CUDA source or suitable intermediate code can support execution on different GPU generations, but device-specific features, compiler behavior and binary compatibility require attention [50]. Unlike the PDP-8 instruction contract, numerical equivalence in parallel floating-point workloads also depends on precision, reduction ordering and tolerance. Accordingly, our initial parallel pilots use exact integer and Boolean functions to isolate logical dependency effects; measured latency, power and physical failure rates require actual device experiments. The H100 is a target for validation, not a hardware platform used in the reported results."
+  },
+  {
+    "type": "h",
+    "text": "4. Molecular implementation of economical coordination"
+  },
+  {
+    "type": "p",
+    "text": "Comparing the transcriptional regulatory network of Escherichia coli against the Linux kernel call graph, Yan et al. [16] identified an informative topological inversion: software call graphs emphasize fan-in (diverse high-level callers invoking shared low-level utility routines), whereas bacterial transcriptional hierarchies emphasize fan-out (broad master regulators governing large downstream target sets) (Figure 4). Rather than undermining cross-domain analysis, this inversion clarifies it: both fan-in (shared subroutines) and fan-out (shared upstream regulators) concentrate dependency into high-leverage nodes whose disruption propagates across many outputs. Section 6 examines both regimes quantitatively."
+  },
+  {
+    "type": "crop",
+    "page": 5,
+    "rect": [
+      56,
+      60,
+      556,
+      225
+    ],
+    "caption": "Figure 4. Contrasting control-network hierarchies. Stylized fan-out in bacterial transcriptional regulation versus fan-in in operating-system function calls, adapted conceptually after Yan et al. [16]."
+  },
+  {
+    "type": "p",
+    "text": "Experimentally dissected developmental gene regulatory networks (GRNs), such as those governing sea urchin endomesoderm specification [17–19], show how economical coordination is realized across four coupled molecular layers:"
+  },
+  {
+    "type": "p",
+    "text": "4.1 Sequence-specific combinatorial logic"
+  },
+  {
+    "type": "p",
+    "text": "Transcription factors bind degenerate short DNA motifs across promoters, enhancers, and silencers, integrating activating and repressive inputs in a cell-state-dependent manner [18–20] (Figure 5). Unlike deterministic Boolean logic gates, molecular occupancy is graded, concentration-dependent, stochastic, and sensitive to motif spacing and chromatin state. Economy arises through pervasive factor reuse: hundreds of transcription factors combinatorially regulate tens of thousands of cis-regulatory elements across tissues."
+  },
+  {
+    "type": "crop",
+    "page": 5,
+    "rect": [
+      56,
+      417,
+      556,
+      570
+    ],
+    "caption": "Figure 5. Combinatorial cis-regulatory integration. Idealized AND–NOT regulatory motif logic [18–20]; biological transcriptional responses are continuous, stochastic, and chromatin-modulated."
+  },
+  {
+    "type": "p",
+    "text": "4.2 Spatial organization and dynamic connectivity"
+  },
+  {
+    "type": "p",
+    "text": "Three-dimensional genome folding—mediated by CTCF boundary occupancy and cohesin-driven loop extrusion [21,22]—modulates physical contact frequencies between distal enhancers and target promoters along a continuous chromatin fiber (Figure 6). Because acute cohesin depletion abolishes loop domains without uniformly collapsing transcription [22], 3D topology acts as a quantitative modulator of regulatory probability rather than a fixed circuit board. Combining enhancer chromatin activity with contact frequency yields strong quantitative predictions of enhancer–promoter functional coupling in the Activity-by-Contact (ABC) model [23]."
+  },
+  {
+    "type": "crop",
+    "page": 6,
+    "rect": [
+      56,
+      60,
+      556,
+      229
+    ],
+    "caption": "Figure 6. Spatial organization of distal regulatory interactions. Loop extrusion and regulatory complexes bring a distal enhancer and target promoter into 3D proximity along a single continuous chromatin polymer [21–23]."
+  },
+  {
+    "type": "p",
+    "text": "4.3 RNA-mediated control and persistent regulatory state"
+  },
+  {
+    "type": "p",
+    "text": "Long noncoding RNAs and chromatin-modifying complexes stabilize heritable cell-state configurations across cell divisions. For example, Xist recruits SHARP/HDAC3 complexes to establish chromosome-wide transcriptional silencing [24], while DNA methylation, histone tail modifications, and nucleosome remodeling maintain lineage-specific accessibility landscapes [25] in concert with sequence-specific transcription factors."
+  },
+  {
+    "type": "p",
+    "text": "4.4 Distributed control, feedback, and redundancy"
+  },
+  {
+    "type": "p",
+    "text": "Unlike a von Neumann processor driven by a single program counter, cellular regulation emerges from coupled local biochemical interactions without a central supervisory kernel (Figure 7). Feedback and feedforward network motifs shape dynamical response timing and noise attenuation [26]—such as Hes7 negative autoregulation driving vertebrate segmentation-clock oscillations [27]—while overlapping (“shadow”) enhancers buffer key developmental genes against single-enhancer mutations and environmental stress [28]."
+  },
+  {
+    "type": "crop",
+    "page": 6,
+    "rect": [
+      56,
+      465,
+      556,
+      630
+    ],
+    "caption": "Figure 7. Distributed genomic control. Coupled interactions among cis-regulatory DNA, chromatin/RNA state, transcriptional machinery, and cellular feedback [16,17,26,28]."
+  },
+  {
+    "type": "h",
+    "text": "5. Unified framework and hypotheses"
+  },
+  {
+    "type": "p",
+    "text": "Herbert Simon’s theory of hierarchical, nearly decomposable systems [15] provides the analytical bridge between processor design and regulatory genomics: complex systems remain tractable and evolvable when intramodular interactions are denser than intermodular couplings. Kirschner and Gerhart’s theory of facilitated variation [1] similarly explains how conserved core processes support phenotypic innovation through regulatory redeployment, while Kitano [2] and Castle et al. [3] formalize trade-offs among robustness, resource overhead, and evolvability. Architectural economy synthesizes these strands: economy resides in the structure of dependencies across a functional portfolio, not merely in minimizing component counts."
+  },
+  {
+    "type": "p",
+    "text": "Operationally, we evaluate candidate architectures that realize an identical functional portfolio across a multi-dimensional cost vector—static implementation footprint, dynamic operational cost, and perturbation vulnerability—within domain-specific units. Metrics cannot be equated numerically across domains (transistor count and memory cycles are incommensurable with nucleotide synthesis, transcriptional burden, and organismal fitness [4,5]). Within a single domain and workload, an architecture Pareto-dominates a comparator when it is no worse on every evaluated metric and strictly better on at least one. Reusing a shared primitive reduces static machinery per added output while coupling multiple outputs to single-site perturbations; adding protective redundancy reduces primary component risk while introducing static and failure costs in the coordinating layer itself."
+  },
+  {
+    "type": "table",
+    "caption": "Table 2. Cross-domain architectural correspondence. Units and mechanisms remain domain specific.",
+    "headers": [
+      "Dimension",
+      "PDP-8",
+      "H100 / Hopper",
+      "Regulatory genome"
+    ],
+    "rows": [
+      [
+        "Primitive / composition",
+        "Instruction; callable routine",
+        "Arithmetic or tensor operation; kernel",
+        "Molecular interaction; regulatory module"
+      ],
+      [
+        "Reuse / locality",
+        "Subroutine; memory",
+        "Shared operands, cache; local blocks",
+        "Transcriptional machinery; cell-state modules"
+      ],
+      [
+        "Coordination",
+        "Dispatch; program counter",
+        "Scheduling, synchronization, interconnect",
+        "Coupled signaling, chromatin, feedback"
+      ],
+      [
+        "Protection",
+        "Comparison / fallback",
+        "ECC and algorithmic checks; separate paths",
+        "Overlapping enhancers; compensation"
+      ],
+      [
+        "Continuity",
+        "Compatible operational contract",
+        "Portable program with numerical criteria",
+        "Preserved activity or response under change"
+      ],
+      [
+        "Common dependency",
+        "Shared routine or dispatcher",
+        "Shared operand, root, or checker (model)",
+        "Shared upstream regulator (hypothesis)"
+      ]
+    ],
+    "widths": [
+      94,
+      115,
+      137,
+      146
+    ]
+  },
+  {
+    "type": "p",
+    "text": "Comparative genomics reveals substantial purifying selection across noncoding mammalian DNA. Bejerano et al. [29] identified 481 ultraconserved elements (≥ 200 bp identical across human, mouse, and rat), most of them noncoding, and the Zoonomia 240-mammal alignment estimated that at least 332 million human bases (~10.7%) experience evolutionary constraint [9]. Targeted deletions of ultraconserved enhancers near Arx yield viable mice with specific neurological and growth defects [30], demonstrating genuine developmental fitness contributions rather than unconditional lethality."
+  },
+  {
+    "type": "p",
+    "text": "Two established principles link regulatory architecture to sequence conservation: (1) developmental kernels, deeply conserved GRN subcircuits whose internal feedback locks in body-plan specification [31], and (2) enhancer pleiotropy, wherein enhancers active across more tissues or linked to more direct target genes exhibit elevated nucleotide conservation [32]. Here we ask a more specific question: does higher-order downstream reach (B), moderated by local enhancer buffering (R), explain additional variation in noncoding sequence constraint beyond conventional pleiotropy and invariant target-gene properties (Figure 8)?"
+  },
+  {
+    "type": "crop",
+    "page": 7,
+    "rect": [
+      56,
+      270,
+      556,
+      438
+    ],
+    "caption": "Figure 8. Component substitution versus shared dependency disruption. Compatible module substitution (A) preserves downstream outputs when interface requirements hold, whereas disrupting an unbuffered shared upstream regulator (B) exposes multiple downstream modules [1,31,32]."
+  },
+  {
+    "type": "p",
+    "text": "We formalize two separately falsifiable hypotheses before empirical testing:"
+  },
+  {
+    "type": "p",
+    "text": "• H1 (architectural economy and coordination liability): Reusing composable primitives reduces static implementation cost relative to dedicated designs implementing the same functional portfolio, while amplifying single-site perturbation blast radius. Modular fan-out caps and targeted redundancy reduce primary component exposure, but net reliability depends on the static cost and fault vulnerability of the coordinating machinery itself."
+  },
+  {
+    "type": "p",
+    "text": "• H2 (coordination-constraint association): Among active distal noncoding enhancers, broader, weakly buffered higher-order downstream transcriptional reach predicts stronger nucleotide sequence conservation after controlling for local sequence composition, enhancer tissue breadth, direct target-gene count, and target-gene constraint."
+  },
+  {
+    "type": "p",
+    "text": "Later hypotheses are distinguished from the original H1 and H2. H3 asks whether system-level responses persist despite implementation change; H3-M examines molecular reporter-level equivalence. H1-D and H3-D, introduced after inspection of the parallel pilots, are prospective refinements concerning protective dependency diversity at matched budgets or enhancer count, respectively. They must not be treated as tests specified before the earlier results."
+  },
+  {
+    "type": "h",
+    "text": "6. Computational experiments: reuse, fault scope and protective dependencies"
+  },
+  {
+    "type": "p",
+    "text": "The studies compare matched functional portfolios within each model. Counts and costs are not pooled across models. The original benchmarks A and B address H1. The later Boolean and matrix pilots extend fault scope and dependency placement; their role is exploratory. Table and figure numbering is revised in v11; the original benchmark data are unchanged."
+  },
+  {
+    "type": "sub",
+    "text": "6.1 Benchmark A — Synthetic multi-output combinatorial networks (fan-out)"
+  },
+  {
+    "type": "p",
+    "text": "Matched task portfolios comprise K ∈ {4, 8, 12, 16, 24, 32} Boolean output functions over 12 binary inputs across 30 seeded runs per K. Each output integrates two 3-input combinatorial motifs (AND–NOT or AND–OR) drawn under a Zipf distribution (exponent = 0.8) from a 16-motif library. Four architectures realize the exact same K-output mapping: (1) Dedicated (private motif instances per output), (2) Shared reusable (maximal motif deduplication), (3) Modular shared (reuse capped at fan-out dmax = 4), and (4) Modular + buffered (dmax = 4 plus a disjunctive shadow copy for every motif serving ≥ 2 outputs). Modeled activation cost counts active internal nodes per input state; single-node loss-of-function knockouts clamp a node’s output to zero, and blast radius counts portfolio outputs altered on at least one test state."
+  },
+  {
+    "type": "crop",
+    "page": 8,
+    "rect": [
+      56,
+      276,
+      556,
+      434
+    ],
+    "caption": "Table 3. Synthetic combinatorial network benchmark at K = 32 outputs (mean ± SD across 30 seeded portfolios; 256 sampled input states). Fault metrics in this table evaluate motif-node knockouts; broader fault scopes are reported in Table 4."
+  },
+  {
+    "type": "p",
+    "text": "At K = 32, full motif sharing reduces distinct internal nodes by 50.9%, directed edges by 57.3%, and mean active nodes by 46.9%, while increasing mean motif-knockout blast radius 4.3-fold (from 0.96 to 4.08 outputs; mean worst-case blast rising from 1.00 to 13.63 outputs; Table 3, Figure 9). Capping fan-out at dmax = 4 bounds worst-case blast at exactly 4.00 outputs. Adding targeted shadow copies requires 24.6% fewer internal nodes and 22.6% lower activation cost than the dedicated baseline while reducing mean motif-knockout blast radius to 0.10 outputs (tying worst-case blast at 1.00), thus Pareto-dominating the dedicated baseline on motif-level aggregate metrics."
+  },
+  {
+    "type": "crop",
+    "page": 9,
+    "rect": [
+      56,
+      60,
+      556,
+      214
+    ],
+    "caption": "Figure 9. Controlled synthetic network comparison across K = 4–32 matched outputs (30 seeds per K). (A) Static node count. (B) Motif-knockout blast radius (solid: mean maximum; dashed: mean). (C) Cost–vulnerability plane at K = 32 under motif knockouts; shaded region indicates simultaneous improvement over the dedicated baseline."
+  },
+  {
+    "type": "p",
+    "text": "Crucially, however, expanding the fault model reveals how coordination overhead bounds this advantage (Table 4). Including output-integrator knockouts narrows the buffered advantage (0.485 vs."
+  },
+  {
+    "type": "p",
+    "text": "0.963 outputs). Furthermore, an exhaustive 4,096-state sensitivity sweep across all 16 combinations of motif library size ({8, 16, 32, 64}) and Zipf skew ({0.0, 0.8, 1.2, 2.0}; 30 seeds per cell) shows that full sharing saves 24.2%–59.1% of internal nodes while amplifying motif-fault blast radius 1.58–8.96-fold. When the shared 2-input OR gates that combine primary and shadow motif pairs (~18.0 coordinator gates at baseline K = 32) are explicitly modeled as separate faultable components, their own mean blast radius (3.19 outputs) raises explicit all-site mean disruption to 1.021 outputs (exceeding the dedicated baseline of 0.958) and eliminates simultaneous improvement in total node count and all-site disruption in all 16 configuration averages."
+  },
+  {
+    "type": "crop",
+    "page": 9,
+    "rect": [
+      56,
+      454,
+      556,
+      570
+    ],
+    "caption": "Table 4. Sensitivity of K = 32 synthetic-network blast radius to fault-model scope (30 seeds). Standard motif and internal-node columns reflect the 256-state benchmark; explicit coordinator columns reflect exhaustive 4,096-state evaluation modeling shared backup-OR gates as distinct faultable nodes."
+  },
+  {
+    "type": "sub",
+    "text": "6.2 Benchmark B — PDP-8 instruction-level multiplication (fan-in)"
+  },
+  {
+    "type": "p",
+    "text": "Our PDP-8 emulator implements the memory-reference opcodes (AND, TAD, ISZ, DCA, JMS, JMP), Group 1 and Group 2 OPR microinstructions, 4,096-word core memory, Page-0 and current-page addressing, indirect addressing, and hardware auto-index registers (0010–0017 octal), counting memory cycles for executed instructions (IOT modeled as a 1-cycle placeholder; interrupts and peripheral device timing omitted). Workloads execute N ∈ {1, 2, 4, 8, 16, 32, 64} unsigned 6-bit shift-and-add multiplications across four assembled architectures: (1) Inlined (private 19-word multiply body per task), (2) Shared subroutine (single 21-word JMS routine), (3) Dual-modular (tasks partitioned across two 21-word routines), and (4) Redundant fallback (a 28-word comparison wrapper invoking two primary routines and a third routine upon mismatch). Single-word faults replace one instruction at a time with"
+  },
+  {
+    "type": "p",
+    "text": "NOP, reporting non-timeout faults and total faults (including execution timeouts) separately."
+  },
+  {
+    "type": "crop",
+    "page": 10,
+    "rect": [
+      56,
+      269,
+      556,
+      407
+    ],
+    "caption": "Table 5. PDP-8 instruction-level benchmark at N = 64 multiplication tasks. Theoretical code-space capacity reflects the 2,944-word code region (0200–5777 octal), whereas verified executable capacity reflects actual consecutive error-free tasks under the fixed 128-word operand/output table stride (06000, 06200, 06400 octal)."
+  },
+  {
+    "type": "p",
+    "text": "At N = 64, invoking a shared JMS subroutine shrinks static code footprint by 70.8% (1,631 to 477 words) at +4.1% modeled memory cycles (8,868 to 9,228), while amplifying mean non-timeout routine-fault disruption from 0.93 to 55.82 tasks (Table 5, Figure 10). Dual modularity halves non-timeout blast radius to 28.94 tasks (+24 words), and redundant comparison/fallback reduces non-timeout routine blast to 2.25 tasks (masking 96.5% of non-timeout routine faults) at 2.14 times the shared routine’s cycle count. Including loop-counter/return NOP injections that trigger execution timeouts raises all-routine mean disruption to 8.13 tasks for redundant fallback versus 5.91 for inlining, illustrating how sequential control-flow coupling via a shared program counter limits fault isolation."
+  },
+  {
+    "type": "crop",
+    "page": 11,
+    "rect": [
+      56,
+      60,
+      556,
+      215
+    ],
+    "caption": "Figure 10. PDP-8 instruction-level multiplication benchmark across N = 1–64 tasks. (A) Static code memory footprint. (B) Mean non-timeout routine-fault blast radius. (C) Three-way trade-off at N = 64 among static memory words, modeled execution cycles, and non-timeout routine blast radius."
+  },
+  {
+    "type": "sub",
+    "text": "6.3 Exhaustive verification and role-stratified coordination liability"
+  },
+  {
+    "type": "p",
+    "text": "An independent verification suite (audit/reproduce_audit.py) exhaustively tested all 64 × 64 = 4,096 unsigned 6-bit operand pairs in batches of 64 across all four PDP-8 architectures (16,384 products total) and compared all 540 reused synthetic networks (6 sizes × 30 seeds × 3 architectures) against dedicated circuits across all 212 = 4,096 binary input states, confirming zero discrepancies. Capacity testing across increasing task counts further confirms 92 consecutive working tasks for inlining (reaching 06000 octal at task 93) and 128 working tasks for all three subroutine architectures (bounded at task 129 by the 128-word table stride between DATA_A at 06000 octal and DATA_B at 06200 octal, rather than theoretical code space alone)."
+  },
+  {
+    "type": "p",
+    "text": "To isolate failure liability in the protective coordination layer itself, we injected single-word NOP faults across every tracked executable word at N = 64 and stratified sites into three functional roles: core"
+  },
+  {
+    "type": "p",
+    "text": "MUL arithmetic routines, the WRAP_TMR comparison/fallback wrapper, and per-task caller/dispatch instructions (Table 6, Figure 11)."
+  },
+  {
+    "type": "crop",
+    "page": 11,
+    "rect": [
+      56,
+      503,
+      556,
+      621
+    ],
+    "caption": "Table 6. Role-stratified PDP-8 single-word NOP fault audit at N = 64 tasks. Values report mean disrupted tasks (and tested site counts n), separating execution timeouts from silent wrong numerical runs across tracked instruction roles (untracked cross-page jump pointers, final HLT, and data tables excluded)."
+  },
+  {
+    "type": "p",
+    "text": "Role stratification uncovers two distinct non-routine vulnerabilities. First, within the 27 executable words of WRAP_TMR, 26 single-word NOP faults are absorbed by the comparison/fallback paths, but corrupting the shared return transfer disrupts all 64 tasks (mean 2.37 tasks). Second, per-task dispatch sites average 14.36–16.58 disrupted tasks—far exceeding one task per site—because indirect operand loads and stores (TAD I AUTO_A, TAD I AUTO_B, DCA I AUTO_OUT) advance shared Page-0 auto-index registers (0010–0012 octal); replacing one auto-indexed instruction with NOP desynchronizes operand/output alignment for every subsequent task in the batch. Weighting all tracked executable"
+  },
+  {
+    "type": "p",
+    "text": "sites equally yields pooled mean disruptions of 8.47 (inlined), 16.28 (shared), 16.10 (dual-modular), and 13.03 (redundant fallback; Figure 11B). Redundant fallback thus remains 66.2% smaller in code than inlining while substantially protecting MUL routines, yet shared pointer state and wrapper control prevent pooled site-uniform superiority."
+  },
+  {
+    "type": "crop",
+    "page": 12,
+    "rect": [
+      56,
+      122,
+      556,
+      303
+    ],
+    "caption": "Figure 11. Sensitivity of PDP-8 fault impact to instruction role and injection scope at N = 64. (A) Mean disrupted tasks stratified across arithmetic routine words (MUL), per-task caller/dispatch words, and the redundant comparison wrapper (WRAP_TMR). (B) Pooled mean disrupted tasks weighting all tracked executable sites equally."
+  },
+  {
+    "type": "sub",
+    "text": "6.4 Benchmark C — Parallel Boolean dataflow: fault-model sensitivity"
+  },
+  {
+    "type": "p",
+    "text": "The H100 laboratory v0.1 [51] extends Benchmark A to inversion as well as stuck-at-zero faults. Thirty matched seeded portfolios at each of K = 8, 16 and 32 outputs exhaust all 4,096 states of 12 Boolean inputs. Dedicated, shared, modular and buffered designs passed all 360 portfolio-level equivalence checks; 32,168 modeled fault cases were evaluated. Integrators and backup OR gates are explicitly faultable. Equal-site blast is the number of outputs changed on at least one input, averaged over sites within each design and over seeds. It is not an error rate or field failure probability. The related synthetic Boolean construction limits independence from Benchmark A."
+  },
+  {
+    "type": "table",
+    "caption": "Table 7. Boolean-dataflow laboratory v0.1, K = 32. Mean modeled counts and output blast.",
+    "headers": [
+      "Design",
+      "Nodes",
+      "Motif stuck-zero",
+      "All-site stuck-zero",
+      "All-site inversion"
+    ],
+    "rows": [
+      [
+        "Dedicated",
+        "96.0",
+        "0.941",
+        "0.941",
+        "1.000"
+      ],
+      [
+        "Shared",
+        "47.9",
+        "3.795",
+        "1.886",
+        "2.006"
+      ],
+      [
+        "Modular",
+        "54.2",
+        "2.718",
+        "1.667",
+        "1.773"
+      ],
+      [
+        "Buffered",
+        "89.6",
+        "0.108",
+        "1.008",
+        "2.395"
+      ]
+    ],
+    "widths": [
+      120,
+      70,
+      102,
+      100,
+      100
+    ]
+  },
+  {
+    "type": "diagram",
+    "kind": "boolean",
+    "caption": "Figure 12. Fault-model dependence of protective architecture. Mean all-site output blast for the two named fault types; no hardware failure probabilities are inferred [51]."
+  },
+  {
+    "type": "p",
+    "text": "At 32 outputs, the modeled saving from full sharing is about half the dedicated node count. The buffered design shows strong motif-only protection against stuck-zero faults (0.108 versus 0.941), but the all-site mean is 1.008 versus 0.941 for dedicated. Inversion changes the comparison: buffered mean disruption reaches 2.395 versus 1.000 for dedicated. The protection is therefore conditional on both the fault mechanism and the scope of the coordinator model. No actual GPU execution, energy or throughput was measured in this experiment."
+  },
+  {
+    "type": "sub",
+    "text": "6.5 Benchmark D — Parallel matrix workload: independence of protective dependencies"
+  },
+  {
+    "type": "p",
+    "text": "The Hopper-inspired matrix pilot v0.2 [52] compares 30 seeded portfolios of 64 products of 8 × 8 integer matrices, in eight groups of eight outputs. Four designs allocate 16 staged A copies, 72 products and eight routers, with nominally two root copies; some roots are unused. This matches selected counts, not area, traffic, latency, energy, source acquisition or complete verification costs. Shared parity uses the primary staged A operand; separate-stage parity uses a standby from the same root; separate-root parity uses a separately injectable logical root; selective duplication recomputes one selected tile per group. Algorithm-based fault tolerance (ABFT) is established prior work [53]."
+  },
+  {
+    "type": "p",
+    "text": "The pilot records 7,680 fault-free output checks and 33,000 modeled fault trials, with deterministic injections at named compute, group and upstream sites plus selected paired faults. Wrong outputs are present and differ from the test oracle; missing outputs are unavailable; unflagged wrong outputs lie outside flagged scope. The oracle is not used for recovery. A flag does not localize or correct an error. The model implements no fail-closed policy and does not assume independence of B operands. Independent injection into two logical roots is a modeled property, not evidence of independent physical sources."
+  },
+  {
+    "type": "table",
+    "caption": "Table 8. Matrix pilot v0.2. Mean unflagged wrong outputs per named trial.",
+    "headers": [
+      "Scenario",
+      "Shared parity",
+      "Separate stage",
+      "Separate root",
+      "Selective duplicate"
+    ],
+    "rows": [
+      [
+        "Compute corruption",
+        "0",
+        "0",
+        "0",
+        "0.875"
+      ],
+      [
+        "Staged primary corruption",
+        "8",
+        "0",
+        "0",
+        "7"
+      ],
+      [
+        "Primary-root corruption",
+        "64",
+        "64",
+        "0",
+        "64"
+      ],
+      [
+        "Both roots identically corrupt",
+        "64",
+        "64",
+        "64",
+        "64"
+      ],
+      [
+        "Shared B corruption",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "Opposing errors",
+        "2",
+        "2",
+        "2",
+        "1"
+      ],
+      [
+        "Primary corruption + check unavailable",
+        "8",
+        "8",
+        "8",
+        "8"
+      ]
+    ],
+    "widths": [
+      175,
+      77,
+      80,
+      78,
+      82
+    ]
+  },
+  {
+    "type": "diagram",
+    "kind": "matrix",
+    "caption": "Figure 13. Mean incorrect outputs escaping detection per named modeled fault. Separate staging addresses local corruption, separate roots expose the nominated upstream fault, and identical corruption defeats all. Detection is not correction [52]."
+  },
+  {
+    "type": "p",
+    "text": "All three parity designs recover a single known compute erasure. Two named erasures leave two missing for parity and one for selective duplication, a selection favoring the duplicate comparator. A router outage loses eight outputs for every design. Corrupting the separate verification root flags all 64 correct data outputs; a corrupted checksum flags correct outputs too. Identical root corruption, shared B corruption, opposing compute errors and absent checks reveal limits. Event-specific outcomes are not combined into expected reliability because event probabilities are unknown. Results illustrate checksum algebra and specified dependency topology, not a new ABFT method, physical H100 failure behavior or a demonstrated engineering gain."
+  },
+  {
+    "type": "h",
+    "text": "7. Comparative-genomic investigations"
+  },
+  {
+    "type": "sub",
+    "text": "7.1 Confirmatory multi-context design (prospective H2)"
+  },
+  {
+    "type": "p",
+    "text": "Testing H2 in biological regulatory networks requires separating higher-order downstream coordination from two strong confounders: (1) conventional enhancer pleiotropy (activity across multiple cell states and direct target-gene multiplicity) and (2) target-gene identity (an enhancer regulating an essential master transcription factor inherits that gene’s broad downstream regulon unless invariant gene-level properties are absorbed)."
+  },
+  {
+    "type": "p",
+    "text": "Conservation-free predictor definitions"
+  },
+  {
+    "type": "p",
+    "text": "Represent each cellular context c as a directed regulatory graph G(c) linking candidate distal enhancers e to primary target genes g(e) via CRISPRi perturbation screens or Activity-by-Contact (ABC) scores [23,33] and linking target genes to downstream transcriptional modules via Perturb-seq [34]—strictly excluding sequence-conservation features from graph construction:"
+  },
+  {
+    "type": "p",
+    "text": "• B(e) — Context-specific higher-order downstream reach: Distinct downstream functional modules reachable in ≥ 2 regulatory hops from e through g(e) within the specific contexts c where e is active."
+  },
+  {
+    "type": "p",
+    "text": "• T(e) — Enhancer activity breadth (pleiotropy baseline): Number of distinct biosamples or cell states in which e exhibits active enhancer chromatin signatures (e.g., ENCODE cCRE DNase + H3K27ac [25]), entered once to avoid collinearity."
+  },
+  {
+    "type": "p",
+    "text": "• R(e) — Local buffering capacity: Primary measure is functional attenuation estimated from matched single- versus combinatorial-enhancer perturbations [28]; unnormalized summed Activity × Contact numerators across co-active enhancers of g(e) serve only as a provisional proxy, because normalized ABC shares sum to a constrained denominator (1 - ABC(e)) that mechanically couples focal share to alternate share [23]."
+  },
+  {
+    "type": "p",
+    "text": "• Zelem(e) — Element-level baseline covariates: Log length, GC content, local neutral substitution rate, mappability, focal chromatin activity, log enhancer–TSS distance, and direct target-gene count."
+  },
+  {
+    "type": "p",
+    "text": "• Zgene(g) — Target-gene covariates: Coding loss-of-function constraint (gnomAD LOEUF), transcription-factor status, cross-tissue expression breadth, and network degree."
+  },
+  {
+    "type": "p",
+    "text": "Global and within-target-gene statistical specifications"
+  },
+  {
+    "type": "p",
+    "text": "1. Global hierarchical specification (M2):"
+  },
+  {
+    "type": "crop",
+    "page": 13,
+    "rect": [
+      56,
+      133,
+      556,
+      166
+    ],
+    "caption": ""
+  },
+  {
+    "type": "p",
+    "text": "where ug(e) is a target-gene random intercept accounting for correlation among enhancers regulating the same promoter."
+  },
+  {
+    "type": "p",
+    "text": "2. Within-target-gene fixed-effects specification (M2b):"
+  },
+  {
+    "type": "crop",
+    "page": 13,
+    "rect": [
+      56,
+      232,
+      556,
+      257
+    ],
+    "caption": ""
+  },
+  {
+    "type": "p",
+    "text": "Restricted to target genes with ≥ 2 mapped enhancers across multiple cellular contexts, the gene fixed effect αg(e) absorbs all context-invariant properties of gene g (coding essentiality, LOEUF, TF class). Identifying β1 in M2b strictly requires multi-context data in which B(e) varies across enhancers of the same gene active in different cell states."
+  },
+  {
+    "type": "p",
+    "text": "Leakage-free nested validation ladder"
+  },
+  {
+    "type": "p",
+    "text": "Using GRCh38 Zoonomia mammalian phyloP [9] as the outcome (excluding coding exons, ± 10 bp splice sites, and proximal promoters), models are evaluated via Leave-One-Chromosome-Out (LOCO) cross-validation with feature standardization fit strictly on training chromosomes (genomics/section6_2_pilot.py):"
+  },
+  {
+    "type": "p",
+    "text": "• M0: Zelem(e) (sequence and local chromatin baseline)"
+  },
+  {
+    "type": "p",
+    "text": "• M1: M0 + T(e) + Zgene(g(e)) (conventional pleiotropy and target-gene properties)"
+  },
+  {
+    "type": "p",
+    "text": "• M1b: M0 + T(e) + αg(e) (within-target-gene fixed-effects baseline)"
+  },
+  {
+    "type": "p",
+    "text": "• M2: M1 + B(e) + R(e) + B(e)R(e) (global reach, buffering, and attenuation interaction)"
+  },
+  {
+    "type": "p",
+    "text": "• M2b: M1b + B(e) + R(e) + B(e)R(e) (within-target-gene contrast model, evaluated strictly against observed within-gene phyloP contrasts on held-out chromosomes)"
+  },
+  {
+    "type": "p",
+    "text": "In synthetic verification fixtures (n = 1,189 paired enhancers across 12 chromosomes) with strong unobserved target-gene confounding, leakage-free within-gene contrast MSE remains flat under a true null (0.3331 for M1b vs. 0.3356 for M2b) and drops substantially when context-specific coordination is present (0.4791 to 0.3451), confirming estimator behavior prior to empirical application."
+  },
+  {
+    "type": "sub",
+    "text": "7.2 Exploratory K562 pilot: observed results"
+  },
+  {
+    "type": "p",
+    "text": "Cohort construction and coordinate mapping"
+  },
+  {
+    "type": "p",
+    "text": "As an initial single-context empirical probe, we joined the K562-Roadmap subset of the thresholded ABC enhancer–gene atlas (ABC score ≥ 0.015) [33] to genome-scale K562 CRISPRi Perturb-seq knockdown profiles [34,35]. Here, downstream reach B is operationalized as log(1 + differentially expressed gene count) following knockdown of the assigned primary target gene—a gene-level downstream perturbation proxy rather than an enhancer-specific perturbation—and provisional buffering R is log(1 + summed raw ABC numerators) across other thresholded distal enhancers linked to the same gene. Ambiguous gene symbols and tied primary-target ABC links were excluded, retaining intergenic ABC-annotated intervals ≥ 2 kb from their assigned TSS (relying on upstream ABC intergenic classification rather than independent GRCh38 GENCODE exon re-filtering)."
+  },
+  {
+    "type": "p",
+    "text": "Converting the 695 autosomal hg19 intervals to GRCh38 via CrossMap (excluding split, duplicate, or length-altering liftover intervals) yielded 694 uniquely mapped, length-preserving regions (693 with shifted coordinates), of which 693 had basewise coverage in the UCSC Zoonomia 241-mammal phyloP track [36]. Complete-case availability across all baseline covariates—log length, log enhancer–TSS distance, log focal chromatin activity, log direct target count, log Perturb-seq cell count, log UMI count, and target residual expression—retained 636 distal enhancer regions across 408 target genes on 22 autosomes (including 379 paired enhancers across 151 multi-enhancer genes). Continuous predictors were standardized (with train-chromosome-only scaling in LOCO cross-validation), and ordinary least squares models were fit with target-gene-clustered standard errors."
+  },
+  {
+    "type": "p",
+    "text": "Empirical estimates and sensitivity analysis"
+  },
+  {
+    "type": "p",
+    "text": "The exploratory K562 pilot does not support H2 (Table 9, Figure 14). Neither unadjusted reach (β = -0.010) nor baseline-adjusted reach (β = -0.026) is positive; in the full interaction model, the reach slope is β = -0.0251 (p = 0.483) and the reach × buffering interaction carries a slight positive point estimate (β = +0.012) rather than the predicted negative attenuation, with all 95% confidence intervals spanning zero. Excluding the single coordinate-unchanged interval leaves conclusions unaltered."
+  },
+  {
+    "type": "crop",
+    "page": 15,
+    "rect": [
+      56,
+      119,
+      556,
+      318
+    ],
+    "caption": "Table 9. Exploratory K562 comparative-genomic pilot results (n = 636 distal regions across 408 target genes; Zoonomia 241-way mean phyloP outcome). Standardized regression coefficients (β) and 95% confidence intervals use target-gene-clustered standard errors; out-of-sample MSE uses Leave-One-Chromosome-Out (LOCO) cross-validation with training-fold standardization."
+  },
+  {
+    "type": "crop",
+    "page": 15,
+    "rect": [
+      56,
+      322,
+      556,
+      516
+    ],
+    "caption": "Figure 14. Exploratory K562 genomic pilot estimates (n = 636 enhancers, 408 target genes). Standardized point estimates and target-gene-clustered 95% confidence intervals across unadjusted, main-effect adjusted, and full interaction OLS specifications (Table 9)."
+  },
+  {
+    "type": "p",
+    "text": "Out-of-sample LOCO prediction error increased monotonically from 0.4332 (baseline covariates) to"
+  },
+  {
+    "type": "p",
+    "text": "0.4356 (+ reach) and 0.4390 (+ reach, buffering, and interaction), confirming zero predictive gain in this cohort. Because gene-level knockdown reach is invariant across enhancers of the same gene within a single cell line, the within-gene reach slope is structurally unidentifiable in K562 alone. Within the 379-region paired subset (151 genes), the within-gene buffering proxy shifts from β = -0.398 (p = 0.046) to β = +0.704 (p = 0.129) when focal raw ABC numerator is entered alongside log focal activity, underscoring the fragility of co-enhancer ABC sums as a proxy for functional redundancy. Because K562 is an aneuploid erythroleukemia line and several full-protocol covariates (T(e) multi-tissue breadth, GC/neutral rate, gnomAD LOEUF, and independent GRCh38 GENCODE exon masking) were absent from this initial dataset, the pilot refutes naive single-context operationalization without resolving multi-context developmental tests."
+  },
+  {
+    "type": "sub",
+    "text": "7.3 Predictions and falsification status"
+  },
+  {
+    "type": "p",
+    "text": "• P1 (supported in computational benchmarks): Composable reuse lowers static footprint while concentrating single-site failure blast radius; modular bounds and redundancy mitigate primary component risk, but coordinating gates, wrappers, and shared pointer state introduce countervailing vulnerabilities."
+  },
+  {
+    "type": "p",
+    "text": "• P2 (not supported in the exploratory K562 pilot): Higher-order downstream reach did not positively predict enhancer phyloP constraint, nor did ABC-proxied buffering attenuate reach effects; definitive within-gene testing requires multi-context developmental Perturb-seq maps."
+  },
+  {
+    "type": "p",
+    "text": "• P3 (prospective perturbation signature): Direct CRISPRi silencing of high-reach, weakly buffered enhancers should perturb broader downstream transcriptional modules than silencing matched low-reach or strongly buffered enhancers of equal local chromatin activity."
+  },
+  {
+    "type": "p",
+    "text": "• P4 (out-of-sample predictive gain; falsified in K562 pilot, open in multi-context data): Augmenting M1 → M2 and M1b → M2b must reduce held-out chromosome MSE beyond established pleiotropy and target-gene baselines."
+  },
+  {
+    "type": "sub",
+    "text": "7.4 Empirical molecular feedback (H3-M)"
+  },
+  {
+    "type": "p",
+    "text": "Functional Equivalence Mapping (FEM) distinguishes evidence of equivalent reporter activity within a specified tolerance from evidence of meaningful difference and insufficient precision. The detailed definition is given in Section 8.2. The empirical results reported here are from the companion manuscript, not a new genomic reanalysis."
+  },
+  {
+    "type": "p",
+    "text": "The companion investigation, Functional Equivalence Mapping in Primate Enhancer Evolution (v1.1) [47], is an empirical reanalysis of public data rather than a new wet-laboratory experiment. Its findings refine the hypothesis formulated in Section 8.2. The present revision preserves the original H1 simulations and H2 pilot; it summarizes the separate study rather than reproducing its analyses or asserting independent verification."
+  },
+  {
+    "type": "p",
+    "text": "7.4.1 Sequence turnover and measured output"
+  },
+  {
+    "type": "p",
+    "text": "In GSE113978, the fraction of 2,052 extant primate enhancer comparisons within ±0.50 log₂ reporter activity declines from 79.1% in great apes to 49.3% in New World monkeys, spanning up to 43.2 million years. These are descriptive retention bands, not replicate-level equivalence tests. A sequence-syntax predictor improved held-out R² from 0.0697 to 0.0819; the absolute predictive gain is small."
+  },
+  {
+    "type": "p",
+    "text": "In GSE110760, of 386 active paired fragments representing 324 human accelerated regions (HARs), 244 (63.2%) meet the ±0.15 log₂ TOST equivalence criterion with empirical-Bayes moderation versus 168 (43.5%) using raw paired variance. Of the human-NPC equivalent fragments, 84.8% are also classified equivalent in chimpanzee NPCs. These figures depend on the activity filter, assay, margin and variance model. The companion study adopted the primary ±0.15 margin following assay-scale inspection; all sensitivity margins should remain visible. Measurement precision is a condition for detecting equivalence, not a biological justification of the margin."
+  },
+  {
+    "type": "p",
+    "text": "7.4.2 Functional interactions rather than component counts"
+  },
+  {
+    "type": "p",
+    "text": "Within the same cohort, the original prespecified 24-motif consensus model showed a positive heterotypic motif-diversity association but little held-out gain. Homotypic multiplicity was not supported. The v1.1 post-hoc audit used 24 JASPAR position weight matrices to represent graded sequence binding preferences. Peak predicted binding-score disruption was negatively associated with equivalence (standardized linear probability coefficient −0.1312; 95% CI −0.2083 to −0.0542; p = 0.00084). Reported equivalence ranged from 69.3% to 55.6% across the minimal and strongest disruption strata."
+  },
+  {
+    "type": "p",
+    "text": "Leave-one-chromosome-out AUC was 0.5971 for the baseline, 0.6014 for consensus motifs and 0.6260 for the PWM model; Brier error decreased from 0.2256 to 0.2206 relative to baseline. This is modest, exploratory evidence that local sequence-interaction features add predictive information beyond conventional covariates, not direct measurement of binding or proof of a causal mechanism. An independent cohort and uncertainty estimates for predictive improvement are necessary."
+  },
+  {
+    "type": "p",
+    "text": "Scale-specific buffering"
+  },
+  {
+    "type": "p",
+    "text": "Co-active neighboring tiles (GSE113978; p = 0.612) and co-targeting HARs (GSE180714; p = 0.457) did not show the predicted protective association with individual-element retention in the companion study. This is a limitation of the original simple redundancy prediction, not evidence that shadow enhancers cannot buffer target-gene expression. A system may maintain its output while tolerating changes in an individual component. The level of the perturbation and the level at which the output is measured must therefore be specified separately."
+  },
+  {
+    "type": "p",
+    "text": "Compensation and interaction-dependent continuity"
+  },
+  {
+    "type": "p",
+    "text": "Across eight selected complete combinatorial HAR mutation series (768 genotypes per cellular background), reported endpoint activity differences were small even where intermediate genotypes diverged. In 2xHAR.142, the sum of individual substitutions was +0.494 log₂, compared with a combined measured shift of +0.097 log₂ (departure −0.397 log₂). Four of eight series showed negative nonadditivity at the nominal two-sided 95% threshold (df = 2; |t| > 4.303); the fifth nonadditive result met only the two-sided 90% threshold. These exploratory series are selected, and tests are not a population prevalence estimate or a multiplicity-adjusted result. Nonadditivity is consistent with buffering but does not itself prove a specific molecular saturation mechanism."
+  },
+  {
+    "type": "p",
+    "text": "The companion paper’s revised v1.2 introduces H3-D as a distinct prospective question: among co-active enhancers with comparable count and activity, lower overlap of functionally supported upstream regulator dependencies may predict less endogenous target-output disruption under a nominated regulator perturbation. This concerns gene-level output, not individual reporter-fragment retention. Motif scores alone cannot establish causal upstream dependence. The two reported null multiplicity findings remain null; no H3-D outcome data have been analyzed [54]."
+  },
+  {
+    "type": "h",
+    "text": "8. Cross-domain synthesis: economy, liability, independence and continuity"
+  },
+  {
+    "type": "sub",
+    "text": "8.1 Functional continuity under implementation change (H3)"
+  },
+  {
+    "type": "p",
+    "text": "The K562 null result and enhancer-turnover literature point toward a sharper distinction that brings our computing analogy full circle. Across the 1965 PDP-8, 1968 PDP-8/I, 1970 PDP-8/E, and 1975 Intersil IM6100, physical hardware implementations changed completely—from discrete transistors on Flip-Chip cards to TTL, MSI, and monolithic CMOS—yet the 12-bit instruction contract remained invariant [10,12–14]. Biology exhibits an analogous phenomenon without an external designer through developmental system drift (DSD): homologous traits and gene-expression programs retain their functional output across species while underlying enhancers, binding sites, or network edges diverge [39,40] (Figure 15). Empirical examples include compensatory binding-site evolution in the Drosophila eve stripe 2 enhancer [37], rapid mammalian liver enhancer turnover [38], nonhomologous enhancers driving conserved neuronal Pomc expression [41], and transcriptional stability buffered by complex cis-regulatory landscapes [42]."
+  },
+  {
+    "type": "crop",
+    "page": 17,
+    "rect": [
+      56,
+      232,
+      556,
+      472
+    ],
+    "caption": "Figure 15. Functional invariance under implementation change. (A) Selected milestones in PDP-8-compatible hardware across discrete-transistor, TTL, MSI, and CMOS technologies [10,12–14]. (B) Developmental system drift (DSD): orthologous regulatory modules preserve input–output responses despite sequence turnover and compensatory rewiring [37,39–41]."
+  },
+  {
+    "type": "p",
+    "text": "Distinguishing (i) nucleotide sequence conservation, (ii) cis-regulatory biochemical activity, and (iii) coordinated system-level response motivates H3 (functional continuity hypothesis): Among orthologous biological regulatory modules assayed in matched cellular contexts, higher fitness-relevant downstream coordination demands predict stronger evolutionary conservation of quantitative perturbational input–output responses—even when underlying noncoding sequences and individual cis-regulatory elements turn over—beyond baseline expression, tissue breadth, coding essentiality, and phylogenetic distance."
+  },
+  {
+    "type": "p",
+    "text": "Testing H3 requires measuring regulatory reach and buffering independently in a reference species and evaluating cross-species conservation of transcriptional response vectors (direction, magnitude, and timing following standardized stimuli or regulator perturbations) across held-out clades, strictly separating stable perturbation responses from unperturbed baseline expression."
+  },
+  {
+    "type": "sub",
+    "text": "8.2 Molecular functional equivalence (H3-M)"
+  },
+  {
+    "type": "p",
+    "text": "At the single-element scale, many distinct nucleotide sequences can satisfy the same quantitative cis-regulatory requirement [37,38,41,43,44]. We formalize Functional Equivalence Mapping (FEM) to separate sequence divergence from assay-level activity conservation (Figure 16). For orthologous or ancestral–descendant sequences s and t assayed in a common cellular background, let d(s, t) denote nucleotide substitutions per aligned comparable base (reporting indels separately), and let Δ = A(t) - A(s) denote the difference in log2 reporter enrichment. Rather than treating a non-significant p-value as evidence of conservation, FEM applies Lakens’s Two One-Sided Tests (TOST) framework [45] against a prespecified equivalence margin ±δ calibrated from biological-replicate reproducibility:"
+  },
+  {
+    "type": "p",
+    "text": "• Equivalent: The replicate-aware 90% confidence interval for Δ lies wholly inside (-δ, +δ) (establishing equivalence at α = 0.05)."
+  },
+  {
+    "type": "p",
+    "text": "• Meaningfully different: The 90% confidence interval lies wholly outside [-δ, +δ]."
+  },
+  {
+    "type": "p",
+    "text": "• Inconclusive: The confidence interval overlaps -δ or +δ due to insufficient precision or borderline divergence."
+  },
+  {
+    "type": "crop",
+    "page": 18,
+    "rect": [
+      56,
+      289,
+      556,
+      459
+    ],
+    "caption": "Figure 16. Functional Equivalence Mapping (FEM). (A) Separating aligned sequence divergence d(s, t) from assay-level activity tolerance ±δ. (B) Interval-based TOST classification rules [45]: equivalence requires the 90% confidence interval for Δ to fall strictly within (-δ, +δ)."
+  },
+  {
+    "type": "p",
+    "text": "H3-M (molecular equivalence subhypothesis): Among active, orthologous cis-regulatory sequences assayed in a shared cellular context, independently measured motif multiplicity and local cis-regulatory buffering predict higher probability of TOST-verified activity equivalence at a given sequence divergence d(s, t), conditional on coordination complexity not introducing fragile cooperative syntax."
+  },
+  {
+    "type": "sub",
+    "text": "8.3 Protection requires more than component count"
+  },
+  {
+    "type": "p",
+    "text": "The four computational benchmarks examine different embodiments of shared dependency. A routine’s blast radius is not an enhancer’s fitness contribution, and neither is identical to a GPU’s physical fault domain. Nevertheless, a common analytical structure emerges: a functional portfolio, a dependency graph, a resource-cost vector, and an explicitly specified set of perturbations. If two protection paths share a failure source, their agreement may provide no protection against that source. The matrix pilot supplies an engineered example with matched nominal counts, while the Boolean pilot shows that changing the fault class can reverse the apparent benefit of buffering. These observations refine H1 without assuming that regulatory biology implements digital parity."
+  },
+  {
+    "type": "p",
+    "text": "For biological systems, the corresponding question is whether functionally redundant elements have distinct or shared causal dependencies. For future engineering, the corresponding question is whether complementary rather than identical protective functions can maintain output under a broader set of disturbances at a matched effective cost. Both are testable propositions; neither follows as a biological or hardware result merely from the analogy."
+  },
+  {
+    "type": "table",
+    "caption": "Table 10. Evidential status of the six hypotheses.",
+    "headers": [
+      "Hypothesis",
+      "Current evidential status",
+      "Boundary"
+    ],
+    "rows": [
+      [
+        "H1 — economy/liability",
+        "Supported within specified computational models",
+        "Not a universal law or biological cost result"
+      ],
+      [
+        "H2 — reach/constraint",
+        "Negative exploratory K562 pilot",
+        "Multi-context confirmatory design remains open"
+      ],
+      [
+        "H3 — functional continuity",
+        "Prospective system-level test",
+        "No endogenous cross-species response test"
+      ],
+      [
+        "H3-M — molecular equivalence",
+        "Partial reported reporter-level support",
+        "Post-hoc features, margin and assay limits"
+      ],
+      [
+        "H1-D — protection dependencies",
+        "Prospective refinement from CPU pilots",
+        "Equal effective budget and hardware test pending"
+      ],
+      [
+        "H3-D — regulatory diversity",
+        "Prospective new biological test",
+        "No outcome data analyzed"
+      ]
+    ],
+    "widths": [
+      138,
+      174,
+      180
+    ]
+  },
+  {
+    "type": "h",
+    "text": "9. From genomes back to circuits: reciprocal experimental program"
+  },
+  {
+    "type": "sub",
+    "text": "9.1 From sequence equivalence to pathway coordination"
+  },
+  {
+    "type": "p",
+    "text": "Study A — Primate enhancer equivalence (H3-M): The proposed reanalysis of Klein et al. [43] and Whalen et al. [44] was carried out in the separate companion manuscript [47], with additional capture-MPRA comparisons. Section 7.4 summarizes the reported results and their limits."
+  },
+  {
+    "type": "p",
+    "text": "Study B — Cross-species stimulus–response continuity (H3): Hagai et al. [46] provide matched innate-immune time courses. Test whether independently measured reach and buffering predict held-out conservation of response direction, magnitude and timing beyond established covariates. This investigation remains prospective."
+  },
+  {
+    "type": "p",
+    "text": "For new H3-M cohorts, compare independently specified binding-score and interaction features against sequence-divergence, activity and composition baselines; fix biologically justified margins before analysis, retain inconclusive cases, and hold out loci or datasets. Test locus-level buffering with endogenous enhancer perturbations and matched target-gene outputs. For H3, compare cross-species responses to matched interventions and independently measured architectural reach, controlling for phylogeny and cell state. Quantify biological cost before asserting economy. These are future tests, not results of this revision."
+  },
+  {
+    "type": "sub",
+    "text": "9.2 Return-direction test (H1-D)"
+  },
+  {
+    "type": "p",
+    "text": "At a matched effective resource and verification budget, reducing common-cause dependence between execution and checking should reduce undetected disruption for nominated fault classes. The effect may vanish for correlated upstream corruption, canceling errors, unavailable checks or expensive coordination. Compare dedicated/shared designs, conventional full duplication, weighted-checksum ABFT, independent-source baselines and a candidate inspired by biological compensatory interactions. Define a novel candidate and its biological motivation before testing; distinguish redundancy, complementary encoding and nonadditivity. Freeze workloads, resource accounting, perturbation classes, holdouts and success criteria. Report correct, wrong, unflagged wrong, flagged and missing results separately; do not optimize a single arbitrary economy score."
+  },
+  {
+    "type": "sub",
+    "text": "9.3 Actual GPU validation and reciprocal transfer"
+  },
+  {
+    "type": "p",
+    "text": "Run the archived portable CUDA scaffolds first on any accessible NVIDIA device, check exact integer output, and record device SKU, driver, software versions, precision and workload. Then benchmark native kernels on H100 for cluster-local communication, TMA and shared-memory behavior, collecting repeated timings, memory traffic and profiler counters; energy only with validated instrumentation. A simulated injected error is not a field hardware failure. Use conventional engineering baselines and quantify verification and recovery overhead. Only a controlled comparison showing a reproducible advantage attributable to the proposed bio-inspired design would establish an engineering transfer. Independent reproduction, matched effective budgets and external specialist review are release gates. A negative result remains evidence, not a reason to change the expected outcome."
+  },
+  {
+    "type": "diagram",
+    "kind": "reciprocal",
+    "caption": "Figure 17. Reciprocal inquiry: historical computing motivates biological hypotheses; molecular findings motivate a return-direction engineering test. Dotted return arrow marks prospective transfer, not a completed demonstration."
+  },
+  {
+    "type": "h",
+    "text": "10. Limitations, falsification criteria and conclusion"
+  },
+  {
+    "type": "sub",
+    "text": "10.1 Biological and structural limitations"
+  },
+  {
+    "type": "p",
+    "text": "Six biological and structural considerations contextualize why architectural importance need not map linearly onto nucleotide conservation:"
+  },
+  {
+    "type": "p",
+    "text": "1. Non-coordination drivers of purifying selection: Strong noncoding conservation frequently reflects overlapping RNA-processing/splicing motifs, strict haploinsufficient dosage windows, chromatin boundary architecture, or essential single-target developmental switches—none of which require broad downstream network cascades."
+  },
+  {
+    "type": "p",
+    "text": "2. Binding-site turnover and compensatory evolution: Stabilizing selection on transcriptional output permits extensive binding-site turnover within enhancers [37] and rapid enhancer replacement across mammals [38], decoupling regulatory conservation from basewise alignment constraint."
+  },
+  {
+    "type": "p",
+    "text": "3. Ascertainment bias and static-graph approximations: Topological reachability in steady-state knockdown graphs imperfectly approximates time-resolved developmental sensitivity, and transformed cell lines such as K562 omit embryonic selection pressures."
+  },
+  {
+    "type": "p",
+    "text": "4. Context-divergent enhancer redundancy: Shadow enhancers frequently remain under independent purifying selection because seemingly redundant copies diverge in function under thermal, metabolic, or genetic stress [28]."
+  },
+  {
+    "type": "p",
+    "text": "5. Population-genetic drift boundaries: In mammals with modest effective population sizes, small bioenergetic or mutational overheads of extra noncoding DNA often fall below the drift barrier [4,5], relaxing pressure for minimal sequence footprint."
+  },
+  {
+    "type": "p",
+    "text": "6. Mechanistic divergence from von Neumann machines: As demonstrated directly in our PDP-8 fault audit, sequential processors couple tasks through a shared program counter, return slots, and auto-index pointers, whereas genomic regulation is parallel, self-assembling, and physically embodied in chromatin kinetics."
+  },
+  {
+    "type": "p",
+    "text": "Additional limitations: the new pilots are construction-dependent logical models, not GPU microarchitectural simulations. They share conceptual dependencies with earlier experiments, and no physical failure distributions or performance data are available. Matched nominal counts are incomplete cost accounting; common-mode fault assumptions must be tested. The new hypotheses are post-result proposals. The reported enhancer-assay equivalence is sensitive to the margin and moderation and cannot establish system-level regulatory equivalence. No new experiments were performed for this editorial integration. Independent reproduction, code audit, full reference verification and specialist review remain outstanding."
+  },
+  {
+    "type": "sub",
+    "text": "10.2 Conclusion: functional organization through changing implementation"
+  },
+  {
+    "type": "p",
+    "text": "Architectural economy connects the original PDP-8 example, modern parallel computation and biological regulatory systems by asking how a portfolio of functions is realized under resource and perturbation constraints. Reuse can reduce static cost but concentrate failure liability; protective coordination adds its own costs and dependencies. The new pilots make fault class and source independence explicit. Their contribution is a bounded refinement of the computational framework, not proof of a universal law or of physical H100 reliability."
+  },
+  {
+    "type": "p",
+    "text": "The negative K562 result is retained: higher-order reach did not positively predict sequence constraint. The companion reporter results offer partial support for molecular functional continuity, while biological economy and conserved endogenous coordination remain unestablished. The historical PDP-8 demonstrates why implementation continuity and functional continuity should be separated. Hopper provides a prospective setting for testing whether biologically motivated compensation can improve protective architecture. The essential scientific ambition is reciprocal: use computing to formulate biological questions, and use biological observations to formulate better computing questions. Preserve the question without protecting the expected answer."
+  },
+  {
+    "type": "sub",
+    "text": "Declarations and reproducibility"
+  },
+  {
+    "type": "p",
+    "text": "Article type: Hypothesis and computational study with controlled architectural simulations, an exploratory comparative-genomic pilot, and a synthesis of the separate FEM investigation [47]. No computational benchmark or genomic analysis was rerun for this revision."
+  },
+  {
+    "type": "p",
+    "text": "Code and data: The architectural-economy repository preserves prior benchmark code, audits, pilot analyses and historical releases. The exact v8 source PDF and C2G publication index are maintained at https://github.com/RandoSY/circuits-to-genomes. The companion study describes additional public datasets, analysis scripts and a reported clean-room reconstruction; independent execution and completeness of the public archive must be verified. The v9 revision builder preserves the original v8 figures and numerical results."
+  },
+  {
+    "type": "p",
+    "text": "Funding and competing interests: The v8 declaration reports no specific funding and no competing financial or non-financial interests. These declarations are carried forward for author confirmation."
+  },
+  {
+    "type": "p",
+    "text": "• Author details: Randall S. Young, Independent Researcher, Indiana, USA (ORCID:"
+  },
+  {
+    "type": "p",
+    "text": "https://orcid.org/0009-0003-1657-0243; correspondence via ORCID record and https://github.com/RandoSY/architectural-economy)."
+  },
+  {
+    "type": "p",
+    "text": "• Generative AI disclosure: ChatGPT and Google Gemini / Antigravity assisted conceptual framing, computational implementation, auditing, figure generation and editing. Version 9 integrates the findings reported by the Gemini CARBON-assisted companion manuscript. The author remains responsible for claims and final approval; author review is distinct from specialist technical validation. Independent verification of the code, statistics and biological inferences remains necessary. This is an unreviewed working preprint; the revised disclosure awaits author confirmation."
+  },
+  {
+    "type": "p",
+    "text": "Version 11 editorial integration: ChatGPT assisted in restructuring and illustrating the manuscript using the preserved v9 and v10 text, figures and data, and archived parallel pilots. No new numerical analysis was run. Existing declarations require author confirmation; no independent scientific validation is claimed. The public C2G archive contains versioned source, code, results, review editions and checksums: https://github.com/RandoSY/circuits-to-genomes. The prior PDFs and release archives remain immutable. All original numerical results are retained in their original archives; new figure captions and table numbers are mapped in the v11 source and revision record."
+  },
+  {
+    "type": "h",
+    "text": "References"
+  },
+  {
+    "type": "p",
+    "text": "1. Kirschner M, Gerhart J. Evolvability. Proc Natl Acad Sci USA. 1998;95:8420–8427."
+  },
+  {
+    "type": "p",
+    "text": "https://doi.org/10.1073/pnas.95.15.8420"
+  },
+  {
+    "type": "p",
+    "text": "2. Kitano H. Biological robustness. Nat Rev Genet. 2004;5:826–837. https://doi.org/10.1038/nrg1471"
+  },
+  {
+    "type": "p",
+    "text": "3. Castle SD, Grierson CS, Gorochowski TE. Towards an engineering theory of evolution. Nat Commun. 2021;12:3326. https://doi.org/10.1038/s41467-021-23573-3"
+  },
+  {
+    "type": "p",
+    "text": "4. Lynch M, Conery JS. The origins of genome complexity. Science. 2003;302:1401–1404."
+  },
+  {
+    "type": "p",
+    "text": "https://doi.org/10.1126/science.1089370"
+  },
+  {
+    "type": "p",
+    "text": "5. Lynch M, Marinov GK. The bioenergetic costs of a gene. Proc Natl Acad Sci USA. 2015;112:15690–15695."
+  },
+  {
+    "type": "p",
+    "text": "https://doi.org/10.1073/pnas.1514974112"
+  },
+  {
+    "type": "p",
+    "text": "6. ENCODE Project Consortium. An integrated encyclopedia of DNA elements in the human genome. Nature. 2012;489:57–74. https://doi.org/10.1038/nature11247"
+  },
+  {
+    "type": "p",
+    "text": "7. Kellis M, Wold B, Snyder MP, et al. Defining functional DNA elements in the human genome. Proc Natl Acad Sci USA. 2014;111:6131–6138. https://doi.org/10.1073/pnas.1318948111"
+  },
+  {
+    "type": "p",
+    "text": "8. Rands CM, Meader S, Ponting CP, Lunter G. 8.2% of the human genome is constrained: variation in rates of turnover across functional element classes in the human lineage. PLoS Genet. 2014;10:e1004525. https://doi.org/10.1371/journal.pgen.1004525"
+  },
+  {
+    "type": "p",
+    "text": "9. Christmas MJ, Kaplow IM, Genereux DP, et al.; Zoonomia Consortium. Evolutionary constraint and innovation across hundreds of placental mammals. Science. 2023;380:eabn3943. https://doi.org/10.1126/science.abn3943"
+  },
+  {
+    "type": "p",
+    "text": "10. Digital Equipment Corporation. Small Computer Handbook. Maynard, MA: Digital Equipment Corporation; March 1967. https://bitsavers.trailing-edge.com/pdf/dec/pdp8/handbooks/SmallComputerHandbook_Mar67.pdf"
+  },
+  {
+    "type": "p",
+    "text": "11. Johnstone A. The Young Person’s Guide to… The PDP-8. Computer Conservation Society, Resurrection. 1990;1(May 1990). https://www.computerconservationsociety.org/resurrection/res01.htm"
+  },
+  {
+    "type": "p",
+    "text": "12. Jones DW. Frequently Asked Questions About the DEC PDP-8 Family. University of Iowa Department of Computer Science (accessed 24 November 2026). https://homepage.cs.uiowa.edu/~jones/pdp8/faqs/"
+  },
+  {
+    "type": "p",
+    "text": "13. Digital Equipment Corporation. DIGITAL Computing Timeline: 1957–1997. Computer History Museum Archive. h ttps://archive.computerhistory.org/resources/text/DEC/dec.digital_%28DEC%29_timeline_1957-1997.102630354/ timelinetext.htm"
+  },
+  {
+    "type": "p",
+    "text": "14. Intersil, Inc. Intercept Hardware Manual, Chapter 4: Software (IM6100 and PDP-8/E Compatibility). Cupertino, CA: Intersil; 1976. https://bitsavers.trailing-edge.com/components/intersil/IM6100/InterceptHW.pdf"
+  },
+  {
+    "type": "p",
+    "text": "15. Simon HA. The architecture of complexity. Proc Am Philos Soc. 1962;106:467–482."
+  },
+  {
+    "type": "p",
+    "text": "https://www.sfipress.org/21-simon-1962"
+  },
+  {
+    "type": "p",
+    "text": "16. Yan KK, Fang G, Bhardwaj N, Alexander RP, Gerstein M. Comparing genomes to computer operating systems in terms of the topology and evolution of their regulatory control networks. Proc Natl Acad Sci USA. 2010;107:9186–9191. https://doi.org/10.1073/pnas.0914771107"
+  },
+  {
+    "type": "p",
+    "text": "17. Davidson EH, Rast JP, Oliveri P, et al. A genomic regulatory network for development. Science. 2002;295:1669–1678. https://doi.org/10.1126/science.1069883"
+  },
+  {
+    "type": "p",
+    "text": "18. Levine M, Davidson EH. Gene regulatory networks for development. Proc Natl Acad Sci USA. 2005;102:4936–4942. https://doi.org/10.1073/pnas.0408031102"
+  },
+  {
+    "type": "p",
+    "text": "19. Istrail S, Ben-Tabou De-Leon S, Davidson EH. The regulatory genome and the computer. Dev Biol. 2007;310:187–195. https://doi.org/10.1016/j.ydbio.2007.08.009"
+  },
+  {
+    "type": "p",
+    "text": "20. Andersson R, Sandelin A. Determinants of enhancer and promoter activities of regulatory elements. Nat Rev Genet. 2020;21:71–87. https://doi.org/10.1038/s41576-019-0173-8"
+  },
+  {
+    "type": "p",
+    "text": "21. Schoenfelder S, Fraser P. Long-range enhancer–promoter contacts in gene expression control. Nat Rev Genet. 2019;20:437–455. https://doi.org/10.1038/s41576-019-0128-0"
+  },
+  {
+    "type": "p",
+    "text": "22. Rao SSP, Huang SC, Glenn St Hilaire B, et al. Cohesin loss eliminates all loop domains. Cell. 2017;171:305–320.e24. https://doi.org/10.1016/j.cell.2017.09.026"
+  },
+  {
+    "type": "p",
+    "text": "23. Fulco CP, Nasser J, Jones TR, et al. Activity-by-contact model of enhancer–promoter regulation from thousands of CRISPR perturbations. Nat Genet. 2019;51:1664–1669. https://doi.org/10.1038/s41588-019-0538-0"
+  },
+  {
+    "type": "p",
+    "text": "24. McHugh CA, Chen CK, Chow A, et al. The Xist lncRNA interacts directly with SHARP to silence transcription through HDAC3. Nature. 2015;521:232–236. https://doi.org/10.1038/nature14443"
+  },
+  {
+    "type": "p",
+    "text": "25. ENCODE Project Consortium. Expanded encyclopaedias of DNA elements in the human and mouse genomes. Nature. 2020;583:699–710. https://doi.org/10.1038/s41586-020-2493-4"
+  },
+  {
+    "type": "p",
+    "text": "26. Alon U. Network motifs: theory and experimental approaches. Nat Rev Genet. 2007;8:450–461."
+  },
+  {
+    "type": "p",
+    "text": "https://doi.org/10.1038/nrg2102"
+  },
+  {
+    "type": "p",
+    "text": "27. Bessho Y, Hirata H, Masamizu Y, Kageyama R. Periodic repression by the bHLH factor Hes7 is an essential mechanism for the somite segmentation clock. Genes Dev. 2003;17:1451–1456. https://doi.org/10.1101/gad.1092303"
+  },
+  {
+    "type": "p",
+    "text": "28. Osterwalder M, Barozzi I, Tissières V, et al. Enhancer redundancy provides phenotypic robustness in mammalian development. Nature. 2018;554:239–243. https://doi.org/10.1038/nature25461"
+  },
+  {
+    "type": "p",
+    "text": "29. Bejerano G, Pheasant M, Makunin I, et al. Ultraconserved elements in the human genome. Science. 2004;304:1321–1325. https://doi.org/10.1126/science.1098119"
+  },
+  {
+    "type": "p",
+    "text": "30. Dickel DE, Ypsilanti AR, Pla R, et al. Ultraconserved enhancers are required for normal development. Cell. 2018;172:491–499.e15. https://doi.org/10.1016/j.cell.2017.12.017"
+  },
+  {
+    "type": "p",
+    "text": "31. Davidson EH, Erwin DH. Gene regulatory networks and the evolution of animal body plans. Science. 2006;311:796–800. https://doi.org/10.1126/science.1113832"
+  },
+  {
+    "type": "p",
+    "text": "32. Singh D, Yi SV. Enhancer pleiotropy, gene expression, and the architecture of human enhancer–gene interactions. Mol Biol Evol. 2021;38:3898–3909. https://doi.org/10.1093/molbev/msab085"
+  },
+  {
+    "type": "p",
+    "text": "33. Nasser J, Bergman DT, Fulco CP, et al. Genome-wide enhancer maps link risk variants to disease genes. Nature. 2021;593:238–243. https://doi.org/10.1038/s41586-021-03446-x"
+  },
+  {
+    "type": "p",
+    "text": "34. Replogle JM, Saunders RA, Pogson AN, et al. Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq. Cell. 2022;185:2559–2575.e28. https://doi.org/10.1016/j.cell.2022.05.013"
+  },
+  {
+    "type": "p",
+    "text": "35. Replogle JM, Saunders RA, Pogson AN, et al. Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq: commonly requested supplemental files. Figshare+; 2022. https://doi.org/10.25452/figshare.plus.21632564"
+  },
+  {
+    "type": "p",
+    "text": "36. UCSC Genome Browser. Zoonomia 241 Placental Mammal Alignment, GRCh38 Basewise Conservation (phyloP). University of California, Santa Cruz. https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cons241way"
+  },
+  {
+    "type": "p",
+    "text": "37. Ludwig MZ, Bergman C, Patel NH, Kreitman M. Evidence for stabilizing selection in a eukaryotic enhancer element. Nature. 2000;403:564–567. https://doi.org/10.1038/35000615"
+  },
+  {
+    "type": "p",
+    "text": "38. Villar D, Berthelot C, Aldridge S, et al. Enhancer evolution across 20 mammalian species. Cell. 2015;160:554–566. https://doi.org/10.1016/j.cell.2015.01.006"
+  },
+  {
+    "type": "p",
+    "text": "39. True JR, Haag ES. Developmental system drift and flexibility in evolutionary trajectories. Evol Dev. 2001;3:109–119. https://doi.org/10.1046/j.1525-142X.2001.003002109.x"
+  },
+  {
+    "type": "p",
+    "text": "40. McColgan Á, DiFrisco J. Understanding developmental system drift. Development. 2024;151:dev203054."
+  },
+  {
+    "type": "p",
+    "text": "https://doi.org/10.1242/dev.203054"
+  },
+  {
+    "type": "p",
+    "text": "41. Domené S, Bumaschny VF, de Souza FSJ, et al. Enhancer turnover and conserved regulatory function in vertebrate evolution. Philos Trans R Soc Lond B Biol Sci. 2013;368:20130027. https://doi.org/10.1098/rstb.2013.0027"
+  },
+  {
+    "type": "p",
+    "text": "42. Berthelot C, Villar D, Horvath JE, Odom DT, Flicek P. Complexity and conservation of regulatory landscapes underlie evolutionary resilience of mammalian gene expression. Nat Ecol Evol. 2018;2:152–163. https://doi.org/10.1038/s41559-017-0377-2"
+  },
+  {
+    "type": "p",
+    "text": "43. Klein JC, Keith A, Agarwal V, et al. Functional characterization of enhancer evolution in the primate lineage. Genome Biol. 2018;19:99. https://doi.org/10.1186/s13059-018-1473-6"
+  },
+  {
+    "type": "p",
+    "text": "44. Whalen S, Inoue F, Ryu H, et al. Machine learning dissection of human accelerated regions in primate neurodevelopment. Neuron. 2023;111:857–873.e8. https://doi.org/10.1016/j.neuron.2022.12.026"
+  },
+  {
+    "type": "p",
+    "text": "45. Lakens D. Equivalence tests: a practical primer for t tests, correlations, and meta-analyses. Soc Psychol Personal Sci. 2017;8:355–362. https://doi.org/10.1177/1948550617697177"
+  },
+  {
+    "type": "p",
+    "text": "46. Hagai T, Chen X, Miragaia RJ, et al. Gene expression variability across cells and species shapes innate immunity. Nature. 2018;563:197–202. https://doi.org/10.1038/s41586-018-0657-2"
+  },
+  {
+    "type": "p",
+    "text": "47. Young RS. Functional Equivalence Mapping in Primate Enhancer Evolution: sequence grammar, assay precision bounds, and epistatic buffering across 43 million years of cis-regulatory turnover. Preprint, Version 1.1; 25 November 2026. https://github.com/RandoSY/circuits-to-genomes"
+  },
+  {
+    "type": "p",
+    "text": "48. NVIDIA. Hopper Architecture In-Depth. NVIDIA Technical Blog, 2022. https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/"
+  },
+  {
+    "type": "p",
+    "text": "49. NVIDIA. Hopper Tuning Guide. CUDA documentation. https://docs.nvidia.com/cuda/hopper-tuning-guide/"
+  },
+  {
+    "type": "p",
+    "text": "50. NVIDIA. Hopper Compatibility Guide. CUDA documentation. https://docs.nvidia.com/cuda/hopper-compatibility-guide/"
+  },
+  {
+    "type": "p",
+    "text": "51. Young RS. H100 Boolean-dataflow laboratory v0.1. C2G, 26 November 2026. https://github.com/RandoSY/circuits-to-genomes/tree/main/research/h100-lab/v0.1"
+  },
+  {
+    "type": "p",
+    "text": "52. Young RS. Hopper-inspired matrix pilot v0.2: independence and common-mode failure. C2G, 26 November 2026. https://github.com/RandoSY/circuits-to-genomes/tree/main/research/hopper-pilot/v0.2"
+  },
+  {
+    "type": "p",
+    "text": "53. Huang KH, Abraham JA. Algorithm-Based Fault Tolerance for Matrix Operations. IEEE Trans Comput. 1984;C-33:518–528. doi:10.1109/TC.1984.1676475."
+  },
+  {
+    "type": "p",
+    "text": "54. Young RS. Functional Equivalence Mapping in Primate Enhancer Evolution, v1.2 (expanded review edition). C2G, 26 November 2026. https://github.com/RandoSY/circuits-to-genomes/tree/main/papers/02-primate-enhancer-fem"
+  }
+]

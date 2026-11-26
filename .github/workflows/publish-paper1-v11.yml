@@ -1,0 +1,36 @@
+name: Publish integrated Paper 1 v11
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-paper1-v11.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: paper1-v11-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+      - name: Verify and build
+        run: |
+          python3 -m venv /tmp/c2g-v11-env
+          /tmp/c2g-v11-env/bin/pip install --disable-pip-version-check pymupdf==1.26.7 reportlab==4.4.9
+          if [ ! -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf ]; then
+            sudo apt-get update -qq
+            sudo apt-get install -y fonts-dejavu-core
+          fi
+          /tmp/c2g-v11-env/bin/python papers/01-architectural-economy/source-v11/publish.py
+      - name: Publish PDF and synchronized indexes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add papers/01-architectural-economy/Architectural_Economy_v11.pdf papers/01-architectural-economy/source-v11/PUBLISHED.json README.md papers/README.md docs/PUBLICATION_STATUS.md papers/SHA256SUMS.txt docs/RECIPROCAL_RESEARCH_ROADMAP.md
+          git commit -m 'Publish integrated Paper 1 v11 and verified release record'
+          git push origin main

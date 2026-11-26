@@ -1,0 +1,14 @@
+{
+  "pdf": "Architectural_Economy_v11.pdf",
+  "pages": 33,
+  "figures": 17,
+  "tables": 10,
+  "local_pdf_sha256": "f5414a9e84ae62ff10842f3afc708c484214596c994afdae892bb1d7a4c838c4",
+  "baseline_sha256": "97b2c18c34629a9f63f264126deb90da62cfc33042b46b92a73ad8138fe1d4d9",
+  "sources": {
+    "manuscript.json": "122dcaa6c9fe986ab08e3ac38465299ceddee7475eac818371d8f76d8a64fb2a",
+    "compose.py": "f75130a144c7f2be7c777c3d81378ef067963d2563d24301a6729484ae359750",
+    "build.py": "e9b0cd506a583088de73d1da5c5af1d0b7e8baad80d17e425b98f4fc5bcf7086",
+    "REVISION.md": "a9a7a9501599a63edb3060651d8dfd00afbe35723f14faca89e260946083b701"
+  }
+}
