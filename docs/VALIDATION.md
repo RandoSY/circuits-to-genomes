@@ -20,6 +20,13 @@ Three standalone papers, three distinct research questions, three distinct schol
 - Audit cohort selection, clustering, predictive validation, motif proxies and assay/cell-context confounding.
 - Separate reporter activity from native gene regulation; distinguish novel contribution from prior literature.
 
+### Recorded verification log (25 November 2026 — Paper 2 v1.1)
+
+- Clean-room primary-barcode verification on NCBI GEO `GSE110758` / `GSE110760` confirmed `839` paired 171-bp HAR inserts, `120` negative controls (`P75 = 0.0045 log2`), and all eight complete `2^k` hypercubes (`768` genotypes) (`validation/reconstruct_har_cohort.py`).
+- Post-hoc multi-database audit (`validation/jaspar_ucsc_encode_audit_v1_1.json`) separated prespecified 24-IUPAC consensus results (`LOCO ROC-AUC` 0.5971 → 0.6014) from 24 official human JASPAR PWMs (`LOCO ROC-AUC` 0.6260, Brier 0.2206, peak binding disruption `β = -0.1312`, `p = 0.00084`), Ensembl `GRCh38` mapping, UCSC `phyloP30way`/`phyloP470wayBW` conservation, ENCODE ChIP-seq TFBS, and ENCODE `SCREEN` cCRE coverage (`0/12` hits within ±500 bp across audited fetal/NPC HARs).
+- Study 3 (`df = 2`) epistasis reporting now explicitly contrasts strict two-sided 95% (`|t| > 4.303`, `4/8` sub-additive saturating hypercubes) against two-sided 90% (`|t| > 2.920`, `5/8` total nonadditive hypercubes, with `2xHAR.238` at `|t| = 4.18`, `p = 0.053`).
+- Historical `Primate_Enhancer_FEM_v1.pdf` is preserved unaltered in `papers/02-primate-enhancer-fem/archive/`. Independent human specialist review in biostatistics and regulatory genomics remains open.
+
 ## Paper 3
 
 - Preserve dated prompts, artifact hashes, code versions, executed results, disagreements, and corrections in an access-controlled archive.

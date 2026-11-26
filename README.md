@@ -11,7 +11,7 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 | Paper | Working baseline | Research contribution | Status |
 |---|---|---|---|
 | 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v8.pdf) | v8.0 · 24 Nov 2026 · 22 pages | Theory and computational benchmarks of reuse, coordination liability and functional continuity | [Research repository](https://github.com/RandoSY/architectural-economy); repository README currently describes v7, v8 supplied by author |
-| 2. [Functional Equivalence Mapping in Primate Enhancer Evolution](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.pdf) | v1.0 · 24 Nov 2026 · 16 pages | Secondary analysis of public enhancer assays; equivalence, uncertainty and mutational buffering | Manuscript and research archive supplied by author; independent reproduction pending |
+| 2. [Functional Equivalence Mapping in Primate Enhancer Evolution](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.pdf) | v1.1 · 25 Nov 2026 · 18 pages | Secondary analysis of public enhancer assays; equivalence, JASPAR biophysical grammar, uncertainty and mutational buffering | Clean-room GEO barcode reproduction and JASPAR/UCSC/ENCODE audit in [validation/](validation/); historical v1.0 archived; external specialist review pending |
 | 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.2.pdf) | v0.2 · 25 Nov 2026 · 8 pages | Metacognitive case study of AI-augmented inquiry and epistemic responsibility | Working manuscript; trace audit and independent review pending |
 
 The three papers are independently understandable and intended for separate publication. Paper 3 uses Papers 1 and 2 as case-study evidence, not as a substitute for its own methodology or contribution.
@@ -21,7 +21,7 @@ The three papers are independently understandable and intended for separate publ
 - H1: supported in specified computational models; results depend on fault scope.
 - H2: not supported in the exploratory K562 pilot.
 - H3: system-level functional continuity remains prospective.
-- H3-M: examined in Paper 2 with mixed findings; biological and statistical validation remains necessary.
+- H3-M: examined in Paper 2 (v1.1) with mixed findings; clean-room primary-barcode reproduction and post-hoc JASPAR PWM audit (`LOCO ROC-AUC` 0.597 → 0.626; peak binding disruption `p = 0.00084`) completed, while external specialist review remains necessary.
 
 The reported 63.2% equivalence classification among 386 active paired fragments depends on the selected equivalence margin and variance moderation (43.5% without moderation at the same margin). It does not establish endogenous gene equivalence or a major discovery.
 
@@ -34,8 +34,8 @@ Human-directed collaboration with ChatGPT and Google Gemini/Antigravity is part 
 - [Publication inventory and research status](docs/PUBLICATION_STATUS.md)
 - [Validation and revision protocol](docs/VALIDATION.md)
 - [Manuscript archive](papers/) · [SHA-256 manifest](papers/SHA256SUMS.txt)
+- [Paper 2 v1.1 verification & multi-database audit](validation/)
 
 ## Preservation and access
 
 This repository is the master index, not a replacement for paper-specific repositories. Preserve immutable versions and source hashes. Do not publish private conversation logs, credentials, or third-party data without checking permissions. No new license is asserted by this index.
-

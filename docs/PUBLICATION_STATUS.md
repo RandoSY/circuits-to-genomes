@@ -1,36 +1,39 @@
 # Publication inventory — 25 November 2026
 
-Working baselines supplied by the author. All are unreviewed. The version number identifies an artifact, not the degree of scientific validation.
+Working baselines supplied and maintained by the author. All are unreviewed. The version number identifies an artifact, not the degree of scientific validation.
 
 | Paper | Version | Pages | Archive path |
 |---|---|---:|---|
 | Architectural Economy | 8.0 | 22 | papers/01-architectural-economy/Architectural_Economy_v8.pdf |
-| Primate Enhancer Functional Equivalence Mapping | 1.0 | 16 | papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.pdf |
+| Primate Enhancer Functional Equivalence Mapping | 1.1 | 18 | papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.pdf |
 | The Augmented Investigator | 0.2 | 8 | papers/03-augmented-investigator/The_Augmented_Investigator_v0.2.pdf |
 
-Total: 46 pages. All three current PDFs, the Paper 3 editable Word manuscript, and historical Paper 1 v7 are present in the master repository as of 25 November 2026. File paths and Git blob metadata were checked; full binary checksum verification remains pending.
+Total: 48 pages across current baselines (plus preserved historical Paper 1 v7 and Paper 2 v1.0 in `archive/`, and editable Word manuscripts for Paper 2 v1.1 and Paper 3 v0.2). Full binary SHA-256 checksum verification across all seven archived files was completed on 25 November 2026.
 
-## SHA-256 of supplied artifacts
+## SHA-256 of current and archived artifacts
 
-See [complete supplied checksum manifest](../papers/SHA256SUMS.txt).
+See [complete checksum manifest](../papers/SHA256SUMS.txt).
 
 ```
 f5fa8e89968d5b75118692c628d979c598c490b5d3d8664c6ddd6451166c727f  papers/01-architectural-economy/Architectural_Economy_v8.pdf
-0eaa5ca09eff97e341642cb77b80f10e65d5fa9596ec4fa882994255a776c901  papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.pdf
+fd4121acc438c6025d7281ef2c50b8192e8d79e2fff408e77f7eb812ea5a16dd  papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.pdf
+325d452dde95a69c85662df4fb9994b5f7036033aec2392e981e6688cb1abe36  papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.docx
 ad6726deb9433ca98d8ddf47d77b136dd837a1927aaa77fb3c6c0ed81dba96c2  papers/03-augmented-investigator/The_Augmented_Investigator_v0.2.pdf
 2769fc40d051abebbf052f47debc44d941620f3b38070941767c1c17aa820be1  papers/03-augmented-investigator/The_Augmented_Investigator_v0.2.docx
+112e2889dc3cfbed02f35d1f114fe122cba9c5be94c9429a07d5064853cb4d8e  papers/01-architectural-economy/archive/Architectural_Economy_v7.pdf
+0eaa5ca09eff97e341642cb77b80f10e65d5fa9596ec4fa882994255a776c901  papers/02-primate-enhancer-fem/archive/Primate_Enhancer_FEM_v1.pdf
 ```
 
-## Paper-specific repositories
+## Paper-specific repositories and validation index
 
 - [Architectural Economy](https://github.com/RandoSY/architectural-economy): accessible at initialization; README identifies v7. Preserve v7 as history. Reconcile with supplied v8.
-- Primate FEM: manuscript identifies RandoSY/primate-fem, but access was not confirmed at initialization. The supplied research ZIP is retained separately; verify redistribution permissions before publishing.
-- Augmented Investigator: no accessible separate repository confirmed at initialization.
+- Primate FEM: local research archive verified; clean-room primary-barcode check and JASPAR/UCSC/ENCODE v1.1 sensitivity audit outputs recorded in [../validation/](../validation/) without redistributing third-party GEO data.
+- Augmented Investigator: maintained in master index (`papers/03-augmented-investigator/`).
 
 ## Next release gates
 
 Paper 1: reproduce benchmarks; audit coordination fault scope; reconcile AI disclosure and v8.
-Paper 2: verify data provenance, rerun independent implementation, obtain biostatistics and regulatory genomics review.
-Paper 3: preserve consented/redacted process traces, verify chronology, approve first-person statements, and update artifact references to v8 while retaining v7 as historical evidence.
+Paper 2: independent primary-barcode check, JASPAR PWM / UCSC `phyloP` / ENCODE `cCRE` audit, and `df = 2` Student-`t` critical-value clarification completed in v1.1; obtain external human specialist review in biostatistics and regulatory genomics.
+Paper 3: preserve consented/redacted process traces, verify chronology, approve first-person statements, and update artifact references to Paper 1 v8 and Paper 2 v1.1 while retaining v7 and v1.0 as historical evidence.
 
 The broader H3 system-level hypothesis is not established by the H3-M enhancer reanalysis.
