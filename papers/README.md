@@ -16,3 +16,10 @@
 Keep each paper independent. Preserve earlier versions as historical research artifacts and record SHA-256 checksums. The master index does not replace the paper-specific data and code repositories.
 
 All manuscripts are unreviewed working drafts or preprint candidates.
+
+<!-- COORDINATED_REVIEW_PDFS -->
+## Coordinated expanded review PDFs (verified)
+
+- [Architectural Economy in Biological and Technological Systems v10 (28 pages)](../papers/01-architectural-economy/Architectural_Economy_v10.pdf)
+- [Functional Equivalence Mapping in Primate Enhancer Evolution v1.2 (21 pages)](../papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf)
+- [The Augmented Investigator v0.5 (19 pages)](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf)
