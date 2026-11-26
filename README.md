@@ -28,6 +28,12 @@ The three papers are independently understandable and intended for separate publ
 
 Four matched nominal-budget logical architectures, 7,680 fault-free output checks and 33,000 injected fault scenarios. Separate staged operands expose local corruption; independently injectable logical sources expose one upstream corruption, but common corruption, opposing errors and unavailable verification can still defeat the checks. These are logical CPU simulations, not measured H100 behavior. The high-level GPU benchmark is CPU smoke-tested only. The proposed Paper 1 v10, Paper 2 v1.2 and Paper 3 v0.5 insertions are review supplements, not released manuscripts. Prior versions remain intact.
 
+### Boolean-dataflow laboratory v0.1 — fault-model sensitivity
+
+[Download complete laboratory ZIP](research/h100-lab/v0.1/C2G_H100_Lab_v0.1.zip) · [Findings and preservation record](research/h100-lab/v0.1/FINDINGS.md) · [Protocol](research/h100-lab/v0.1/PROTOCOL.md) · [CPU source](research/h100-lab/v0.1/lab.py) · [GPU validation source](research/h100-lab/v0.1/gpu_validate.py) · [Summary CSV](research/h100-lab/v0.1/baseline_results/summary.csv)
+
+26 November 2026. Separate complementary Boolean-dataflow experiment: 360 exact portfolio-equivalence checks passed and 32,168 simulated fault cases. At 32 outputs, sharing reduces mean internal nodes from 96.0 to 47.9; including backup coordination eliminates the buffered design's all-site stuck-zero advantage over dedicated computation, while inversion exposes larger disruption. The exact original ZIP contains all raw fault-site and seed-level data. CPU simulation only; CUDA hardware execution and independent validation pending. Keep separate from the matrix pilots above.
+
 ## Scientific status
 
 - H1: supported in specified computational models; results depend on fault scope.
