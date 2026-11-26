@@ -1,6 +1,11 @@
 # Manuscript archive
 
-The current manuscripts and preserved historical baselines are archived here:
+## Latest review editions
+
+[Coordinated release v10 / v1.2 / v0.5](../research/coordinated-revision/2026-11-26/START_HERE.md) · [Revision text](../research/coordinated-revision/2026-11-26/revisions.md) · [Exact delta archive](../research/coordinated-revision/2026-11-26/exact_deltas.zip). Reconstructable PDFs total 68 pages (28 + 21 + 19); direct full-file publication is pending. All original figures and text remain in the base PDFs.
+
+## Preserved directly browsable baselines
+
 
 - [Paper 1 — Architectural Economy v9 (PDF)](01-architectural-economy/Architectural_Economy_v9.pdf) · [Historical v8](01-architectural-economy/archive/Architectural_Economy_v8.pdf) · [Historical v7](01-architectural-economy/archive/Architectural_Economy_v7.pdf)
 - [Paper 2 — Primate Enhancer FEM v1.1 (PDF)](02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.pdf) · [Word](02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.1.docx) · [Historical v1.0](02-primate-enhancer-fem/archive/Primate_Enhancer_FEM_v1.pdf)

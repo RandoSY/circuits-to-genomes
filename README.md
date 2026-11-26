@@ -16,6 +16,17 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 
 The three papers are independently understandable and intended for separate publication. Paper 3 uses Papers 1 and 2 as case-study evidence, not as a substitute for its own methodology or contribution.
 
+## Coordinated research revision — 26 November 2026
+
+**Latest expanded review editions: Paper 1 v10 (28 pages), Paper 2 v1.2 (21 pages), Paper 3 v0.5 (19 pages).** The ten new revision pages precede the complete unchanged earlier manuscript pages. The original v9 / v1.1 / v0.4 files remain the directly browsable baselines until the new full PDFs are materialized.
+
+[Review release and exact recovery instructions](research/coordinated-revision/2026-11-26/START_HERE.md) · [Full editable revision text](research/coordinated-revision/2026-11-26/revisions.md) · [Exact PDF reconstruction archive](research/coordinated-revision/2026-11-26/exact_deltas.zip) · [Release manifest](research/coordinated-revision/2026-11-26/RELEASE_MANIFEST.json) · [Assembly and publication script](research/coordinated-revision/2026-11-26/assemble_release.py)
+
+- Paper 1: both CPU pilots refine H1 through fault-model sensitivity and dependency placement; prospective H1-D tests protection under matched effective budgets.
+- Paper 2: prospective H3-D tests diversity of upstream enhancer dependencies at the endogenous target-output level; no new biological analysis or rescue of null multiplicity findings.
+- Paper 3: a documented return-direction episode and a proposed verification-dependency gate. Agreement is not necessarily independence.
+- Actual H100 execution, independently reproduced results and specialist review remain pending. The original reciprocal question remains central.
+
 ## Exploratory research — From Genomes Back to Circuits
 
 [Hopper-inspired architectural economy pilot v0.1](research/hopper-pilot/v0.1/README.md) · [Python experiment](research/hopper-pilot/v0.1/pilot.py) · [Results CSV](research/hopper-pilot/v0.1/results.csv) · [Checksums](research/hopper-pilot/v0.1/SHA256SUMS.txt)
@@ -26,7 +37,7 @@ The three papers are independently understandable and intended for separate publ
 
 [Complete experiment and methodology](research/hopper-pilot/v0.2/README.md) · [Code](research/hopper-pilot/v0.2/pilot.py) · [Results](research/hopper-pilot/v0.2/results.csv) · [Revision dossier for Papers 1–3](research/hopper-pilot/v0.2/REVISION_PLAN.md) · [GPU protocol](research/hopper-pilot/v0.2/GPU_PROTOCOL.md)
 
-Four matched nominal-budget logical architectures, 7,680 fault-free output checks and 33,000 injected fault scenarios. Separate staged operands expose local corruption; independently injectable logical sources expose one upstream corruption, but common corruption, opposing errors and unavailable verification can still defeat the checks. These are logical CPU simulations, not measured H100 behavior. The high-level GPU benchmark is CPU smoke-tested only. The proposed Paper 1 v10, Paper 2 v1.2 and Paper 3 v0.5 insertions are review supplements, not released manuscripts. Prior versions remain intact.
+Four matched nominal-budget logical architectures, 7,680 fault-free output checks and 33,000 injected fault scenarios. Separate staged operands expose local corruption; independently injectable logical sources expose one upstream corruption, but common corruption, opposing errors and unavailable verification can still defeat the checks. These are logical CPU simulations, not measured H100 behavior. The high-level GPU benchmark is CPU smoke-tested only. These initial proposed insertions are now superseded for review by the coordinated expanded review editions above; the pilot itself remains immutable. Prior versions remain intact.
 
 ### Boolean-dataflow laboratory v0.1 — fault-model sensitivity
 
@@ -39,6 +50,8 @@ Four matched nominal-budget logical architectures, 7,680 fault-free output check
 - H1: supported in specified computational models; results depend on fault scope.
 - H2: not supported in the exploratory K562 pilot.
 - H3: system-level functional continuity remains prospective.
+- H1-D: prospective engineering refinement on common-cause protection dependencies and matched effective budgets.
+- H3-D: prospective endogenous regulatory dependency-overlap test; no outcome data analyzed.
 - H3-M: examined in Paper 2 (v1.1) with mixed findings; clean-room primary-barcode reproduction and post-hoc JASPAR PWM audit (`LOCO ROC-AUC` 0.597 → 0.626; peak binding disruption `p = 0.00084`) completed, while external specialist review remains necessary.
 
 The reported 63.2% equivalence classification among 386 active paired fragments depends on the selected equivalence margin and variance moderation (43.5% without moderation at the same margin). It does not establish endogenous gene equivalence or a major discovery.

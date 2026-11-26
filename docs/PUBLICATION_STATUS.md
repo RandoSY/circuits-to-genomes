@@ -10,6 +10,16 @@ Working baselines supplied and maintained by the author. All are unreviewed. The
 
 Total: 58 pages across the current manuscript baselines. Prior versions remain archived (Paper 1 v8.0 and v7.0, Paper 2 v1.0, Paper 3 v0.3 and v0.2). Both the Paper 1 v9.0 PDF (`245028f65fea5be232698b070e7fc7c4d667cadb`) and the Paper 3 v0.4 PDF and its ten supporting files match their prepared review packages byte for byte (verified SHA-256 and Git blob identifiers). This confirms preservation, not scientific validation.
 
+## Coordinated review editions
+
+| Paper | Review version | Total pages | Exact archive status |
+|---|---|---:|---|
+| Architectural Economy | 10 | 28 | Baseline + verified incremental delta |
+| Primate Enhancer FEM | 1.2 | 21 | Baseline + verified incremental delta |
+| The Augmented Investigator | 0.5 | 19 | Baseline + verified incremental delta |
+
+Total: 68 pages in the expanded review editions. The ten new pages are separately labeled R1 onward; retained baseline pages preserve their original numbering. Full PDFs are recoverable byte for byte using the [release archive and instructions](../research/coordinated-revision/2026-11-26/START_HERE.md); see [manifest](../research/coordinated-revision/2026-11-26/RELEASE_MANIFEST.json) for exact checksums. These are not fully re-typeset journal submissions. The directly browsable baseline table above remains accurate until the full PDFs are committed.
+
 ## SHA-256 of current and archived artifacts
 
 See [complete checksum manifest](../papers/SHA256SUMS.txt).
