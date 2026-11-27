@@ -11,10 +11,16 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 | Paper | Latest review manuscript | Research contribution | Status |
 |---|---|---|---|
 | 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v11.pdf) | v11 · 26 Nov 2026 · 33 pages | Theory, computational benchmarks of reuse and coordination liability, and empirical H3-M synthesis | [Research repository](https://github.com/RandoSY/architectural-economy) reconciled with v9.0 (historical v8.0 and v7.0 preserved); external specialist review pending |
-| 2. [Functional Equivalence Mapping in Primate Enhancer Evolution](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) | v1.2 · 26 Nov 2026 · 21 pages | Secondary analysis of public enhancer assays; equivalence, JASPAR biophysical grammar, uncertainty and mutational buffering | Clean-room GEO barcode reproduction and JASPAR/UCSC/ENCODE audit in [validation/](validation/); historical v1.0 archived; external specialist review pending |
+| 2. [Functional Continuity in Biological Evolution: Hydrogen Peroxide Management](papers/02-peroxide-management/manuscript-v0.1.md) | v0.1 · 27 Nov 2026 · developmental Markdown | Biochemical benchmark, system-level protective capacity, prospective architecture tests | [Protocol and reproducibility](papers/02-peroxide-management/) · not submission-ready; independent validation pending |
 | 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) | v0.6 · 26 Nov 2026 · integrated Markdown review manuscript | Metacognitive case study: technology-inspired biological inquiry, epistemic responsibility, verification dependence and scope judgment | Full editable source and PDF build script preserved; v0.5 PDF remains available; author and independent review pending |
 
 The three papers are independently understandable and intended for separate publication. Paper 3 uses Papers 1 and 2 as case-study evidence, not as a substitute for its own methodology or contribution.
+
+## Paper 2 — author-approved refocus (27 November 2026)
+
+[New manuscript v0.1](papers/02-peroxide-management/manuscript-v0.1.md) · [Research protocol](papers/02-peroxide-management/PROTOCOL.md) · [Preservation ledger](papers/02-peroxide-management/PRESERVATION.md) · [System-level descriptive results](papers/02-peroxide-management/SYSTEM_RESULTS.json).
+
+**Independent companion study:** [Functional Equivalence Mapping in Primate Enhancer Evolution, documented v1.2 PDF](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) · [Complete original archive](papers/02-primate-enhancer-fem/) · [Validation](validation/). The v1.3 review PDF exists in the archive but its content and checksum have not yet been independently inspected. All original paths, versioned files, null results and validation records remain unchanged. The historical references to Paper 2 below refer to the former enhancer track, not the new manuscript. The new direction does not establish new biochemical or evolutionary mechanisms.
 
 ## Paper 1 — integrated v11
 
@@ -97,4 +103,4 @@ This repository is the master index, not a replacement for paper-specific reposi
 
 ## CAT-FEM — catalase functional continuity pilot (v0.1)
 
-[Executed pilot, data, Python and Paper 2 revision proposal](research/catalase-fem/v0.1/README.md). Sixteen catalases from Switala and Loewen (2002), separate five-paralog cohort from 2021; descriptive ranges and exploratory clade baseline. Sequence/structural prediction remains prospective; no new equivalence or causal claims. Existing Paper 2 v1.2 remains intact pending evaluation of whether integration adds scientific value.
+[Executed pilot, data, Python and Paper 2 revision proposal](research/catalase-fem/v0.1/README.md). Sixteen catalases from Switala and Loewen (2002), separate five-paralog cohort from 2021; descriptive ranges and exploratory clade baseline. Sequence/structural prediction remains prospective; no new equivalence or causal claims. The catalase pilot remains intact as the precursor to the newly authorized peroxide-management Paper 2; the primate FEM manuscript is preserved separately.
