@@ -1,0 +1,7 @@
+genotype,zone_from_disk_edge_cm,extracellular_peroxide_status,extracellular_peroxide_uM
+wild_type,1.1,below_detection,
+katG,1.6,not_reported,
+ahpCF,1.1,below_detection,
+katG_katE,1.6,below_detection,
+ahpCF_katG,2.9,not_reported,
+ahpCF_katG_katE,3.1,measured,1.8
