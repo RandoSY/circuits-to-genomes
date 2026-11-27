@@ -12,7 +12,7 @@ Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working resea
 |---|---|---|---|
 | 1. [Architectural Economy in Biological and Technological Systems](papers/01-architectural-economy/Architectural_Economy_v11.pdf) | v11 · 26 Nov 2026 · 33 pages | Theory, computational benchmarks of reuse and coordination liability, and empirical H3-M synthesis | [Research repository](https://github.com/RandoSY/architectural-economy) reconciled with v9.0 (historical v8.0 and v7.0 preserved); external specialist review pending |
 | 2. [Functional Equivalence Mapping in Primate Enhancer Evolution](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) | v1.2 · 26 Nov 2026 · 21 pages | Secondary analysis of public enhancer assays; equivalence, JASPAR biophysical grammar, uncertainty and mutational buffering | Clean-room GEO barcode reproduction and JASPAR/UCSC/ENCODE audit in [validation/](validation/); historical v1.0 archived; external specialist review pending |
-| 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf) | v0.5 · 26 Nov 2026 · 19 pages | Metacognitive case study of reciprocal computing–biology inquiry, AI augmentation and epistemic responsibility | Working manuscript; trace audit and independent review pending |
+| 3. [The Augmented Investigator](papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) | v0.6 · 26 Nov 2026 · integrated Markdown review manuscript | Metacognitive case study: technology-inspired biological inquiry, epistemic responsibility, verification dependence and scope judgment | Full editable source and PDF build script preserved; v0.5 PDF remains available; author and independent review pending |
 
 The three papers are independently understandable and intended for separate publication. Paper 3 uses Papers 1 and 2 as case-study evidence, not as a substitute for its own methodology or contribution.
 
@@ -22,7 +22,7 @@ The three papers are independently understandable and intended for separate publ
 
 ## Coordinated research revision — 26 November 2026
 
-**Latest expanded review editions: Paper 1 v10 (28 pages), Paper 2 v1.2 (21 pages), Paper 3 v0.5 (19 pages).** The ten new revision pages precede the complete unchanged earlier manuscript pages. All three full PDFs are published and SHA-256 verified. The original v9 / v1.1 / v0.4 baselines remain preserved and directly browsable.
+**Archived expanded PDF review editions: Paper 1 v10 (28 pages), Paper 2 v1.2 (21 pages), Paper 3 v0.5 (19 pages).** The ten new revision pages precede the complete unchanged earlier manuscript pages. All three full PDFs are published and SHA-256 verified. The original v9 / v1.1 / v0.4 baselines remain preserved and directly browsable.
 
 [Review release and exact recovery instructions](research/coordinated-revision/2026-11-26/START_HERE.md) · [Full editable revision text](research/coordinated-revision/2026-11-26/revisions.md) · [Exact PDF reconstruction archive](research/coordinated-revision/2026-11-26/exact_deltas.zip) · [Release manifest](research/coordinated-revision/2026-11-26/RELEASE_MANIFEST.json) · [Assembly and publication script](research/coordinated-revision/2026-11-26/assemble_release.py)
 
@@ -30,6 +30,12 @@ The three papers are independently understandable and intended for separate publ
 - Paper 2: prospective H3-D tests diversity of upstream enhancer dependencies at the endogenous target-output level; no new biological analysis or rescue of null multiplicity findings.
 - Paper 3: a documented return-direction episode and a proposed verification-dependency gate. Agreement is not necessarily independence.
 - Actual H100 execution, independently reproduced results and specialist review remain pending. The original reciprocal question remains central.
+
+## Paper 3 — integrated v0.6 (26 November 2026)
+
+[Read the complete revised manuscript](papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) · [Editable source and revision/build instructions](papers/03-augmented-investigator/source-v0.6/) · [Archived v0.5 PDF](papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf).
+
+The integrated revision retains the v0.4 baseline and v0.5 verification-dependency and return-direction additions. It records the investigator's clarification of the technological origin of C2G, the complementary role of H100, the genomic bottleneck dialogue and the explicit decision not to rewrite Paper 1. The purpose-disposition gate distinguishes necessary correction, contextual enrichment, prospective separate inquiry and rejection. The negative FEM-GPU pilot and evolutionary trace selection are documented with their limitations. No new biological findings, consciousness theory, hardware measurements, or classroom efficacy are claimed. Paper 1 and Paper 2 manuscripts remain unchanged. PDF build source supplied but v0.6 PDF not yet rendered or verified.
 
 ## Exploratory research — From Genomes Back to Circuits
 
