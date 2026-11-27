@@ -1,5 +1,16 @@
 # Publication inventory — updated 27 November 2026
 
+
+## Current resource links — 27 November 2026
+
+Use this list to locate the current research tracks. The three additional review PDFs listed below exist as nonempty Git blobs; their contents and relationship to the documented manuscripts have not been independently verified. They are not asserted to supersede the documented editions.
+
+- **Paper 1:** [v12 review PDF (unverified review artifact)](../papers/01-architectural-economy/Architectural_Economy_v12_review.pdf) · [documented v11 PDF](../papers/01-architectural-economy/Architectural_Economy_v11.pdf) · [v11 source](../papers/01-architectural-economy/source-v11/).
+- **Paper 2 (current):** [Peroxide management v0.1 manuscript](../papers/02-peroxide-management/manuscript-v0.1.md) · [protocol](../papers/02-peroxide-management/PROTOCOL.md) · [system results](../papers/02-peroxide-management/SYSTEM_RESULTS.json) · [preservation ledger](../papers/02-peroxide-management/PRESERVATION.md). No PDF of the new Paper 2 exists in this tree.
+- **Paper 3:** [v0.6 Markdown](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) · [v0.6 review PDF (unverified review artifact)](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.6_review.pdf) · [v0.5 verified historical PDF](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf).
+- **Independent primate enhancer companion:** [v1.3 review PDF (unverified review artifact)](../papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.3_review.pdf) · [documented v1.2 PDF](../papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) · [all versions](../papers/02-primate-enhancer-fem/).
+- **Open Lab:** [live exhibit](https://project-atlas-lab.duckdns.org/atlas/catalase-fem/open-lab/) · [versioned release package and checksums](https://github.com/RandoSY/project-atlas/tree/atlas-web-preview/web/releases/catalase-open-lab/v1.1) · [website source](https://github.com/RandoSY/project-atlas/tree/atlas-web-preview/web/atlas/catalase-fem).
+
 ## Current portfolio decision
 
 | Track | Current developmental/review edition | Status |
@@ -85,4 +96,4 @@ The broader H3 system-level hypothesis is not established by the H3-M enhancer r
 
 [Complete manuscript](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) · [Editable source and revision record](../papers/03-augmented-investigator/source-v0.6/) · [Prior v0.5 PDF](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf).
 
-Integrated full-text revision (~7,070 words) from v0.4 source and v0.5 revision text. Adds the metacognitive decision to preserve the originating question despite a compelling genomic-information-economy extension, differentiates the PDP-8 continuity example and H100 scale/coordination example, and records the negative FEM-GPU baseline and prospective evolutionary trace. No change to Paper 1 or 2. No new empirical claim. Private dialogue paraphrased. Human final-text approval, trace coding and independent review pending. v0.6 PDF build script provided but not executed or verified; v0.5 remains the latest verified PDF.
+Integrated full-text revision (~7,070 words) from v0.4 source and v0.5 revision text. Adds the metacognitive decision to preserve the originating question despite a compelling genomic-information-economy extension, differentiates the PDP-8 continuity example and H100 scale/coordination example, and records the negative FEM-GPU baseline and prospective evolutionary trace. No change to Paper 1 or 2. No new empirical claim. Private dialogue paraphrased. Human final-text approval, trace coding and independent review pending. v0.6 PDF build script provided; a v0.6 review PDF is present but its contents and correspondence to source have not been verified. v0.5 remains the documented verified PDF.
