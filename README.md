@@ -6,6 +6,17 @@ Randall S. Young, Ed.S. · Independent Researcher, Indiana, USA · [ORCID 0009-0
 
 Part of [Project ATLAS](https://github.com/RandoSY/project-atlas). Working research portfolio, established 25 November 2026. Manuscripts are not peer reviewed.
 
+
+## Current resource links — 27 November 2026
+
+Use this list to locate the current research tracks. The three additional review PDFs listed below exist as nonempty Git blobs; their contents and relationship to the documented manuscripts have not been independently verified. They are not asserted to supersede the documented editions.
+
+- **Paper 1:** [v12 review PDF (unverified review artifact)](papers/01-architectural-economy/Architectural_Economy_v12_review.pdf) · [documented v11 PDF](papers/01-architectural-economy/Architectural_Economy_v11.pdf) · [v11 source](papers/01-architectural-economy/source-v11/).
+- **Paper 2 (current):** [Peroxide management v0.1 manuscript](papers/02-peroxide-management/manuscript-v0.1.md) · [protocol](papers/02-peroxide-management/PROTOCOL.md) · [system results](papers/02-peroxide-management/SYSTEM_RESULTS.json) · [preservation ledger](papers/02-peroxide-management/PRESERVATION.md). No PDF of the new Paper 2 exists in this tree.
+- **Paper 3:** [v0.6 Markdown](papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) · [v0.6 review PDF (unverified review artifact)](papers/03-augmented-investigator/The_Augmented_Investigator_v0.6_review.pdf) · [v0.5 verified historical PDF](papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf).
+- **Independent primate enhancer companion:** [v1.3 review PDF (unverified review artifact)](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.3_review.pdf) · [documented v1.2 PDF](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) · [all versions](papers/02-primate-enhancer-fem/).
+- **Open Lab:** [live exhibit](https://project-atlas-lab.duckdns.org/atlas/catalase-fem/open-lab/) · [versioned release package and checksums](https://github.com/RandoSY/project-atlas/tree/atlas-web-preview/web/releases/catalase-open-lab/v1.1) · [website source](https://github.com/RandoSY/project-atlas/tree/atlas-web-preview/web/atlas/catalase-fem).
+
 ## Three standalone publications
 
 | Paper | Latest review manuscript | Research contribution | Status |
@@ -20,7 +31,7 @@ The three papers are independently understandable and intended for separate publ
 
 [New manuscript v0.1](papers/02-peroxide-management/manuscript-v0.1.md) · [Research protocol](papers/02-peroxide-management/PROTOCOL.md) · [Preservation ledger](papers/02-peroxide-management/PRESERVATION.md) · [System-level descriptive results](papers/02-peroxide-management/SYSTEM_RESULTS.json).
 
-**Independent companion study:** [Functional Equivalence Mapping in Primate Enhancer Evolution, documented v1.2 PDF](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) · [Complete original archive](papers/02-primate-enhancer-fem/) · [Validation](validation/). The v1.3 review PDF exists in the archive but its content and checksum have not yet been independently inspected. All original paths, versioned files, null results and validation records remain unchanged. The historical references to Paper 2 below refer to the former enhancer track, not the new manuscript. The new direction does not establish new biochemical or evolutionary mechanisms.
+**Independent companion study:** [Functional Equivalence Mapping in Primate Enhancer Evolution, documented v1.2 PDF](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) · [Complete original archive](papers/02-primate-enhancer-fem/) · [Validation](validation/). The [v1.3 review PDF](papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.3_review.pdf) exists in the archive but its content and checksum have not yet been independently inspected. All original paths, versioned files, null results and validation records remain unchanged. The historical references to Paper 2 below refer to the former enhancer track, not the new manuscript. The new direction does not establish new biochemical or evolutionary mechanisms.
 
 ## Paper 1 — integrated v11
 
@@ -41,7 +52,7 @@ The three papers are independently understandable and intended for separate publ
 
 [Read the complete revised manuscript](papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) · [Editable source and revision/build instructions](papers/03-augmented-investigator/source-v0.6/) · [Archived v0.5 PDF](papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf).
 
-The integrated revision retains the v0.4 baseline and v0.5 verification-dependency and return-direction additions. It records the investigator's clarification of the technological origin of C2G, the complementary role of H100, the genomic bottleneck dialogue and the explicit decision not to rewrite Paper 1. The purpose-disposition gate distinguishes necessary correction, contextual enrichment, prospective separate inquiry and rejection. The negative FEM-GPU pilot and evolutionary trace selection are documented with their limitations. No new biological findings, consciousness theory, hardware measurements, or classroom efficacy are claimed. Paper 1 and Paper 2 manuscripts remain unchanged. PDF build source supplied but v0.6 PDF not yet rendered or verified.
+The integrated revision retains the v0.4 baseline and v0.5 verification-dependency and return-direction additions. It records the investigator's clarification of the technological origin of C2G, the complementary role of H100, the genomic bottleneck dialogue and the explicit decision not to rewrite Paper 1. The purpose-disposition gate distinguishes necessary correction, contextual enrichment, prospective separate inquiry and rejection. The negative FEM-GPU pilot and evolutionary trace selection are documented with their limitations. No new biological findings, consciousness theory, hardware measurements, or classroom efficacy are claimed. Paper 1 and Paper 2 manuscripts remain unchanged. PDF build source supplied; a v0.6 review PDF is present but its contents and correspondence to the source have not been verified.
 
 ## Exploratory research — From Genomes Back to Circuits
 
