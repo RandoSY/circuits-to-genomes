@@ -1,0 +1,17 @@
+organism,clade_2002,specific_activity_U_mg,observed_max_per_heme_s,half_max_mM,heat_half_min_65C
+Aspergillus niger,II,21400,315000,599,14
+Bacteroides fragilis,III,69100,241000,128,5
+Bordetella pertussis,III,225000,424000,88,10
+Bos taurus,III,91800,181000,93,0.3
+Brucella abortus,III,145800,380000,84,4
+Escherichia coli HPII,II,20700,151000,312,720
+Helicobacter pylori,III,61400,250000,108,1
+Homo sapiens,III,273800,548000,81,0.2
+Listeria seeligeri,I,89300,133000,49,1
+Micrococcus luteus,III,109100,284000,147,6
+Proteus mirabilis,III,160000,833000,200,14
+Pseudomonas aeruginosa,III,71800,54000,38,0.05
+Pseudomonas syringae,I,84600,238000,82,0.2
+Saccharomyces cerevisiae,III,116100,278000,94,0.1
+Serratia marcescens,III,98900,228000,180,12
+Xanthomonas campestris,III,99900,244000,64,0.3
