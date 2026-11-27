@@ -1,4 +1,17 @@
-# Publication inventory — 26 November 2026
+# Publication inventory — updated 27 November 2026
+
+## Current portfolio decision
+
+| Track | Current developmental/review edition | Status |
+|---|---|---|
+| Paper 1 — Architectural Economy | [v11 PDF](../papers/01-architectural-economy/Architectural_Economy_v11.pdf) | Unchanged |
+| Paper 2 — Functional Continuity: Hydrogen Peroxide Management | [v0.1 Markdown](../papers/02-peroxide-management/manuscript-v0.1.md) | New draft; protocol, data and descriptive contrasts; independent validation pending; no PDF |
+| Paper 3 — Augmented Investigator | [v0.6 Markdown](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) | Unchanged |
+| Companion — Primate Enhancer FEM | [v1.2 documented PDF](../papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf) | All versions preserved, including v1.3 review PDF (content not inspected) |
+
+[Scope decision and immutable artifact ledger](../papers/02-peroxide-management/PRESERVATION.md). Earlier entries below are historical snapshots, not current designation of Paper 2. The archived 73-page PDF combination is unchanged but no longer represents the current three research tracks. No fresh total page count is available.
+
+## Historical publication inventory — 26 November 2026
 
 Working baselines supplied and maintained by the author. All are unreviewed. The version number identifies an artifact, not the degree of scientific validation.
 
