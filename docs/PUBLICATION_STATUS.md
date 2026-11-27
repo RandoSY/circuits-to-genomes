@@ -16,7 +16,7 @@ Total: 58 pages across the current manuscript baselines. Prior versions remain a
 |---|---|---:|---|
 | [Architectural Economy](../papers/01-architectural-economy/Architectural_Economy_v11.pdf) | 11 | 33 | Published, source checksums verified |
 
-The latest three review manuscripts total 73 pages (v11 / v1.2 / v0.5). [v11 revision and source record](../papers/01-architectural-economy/source-v11/REVISION.md); [publication hash](../papers/01-architectural-economy/source-v11/PUBLISHED.json). No new experiments were run; independent review remains outstanding.
+The archived PDF combination v11 / v1.2 / v0.5 totals 73 pages. Paper 3 now has an integrated v0.6 Markdown review edition; its PDF pagination is not established. [v11 revision and source record](../papers/01-architectural-economy/source-v11/REVISION.md); [publication hash](../papers/01-architectural-economy/source-v11/PUBLISHED.json). No new experiments were run; independent review remains outstanding.
 
 ## Coordinated review editions
 
@@ -67,3 +67,9 @@ The broader H3 system-level hypothesis is not established by the H3-M enhancer r
 - [Architectural Economy in Biological and Technological Systems v10 (28 pages)](../papers/01-architectural-economy/Architectural_Economy_v10.pdf)
 - [Functional Equivalence Mapping in Primate Enhancer Evolution v1.2 (21 pages)](../papers/02-primate-enhancer-fem/Primate_Enhancer_FEM_v1.2.pdf)
 - [The Augmented Investigator v0.5 (19 pages)](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf)
+
+## Paper 3 integrated v0.6 — 26 November 2026
+
+[Complete manuscript](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.6.md) · [Editable source and revision record](../papers/03-augmented-investigator/source-v0.6/) · [Prior v0.5 PDF](../papers/03-augmented-investigator/The_Augmented_Investigator_v0.5.pdf).
+
+Integrated full-text revision (~7,070 words) from v0.4 source and v0.5 revision text. Adds the metacognitive decision to preserve the originating question despite a compelling genomic-information-economy extension, differentiates the PDP-8 continuity example and H100 scale/coordination example, and records the negative FEM-GPU baseline and prospective evolutionary trace. No change to Paper 1 or 2. No new empirical claim. Private dialogue paraphrased. Human final-text approval, trace coding and independent review pending. v0.6 PDF build script provided but not executed or verified; v0.5 remains the latest verified PDF.
