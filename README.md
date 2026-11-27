@@ -94,3 +94,7 @@ This repository is the master index, not a replacement for paper-specific reposi
 ## FEM-GPU — functional replacement pilot
 
 [Free Python laboratory and operator guide v0.1](research/fem-gpu/v0.1/README.md) · [CPU/CUDA pilot code](research/fem-gpu/v0.1/pilot.py). Prospective prediction validation before mechanistic exploration; no new biological results or manuscript changes.
+
+## CAT-FEM — catalase functional continuity pilot (v0.1)
+
+[Executed pilot, data, Python and Paper 2 revision proposal](research/catalase-fem/v0.1/README.md). Sixteen catalases from Switala and Loewen (2002), separate five-paralog cohort from 2021; descriptive ranges and exploratory clade baseline. Sequence/structural prediction remains prospective; no new equivalence or causal claims. Existing Paper 2 v1.2 remains intact pending evaluation of whether integration adds scientific value.
