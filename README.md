@@ -77,6 +77,7 @@ Human-directed collaboration with ChatGPT and Google Gemini/Antigravity is part 
 - [Manuscript archive](papers/) · [SHA-256 manifest](papers/SHA256SUMS.txt)
 - [Paper 1 v9.0 revision record](docs/PAPER1_V9_REVISION.md)
 - [Paper 2 v1.1 verification & multi-database audit](validation/)
+- **[C2G Master Curriculum v1.0 — START HERE](docs/C2G_MASTER_CURRICULUM.md)** · 24 experience-first study sessions; free core route
 - [Paper 2 free foundations self-study curriculum](docs/PAPER2_FOUNDATIONS_CURRICULUM.md)
 
 ## Preservation and access
