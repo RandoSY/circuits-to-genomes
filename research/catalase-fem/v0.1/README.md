@@ -1,0 +1,43 @@
+# Catalase Functional Continuity (CAT-FEM) v0.1
+**Paper 2 candidate extension — exploratory secondary analysis, not peer reviewed**
+
+## Question and scope
+Can conservation of catalytic capability be separated from conservation of performance, and can architecture predict performance under specified conditions better than sequence identity alone? The PDP-8 is the motivating technological case, not biological evidence. Typical heme catalase catalyzes 2 H2O2 -> 2 H2O + O2. Catalase-peroxidases and manganese catalases provide separate convergent-function contrasts, not a single homologous alignment. This study does not establish LUCA ancestry or that catalase universally protects cells to the same degree.
+
+## Executed pilot A: sixteen purified typical heme catalases
+Primary source: Switala J, Loewen PC. Diversity of properties among catalases. Arch Biochem Biophys 401 (2002) 145–154. PMID 12054464. https://pubmed.ncbi.nlm.nih.gov/12054464/ . Full text: https://www.loewenlabs.com/peter/wp-content/themes/atahualpa/Manuscripts/ArchBB_401_145.pdf .
+kinetics.csv transcribes Table 2 specific activity and historical clade; Table 3 observed maximum rate per heme and concentration at half the observed maximum; Table 5 time to 50% inactivation at 65°C. The table images were checked. Not interchangeable with calculated Michaelis–Menten parameters. Preparation methods differ. Raw replicate distributions are not available here. The article reports triplicate averaged assays for figures. No uncertainty intervals or TOST claims are inferred from summary values.
+
+Metric | range | fold range
+---|---|---
+Specific activity (U/mg) | 20,700–273,800 | 13.227
+Observed maximum (H2O2 per heme per s) | 54,000–833,000 | 15.426
+Half observed maximum concentration (mM) | 38–599 | 15.763
+Time to half inactivation at 65°C (min) | 0.05–720 | 14,400
+
+Retrospective leave-one-enzyme-out median predictor, log10 absolute error; compare training-set global median with median of the held-out enzyme's historical clade. Clades I/II/III have 2/2/12 observations. Clade-specific predictor change in MAE: +40.04% improvement for specific activity, -24.48% (worse) for observed maximum rate, +19.44% for half maximum concentration, +5.76% for heat half-inactivation. No p-values, phylogenetically independent test, causal conclusion, or externally validated prediction. Clade feature is known prior to prediction but its use here is exploratory. The original authors already reported broad performance variability and discussed substrate channels; these calculations are descriptive reproduction and pilot baseline, not a novel evolutionary discovery. Large-subunit clade II has only two members; size and clade are confounded.
+
+## Pilot B: five paralogs within one organism
+Primary source: The Richness and Diversity of Catalases in Bacteria (2021), https://doi.org/10.3389/fmicb.2021.645477 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8017148/ . Table 1 identifies five S. rimosus ATCC 10970 proteins (versioned accessions in streptomyces_2021.csv) and measured activities. Specific activity spans 9.45-fold, apparent kcat 5.28-fold, apparent kcat/Km 8.91-fold. These are reported-value ratios, not equivalence tests. The paper reports differing pH and thermal behavior; the most thermostable Cat5 is the lowest-specific-activity member. Do not pool the 2021 and 2002 kinetic values because assay conditions and normalizations differ. Within-species paralogs are not independent evolutionary replicates; this is a separately interpretable cohort, not external validation of the clade predictor.
+
+## Next experiment: testable architectural prediction
+Prospective hypothesis: for typical heme catalases, active-site geometry, access-channel features, oligomeric interface and domain organization add held-out predictive value beyond global sequence identity and phylogenetic/assay baselines for a specified measured performance trait. Separate reaction identity, catalytic rate, substrate-dependent response and stress stability; do not infer cell survival from enzyme assays. Include measured low-activity/inactive homologs where identity and assay conditions can be matched to avoid selection on successful function. Start with matched records; separate 2002 and 2021 cohorts. Confirm specific protein accessions and actual assay construct, PDB chain/ligand/mutation/coverage, distinguish wild type and variants. Candidate structural records: human 1DGF, bovine 8CAT, E. coli HPII 1GGE, P. syringae 1M7S, yeast 1A4E; verify exact construct matches before use. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC2959186/ and https://www.rcsb.org/structure/1DGF . Use experimental structures first, predicted structures only with confidence and separate labeling. Do not interpret predicted static structure as observed catalytic dynamics.
+
+Freeze endpoints, alignments, structural feature definitions and thresholds before new outcome analyses. Compare M0 global/assay baseline, M1 sequence features and gene-family/phylogenetic baseline, M2 M1 plus preselected structural features. Group by homology/clade and source study as feasible; report held-out log10 MAE and uncertainty at enzyme/study level, no pairwise pseudoreplication. Require improvement over M1 in genuinely independent matched cohort before predictive claim; if insufficient matching, report feasibility and stop. Structural information derived from sequence may not add independent predictive signal. Model fit on five or sixteen cases is not enough. Use functional tolerance only if biologically justified and replicated data allow intervals. Alternative enzyme families assessed separately for convergence; no common sequence ancestry presumed.
+
+## Run
+Python standard library: py pilot.py (produces results.json). Next optional sequence stage: py -m pip install biopython ; py sequence_stage.py . The latter downloads the five exact accession FASTAs and generates ten descriptive global alignments with coverage and provenance; not yet executed online because network DNS failed in the assistant execution environment. It is a starting point, not the proposed full 20–30 protein panel.
+
+## Candidate Paper 2 revision — not yet integrated
+**Functional Continuity Across Evolutionary Time: Catalase as a Biochemical Benchmark and Primate Enhancers as a Regulatory Test.**
+Possible Study A: catalase, distinguish chemical reaction identity from quantitative performance. Study B: preserve the existing primate enhancer analyses (v1.2), with their uncertainty and null findings. A successful catalase architecture predictor would motivate a separate test of regulatory organization, not automatically validate it. If no sufficient predictive evidence or coherent connection emerges, keep CAT-FEM as a separate companion study rather than dilute the current paper. No manuscript replacement until evidence warrants it.
+
+Suggested draft passage: "We distinguish the conservation of a functional contract from the conservation of its quantitative operating characteristics. Typical heme catalases provide an established biochemical example: all members of a selected 16-enzyme panel catalyze hydrogen peroxide decomposition, while their reported maximum observed rates vary approximately fifteenfold and their heat-inactivation times span four orders of magnitude. These data motivate, but do not establish, the hypothesis that structural organization predicts retention of a specified performance envelope beyond global sequence conservation. A separate panel of five paralogs from a single organism exhibits substantial kinetic diversity under a common study protocol. The enhancer investigation addresses a different functional level, where regulatory activity is assay-dependent. We retain separate endpoints and validation criteria for these studies."
+
+## Prior art and further reading
+- Zamocky et al. 2008, Evolution of Catalases from Bacteria to Humans: https://pmc.ncbi.nlm.nih.gov/articles/PMC2959186/
+- Molecular evolution of hydrogen peroxide degrading enzymes (2012): https://pmc.ncbi.nlm.nih.gov/articles/PMC3523812/
+- Structural Biology of Catalase Evolution (2024): https://pubmed.ncbi.nlm.nih.gov/38963482/
+- Paradigms of convergent evolution in enzymes (2025): https://pmc.ncbi.nlm.nih.gov/articles/PMC11796326/
+- CatPred (2025), kinetic prediction methods and curated sequence-linked data: https://pmc.ncbi.nlm.nih.gov/articles/PMC11871309/
+The known catalase phenomenon is not original to C2G; incremental out-of-sample predictive evidence is the potential contribution. No new phylogeny, structure analysis, cellular assay, or proof of origin of life has been performed. Paper 1 and the existing Paper 2 remain unchanged.
