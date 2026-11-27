@@ -1,0 +1,12 @@
+{
+  "source": "Seaver and Imlay 2001, 7173–7181, Table 3 and endogenous peroxide production section",
+  "zone_single_KatG_minus_wt_cm": 0.5,
+  "zone_single_Ahp_minus_wt_cm": 0,
+  "zone_double_KatG_Ahp_minus_wt_cm": 1.7999999999999998,
+  "zone_additive_scale_interaction_cm": 1.3,
+  "extracellular_peroxide_detection_limit_uM_approx": 0.04,
+  "triple_to_detection_limit_ratio": 45,
+  "reporter_Ahp_minus_to_WT_aerobic_ratio": 11.666666666666666,
+  "reporter_exogenous_catalase_reduction_fraction": 0.4857142857142857,
+  "warning": "Descriptive contrasts only; diffusion-zone distance is not linear in molecular activity or fitness. Censored measurements are not zeros. No replicate-level uncertainty or causal evolutionary inference."
+}
